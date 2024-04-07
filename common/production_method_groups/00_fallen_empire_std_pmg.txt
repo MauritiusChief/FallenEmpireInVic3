@@ -70,6 +70,14 @@ pmg_fe_aeroplanes_production = {
 		pm_fe_aeroplanes_full
 	}
 }
+pmg_fe_porcelain_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_porcelain_stop
+		pm_fe_porcelain_half
+		pm_fe_porcelain_full
+	}
+}
 pmg_fe_telephones_production = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -94,12 +102,12 @@ pmg_fe_groceries_production = {
 		pm_fe_groceries_full
 	}
 }
-pmg_fe_meat_and_sugar_production = {
+pmg_fe_meat_sugar_fruit_production = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_fe_meat_and_sugar_stop
-		pm_fe_meat_and_sugar_half
-		pm_fe_meat_and_sugar_full
+		pm_fe_meat_sugar_fruit_stop
+		pm_fe_meat_sugar_fruit_half
+		pm_fe_meat_sugar_fruit_full
 	}
 }
 pmg_fe_liquor_and_wine_production = {

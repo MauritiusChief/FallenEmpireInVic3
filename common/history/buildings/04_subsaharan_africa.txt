@@ -1286,7 +1286,7 @@
 				reserves=1
 				activate_production_methods={
 					"pm_fe_groceries_full"
-					"pm_fe_meat_and_sugar_full"
+					"pm_fe_meat_sugar_fruit_full"
 					"pm_fe_liquor_and_wine_full"
 					"pm_fe_tea_full"
 					"pm_fe_coffee_full"
