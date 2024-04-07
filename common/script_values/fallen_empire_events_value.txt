@@ -1,2 +1,0 @@
-
-debug_short_modifier_time = 1

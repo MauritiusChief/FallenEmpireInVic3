@@ -1,9 +1,0 @@
-﻿goods_output_plastic_add = {
-	good = yes
-	percent = no
-}
-
-goods_input_plastic_add = {
-	good = yes
-	percent = no
-}
