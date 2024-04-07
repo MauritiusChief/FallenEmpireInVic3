@@ -28,9 +28,7 @@ je_fe_united_africa = {
 			THIS = c:UGF
 		}
 		any_scope_state = { # 有在好好治理非洲
-			filter = {
-				is_incorporated = yes
-			}
+			is_incorporated = yes
 			average_sol >= 10
 			percent > 0.5
 		}

@@ -286,7 +286,6 @@ fe_expand_in_africa.3 = { # 加快立法的事件
 			culture = cu:fluvian_bantu
 			ideology = ideology_liberal_leader
 			traits = {
-				charismatic
 				ambitious
 			}
 		}
