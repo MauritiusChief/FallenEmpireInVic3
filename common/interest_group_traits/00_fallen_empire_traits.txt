@@ -1,0 +1,85 @@
+
+ig_trait_fe_voluntary_guard = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_turmoil_effects_mult = -0.1
+	}
+}
+
+ig_trait_fe_skyline_builder = {
+	icon = "gfx/interface/icons/ig_trait_icons/engines_of_progress.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_construction_mult = 0.1
+	}
+}
+
+ig_trait_fe_activism = {
+	icon = "gfx/interface/icons/ig_trait_icons/materiel_waste.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		state_radicals_from_sol_change_mult = 0.15
+	}
+}
+
+ig_trait_fe_ngo = {
+	icon = "gfx/interface/icons/ig_trait_icons/industrial_organizers.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_bureaucracy_mult = 0.1
+	}
+}
+
+ig_trait_fe_damn_reality = {
+	icon = "gfx/interface/icons/ig_trait_icons/tax_avoidance.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		state_aristocrats_investment_pool_efficiency_mult = -0.1
+	}
+}
+
+ig_trait_fe_knights_honor = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_authority_mult = 0.1
+	}
+}
+
+ig_trait_fe_generous_charity = {
+	icon = "gfx/interface/icons/ig_trait_icons/noblesse_oblige.dds"
+	min_approval = loyal
+	
+	modifier = {
+		building_group_bg_agriculture_tax_mult = 0.1
+		building_group_bg_ranching_tax_mult = 0.1
+		building_group_bg_plantations_tax_mult = 0.1
+	}
+}
+
+ig_trait_fe_enjoy_the_present = {
+	icon = "gfx/interface/icons/ig_trait_icons/avant_garde.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_birth_rate_mult = 0.015
+	}
+}
+
+ig_trait_fe_castle_doctrine = {
+	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.1
+		building_group_bg_ranching_tax_mult = -0.1
+		building_group_bg_plantations_tax_mult = -0.1
+	}
+}

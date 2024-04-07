@@ -1,0 +1,46 @@
+je_fe_united_africa = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_historical_content
+
+	is_shown_when_inactive = {
+		is_player = yes
+		owns_entire_state_region = STATE_SHELTER
+		NOT = {
+			exists = c:UGS
+			THIS = c:UGS
+		}
+	}
+
+	possible = {
+		OR = {
+			is_country_type = unrecognized
+			any_scope_state = {
+				is_incorporated = no
+			}
+		}
+	}
+
+	complete = {
+		is_country_type = recognized
+		custom_tooltip = {
+			text = je_fe_united_africa_form_ugf_tt
+			exists = c:UGF
+			THIS = c:UGF
+		}
+		any_scope_state = { # 有在好好治理非洲
+			filter = {
+				is_incorporated = yes
+			}
+			average_sol >= 10
+			percent > 0.5
+		}
+	}
+
+	on_complete = {
+		# TODO：此处应触发一个事件
+	}
+
+	transferable = yes
+	weight = 200
+	should_be_pinned_by_default = yes
+}

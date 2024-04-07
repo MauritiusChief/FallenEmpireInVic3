@@ -1,0 +1,25 @@
+﻿l_english:
+ fe_expand_in_africa.1.t: "By Word of Mouth"
+ fe_expand_in_africa.1.d: "The colonists gave our aid of motorhomes and food to the struggling natives around the settlement, and their fame spread fast in [SCOPE.sCountry('fe_peaceful_expand_target_country').GetName]. Soon the whole area knew the colonists and the name of [ROOT.GetCountry.GetName]. Everyone was asking what they need to do to keep the cool metal houses and abundant food."
+ fe_expand_in_africa.1.f: ""Have you heard? There's people driving around with huge metal houses handing out food and inviting us to live there! My uncle has been living there for six months, and he promised that these people are good people! I'm setting off tomorrow to check it out, if it's true I'll come back and take you there!""
+ fe_expand_in_africa.1.a: "No one can stop them from wanting to be residents of [ROOT.GetCountry.GetNameNoFlag]."
+ fe_expand_in_africa.1.b: "Too fast, the borders of [ROOT.GetCountry.GetNameNoFlag] need to be expanded slowly."
+ 
+ fe_expand_in_africa_1_b: "Good Reputation Among Natives"
+
+ fe_expand_in_africa.2.t: "End of Decentralization"
+ fe_expand_in_africa.2.d: "Perhaps some fleeing colonists, perhaps advanced weapons or communication tools left behind, or perhaps it was simply just the threat of us, [SCOPE.sCountry('fe_violent_expand_target_country').GetRuler.GetLastName], the ruler of [SCOPE.sCountry('fe_violent_expand_target_country').GetName], has managed to put an end to the decentralized state, intent on changing the fate of the brutally colonized."
+ fe_expand_in_africa.2.f: ""Have you heard? It's surprising that those natives aren't afraid of our assault rifles anymore! I guess either someone taught them what it is, or they've been brainwashed by their king......""
+ fe_expand_in_africa.2.a: "Hope things don't turn out to be troublesome."
+
+ je_fe_start_waking: "Awakening From Falling"
+ je_fe_start_waking_reason: "Everyone in the shelter believes that we need to change the status quo of being in the corner of Africa and bring real progress to this backward world."
+ je_fe_start_waking_goal: "Found $UGK$ and announced our existence to the world."
+ je_fe_start_waking_form_ugk_tt: "Form $UGK$."
+
+ je_fe_united_africa: "Towards a Unified Africa"
+ je_fe_united_africa_reason: "Our continent, Africa, with its vast lands, resources and population, is an indispensable springboard for our globalization. Develop this land well, and the continent will be the cradle not only of humanity but also of the next World Government."
+ je_fe_united_africa_goal: "Get recognized, form $UGF$, incorporate at least half the states, and keep the national average standard of living above the struggle."
+ je_fe_united_africa_form_ugf_tt: "Form $UGF$."
+
+ fe_neutralize_materials_abundant_prestige_minus: "Advanced Producer"

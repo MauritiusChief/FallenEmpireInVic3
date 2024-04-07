@@ -1,0 +1,44 @@
+# je_fe_debug_expand_in_africa = {
+
+# 	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+# 	group = je_group_foreign_affairs
+
+# 	is_shown_when_inactive = {
+# 		is_ai = no
+# 	}
+
+# 	possible = {
+# 		is_ai = no
+# 		NOT = { # 若有殖民剥削则不能触发
+# 			has_law = law_type:law_colonial_exploitation
+# 		}
+# 		any_scope_state = { # 激活了房车殖民加速
+# 			is_production_method_active = {
+# 				building_type = building_fallen_empire_ancient_skyscraper
+# 				production_method = pm_fe_motorhome
+# 			}
+# 		}
+# 		any_scope_state = {
+# 			is_incorporated = no
+# 			state_in_africa = yes
+# 			any_neighbouring_state = { # 存在没打仗的松散部落
+# 				owner = {
+# 					is_country_type = decentralized
+# 					NOT = { has_war_with = ROOT }
+# 				}
+# 			}
+# 		}
+# 	}
+
+# 	immediate = {
+# 		trigger_event = {
+# 			id = fe_expand_in_africa.1
+# 			days = 0
+# 			popup = yes
+# 		}
+# 	}
+
+# 	weight = 200
+# 	should_be_pinned_by_default = yes
+# }

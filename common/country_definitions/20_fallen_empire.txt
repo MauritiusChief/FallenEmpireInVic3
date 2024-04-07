@@ -1,0 +1,60 @@
+UGS = { # UEG Shelter
+	color = { 91  146  229 }
+	
+	country_type = unrecognized
+	
+	tier = city_state
+	
+	cultures = { british scottish zhonghua french russian american }
+	
+	capital = STATE_SHELTER
+}
+
+UGK = { # UEG KATANGA
+	color = { 91  146  229 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = {
+		british scottish zhonghua french russian american
+		afro_american afro_french
+	}
+	
+	capital = STATE_SHELTER
+}
+
+UGF = { # United Africa
+	color = { 91  146  229 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = {
+		british scottish zhonghua french russian american
+		afro_american afro_french
+	}
+	
+	capital = STATE_SHELTER
+}
+
+UEG = {
+	color = { 91  146  229 }
+	
+	country_type = unrecognized
+	
+	tier = hegemony
+
+	cultures = {
+		british scottish hindu_british irish
+		han manchu tibetan mongol
+		japanese korean vietnamese
+		french afro_french
+		russian
+		yankee dixie afro_american latino_american
+	}
+	
+	capital = STATE_NEW_YORK
+}

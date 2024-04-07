@@ -1,0 +1,160 @@
+pmg_fe_tanks_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_tanks_stop
+		pm_fe_tanks_half
+		pm_fe_tanks_full
+	}
+}
+pmg_fe_artillery_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_artillery_stop
+		pm_fe_artillery_half
+		pm_fe_artillery_full
+	}
+}
+pmg_fe_small_arms_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_small_arms_stop
+		pm_fe_small_arms_half
+		pm_fe_small_arms_full
+	}
+}
+pmg_fe_ammunition_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_ammunition_stop
+		pm_fe_ammunition_half
+		pm_fe_ammunition_full
+	}
+}
+pmg_fe_tools_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_tools_stop
+		pm_fe_tools_half
+		pm_fe_tools_full
+	}
+}
+pmg_fe_clothes_and_luxury_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_clothes_and_luxury_stop
+		pm_fe_clothes_and_luxury_half
+		pm_fe_clothes_and_luxury_full
+	}
+}
+pmg_fe_furniture_and_luxury_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_furniture_and_luxury_stop
+		pm_fe_furniture_and_luxury_half
+		pm_fe_furniture_and_luxury_full
+	}
+}
+pmg_fe_automobiles_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_automobiles_stop
+		pm_fe_automobiles_half
+		pm_fe_automobiles_full
+	}
+}
+pmg_fe_aeroplanes_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_aeroplanes_stop
+		pm_fe_aeroplanes_half
+		pm_fe_aeroplanes_full
+	}
+}
+pmg_fe_telephones_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_telephones_stop
+		pm_fe_telephones_half
+		pm_fe_telephones_full
+	}
+}
+pmg_fe_radios_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_radios_stop
+		pm_fe_radios_half
+		pm_fe_radios_full
+	}
+}
+pmg_fe_groceries_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_groceries_stop
+		pm_fe_groceries_half
+		pm_fe_groceries_full
+	}
+}
+pmg_fe_meat_and_sugar_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_meat_and_sugar_stop
+		pm_fe_meat_and_sugar_half
+		pm_fe_meat_and_sugar_full
+	}
+}
+pmg_fe_liquor_and_wine_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_liquor_and_wine_stop
+		pm_fe_liquor_and_wine_half
+		pm_fe_liquor_and_wine_full
+	}
+}
+pmg_fe_tea_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_tea_stop
+		pm_fe_tea_half
+		pm_fe_tea_full
+	}
+}
+pmg_fe_coffee_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_coffee_stop
+		pm_fe_coffee_half
+		pm_fe_coffee_full
+	}
+}
+pmg_fe_tobacco_and_opium_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_tobacco_and_opium_stop
+		pm_fe_tobacco_and_opium_half
+		pm_fe_tobacco_and_opium_full
+	}
+}
+pmg_fe_fertilizer_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_fertilizer_stop
+		pm_fe_fertilizer_half
+		pm_fe_fertilizer_full
+	}
+}
+pmg_fe_steel_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_steel_stop
+		pm_fe_steel_half
+		pm_fe_steel_full
+	}
+}
+pmg_fe_plastic_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fe_plastic_stop
+		pm_fe_plastic_half
+		pm_fe_plastic_full
+	}
+}

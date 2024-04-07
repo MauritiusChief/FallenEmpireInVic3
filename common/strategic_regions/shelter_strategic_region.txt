@@ -1,0 +1,7 @@
+
+region_shelter = {
+	graphical_culture = "african"
+	capital_province = x750DF0
+	map_color = { 0 0.5 0 }
+	states = { STATE_SHELTER }
+}

@@ -1,0 +1,24 @@
+# 允许修建堕落建筑的modifier，不给任何STATE添加就不允许修建
+ancient_building_site = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	building_construction_sector_throughput_add = 0.1
+}
+
+# 超快的松散部落紧张度衰减
+fe_expand_in_africa_1_b = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_tension_decay_mult = 10.0
+}
+
+# 抵消法律给的-500威望，让威望略微提升
+fe_neutralize_materials_abundant_prestige_minus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_prestige_add = 500
+}
+
+# 改殖民法律的促进buff
+fe_expand_in_africa_3_general = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_law_enactment_success_add = 0.1
+	country_law_enactment_time_mult = -0.15
+}
