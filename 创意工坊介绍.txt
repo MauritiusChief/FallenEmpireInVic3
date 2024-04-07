@@ -1,0 +1,36 @@
+Fallen Empire in Vic3 - the United Earth Government (UEG) Shelter
+
+Fallen Empire in vic3!
+Play as United Earth Government (UEG) Shelter located in nowhere of Africa, try to awaken from sleeping and rebuild the United Earth!
+
+Feature:
+* Ancient super-tech building, so advance that you can only use them and cannot build new ones
+* Expanded rapidly in Africa and kick European colonizers off this continent!
+* Limited by social environment--actually laws that limited many of your actions, you just need to replace them easily(?)
+* Ultimate Goal: Form the United Earth Government!
+
+Background story (WIP):
+In 1796, the visit of Portuguese explorers accidentally triggered the awakening program of the United Earth Government's shelter, and people from the Old Earth woke up one after another, but they were at a loss in this strange world. In the blink of an eye, 40 years have passed since then, and in 1836, adults have become seniors, teenagers have become adults, and the desire to stop sleeping has spread through the crowd......
+
+Future Plans:
+* More Events and journals
+* Countries that formable by AIs, allowing peaceful UEG forming
+* Expand Ancient Buildings somewhere like skyscraper
+* Maybe, another fallen empire on a tiny island of Pacific, and the war in heaven?
+
+
+扮演坐落于非洲深处只有两块地的UEG避难所重建地球联合政府吧！
+
+特性：
+* 远古堕落科技建筑，产出极强但无法扩建或新建
+* 受制于社会环境而沉睡——其实是一些新的法律限制了特定行动，你只需轻松地换掉它们（？）
+* 终极目标：重建地球联合政府！
+
+故事背景（WIP）：
+1796年，葡萄牙探险家的到访意外触发了地球联合政府避难所的唤醒程序，来自旧地球的人们陆续醒来，却对这个陌生的世界感到一筹莫展。转眼间40年过去来到1836年，成年人变成老年人，青少年变成成年人，对于不再沉睡的渴望在人群中蔓延……
+
+未来计划：
+* 更多事件和决议
+* 可由AI建立的国家，以及和平组建 UEG
+* 类似摩天大楼的扩建古代建筑机制
+* 超级大饼，太平洋小岛上的另一个堕落帝国，以及天堂之战？

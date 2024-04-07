@@ -1,0 +1,415 @@
+# 远古大楼
+pm_fe_system_off = { # 系统关闭
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_manual_contral = { # 手动控制
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		central_planning # 非堕落可用
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 500
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 150
+			state_infrastructure_add = 5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 20
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_clerks_add = 2500
+			building_employment_bureaucrats_add = 2500
+		}
+	}
+}
+pm_fe_auto_contral = { # 自动控制
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 1000
+			state_infrastructure_add = 10
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 300
+		}		
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_bureaucrats_add = 500
+		}
+	}
+}
+pm_fe_manual_searching = { # 手动检索
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	# 非堕落可用
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 5
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+pm_fe_auto_searching = { # 自动检索
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 50
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 2
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 400
+			building_employment_engineers_add = 100
+		}
+	}
+}
+pm_fe_no_education = { # 没教育
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_volunteer_education = { #志愿受教育
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+		}
+		level_scaled = {
+			building_employment_clerks_add = 500
+		}					
+	}
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.25
+		}	
+	}
+}
+pm_fe_no_colonizing = { # 无殖民
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_motorhome = { # 房车
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	disallowing_laws = {
+		law_no_colonial_affairs
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			state_colony_growth_speed_mult = 2.0
+		}
+		level_scaled = {
+			state_colony_growth_creation_mult = 1.5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_groceries_add = 800
+			goods_input_radios_add = 400
+			goods_input_automobiles_add = 600
+			goods_input_tools_add = 100
+		}
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_bureaucrats_add = 500
+		}
+	}
+}
+pm_fe_armed_atv = { # 武装ATV
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	disallowing_laws = {
+		law_no_colonial_affairs
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			state_colony_growth_speed_mult = 5.0
+		}
+		level_scaled = {
+			state_colony_growth_creation_mult = 2.5
+			country_tension_decay_mult = -0.5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_groceries_add = 800
+			goods_input_radios_add = 400
+			goods_input_tanks_add = 600
+			goods_input_small_arms_add = 200
+			goods_input_ammunition_add = 200
+		}
+		level_scaled = {
+			building_employment_clerks_add = 500
+			building_employment_bureaucrats_add = 500
+		}
+	}
+}
+# 4级奇点
+pm_fe_shut_down = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_25_power = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_50_power = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_75_power = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_100_power = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_singularity_energy_protection
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_plastic_add = 50
+			goods_output_electricity_add = 4000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_no_radiation_protect = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_radiation_protect = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+# 营养中心
+pm_fe_extraction_stop = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+}
+pm_fe_25_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_hydroponic_cabin_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 50
+			goods_input_fertilizer_add = 125
+			goods_output_oil_add = 1000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_50_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_hydroponic_cabin_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 100
+			goods_input_fertilizer_add = 250
+			goods_output_oil_add = 2000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_75_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_hydroponic_cabin_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 150
+			goods_input_fertilizer_add = 375
+			goods_output_oil_add = 3000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_100_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_hydroponic_cabin_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 200
+			goods_input_fertilizer_add = 500
+			goods_output_oil_add = 4000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+# 地壳钻井
+pm_fe_drill_stop = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+}
+pm_fe_drill_half = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_half.dds"
+	unlocking_technologies = {
+		fallen_empire_crustal_drilling_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 100
+			goods_output_iron_add = 600
+			goods_output_sulfur_add = 300
+			goods_output_lead_add = 300
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_drill_full = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_full.dds"
+	unlocking_technologies = {
+		fallen_empire_crustal_drilling_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 200
+			goods_output_iron_add = 1200
+			goods_output_sulfur_add = 600
+			goods_output_lead_add = 600
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
+}
+pm_fe_no_electric_cooling = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+pm_fe_electric_cooling = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+}
+
+# 在城市中心使用的特殊PM
+pm_fe_self_service_amenities = {
+	texture = "gfx/interface/icons/production_method_icons/fe_self_service_amenities.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 5
+			goods_input_plastic_add = 5
+			goods_input_electricity_add = 5
+			goods_output_services_add = 100
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 2000
+			building_employment_shopkeepers_add = 2000
+		}
+
+		unscaled = {
+			building_shopkeepers_shares_add = 10
+		}
+	}
+	required_input_goods = electricity
+}
+pm_fe_simulated_sunlight = {
+	texture = "gfx/interface/icons/production_method_icons/fe_simulated_sunlight.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 10
+			goods_output_services_add = 20
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 250
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 5
+		}
+	}
+	required_input_goods = electricity
+}
+pm_fe_shared_car = {
+	texture = "gfx/interface/icons/production_method_icons/fe_shared_car.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_automobiles_add = 3
+			goods_output_transportation_add = 10
+		}
+		level_scaled = {
+			building_employment_engineers_add = 300
+			building_employment_machinists_add = 300
+			building_employment_laborers_add = -1000
+		}
+	}
+}

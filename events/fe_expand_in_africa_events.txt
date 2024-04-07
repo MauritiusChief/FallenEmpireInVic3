@@ -1,0 +1,295 @@
+namespace = fe_expand_in_africa
+
+fe_expand_in_africa.1 = { # 和平扩张，直接吞并
+	type = country_event
+	placement = ROOT
+
+	title = fe_expand_in_africa.1.t
+	desc = fe_expand_in_africa.1.d
+	flavor = fe_expand_in_africa.1.f
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	cooldown = { months = 6 }
+
+	trigger = {
+		NOT = { # 若有殖民剥削则不能触发
+			has_law = law_type:law_colonial_exploitation
+		}
+		average_sol >= 15 # 自己国家的生活水平大于贫困
+		any_scope_state = { # 激活了房车殖民加速
+			is_production_method_active = { 
+				building_type = building_fallen_empire_ancient_skyscraper
+				production_method = pm_fe_motorhome
+			}
+		}
+		any_scope_state = {
+			any_neighbouring_state = { # 邻居存在满足以下条件的松散部落……
+				owner = {
+					is_country_type = decentralized
+					average_sol < 10 # ……生活水平小于等于挣扎
+					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+					any_scope_state = { # ……其某个州正被ROOT殖民
+						is_split_state = yes
+						state_region = { #记录所属state_region
+							save_temporary_scope_as = fe_temp_colonized_state_region 
+						}
+						any_neighbouring_state = {
+							is_split_state = yes
+							state_region = { #对比所属state_region
+								THIS = scope:fe_temp_colonized_state_region
+							}
+							is_under_colonization = yes
+							owner = { THIS = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_neighbouring_state = {
+			limit = {
+				owner = { # 限定此州所属的松散部落要有以下特征……
+					is_country_type = decentralized
+					average_sol < 10 # ……生活水平小于等于挣扎
+					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+					any_scope_state = { # ……其某个州正被ROOT殖民
+						is_split_state = yes
+						state_region = { #记录所属state_region
+							save_temporary_scope_as = fe_temp_colonized_state_region 
+						}
+						any_neighbouring_state = {
+							is_split_state = yes
+							state_region = { #对比所属state_region
+								THIS = scope:fe_temp_colonized_state_region
+							}
+							is_under_colonization = yes
+							owner = { THIS = ROOT }
+						}
+					}
+				}
+			}
+			owner = {
+				save_scope_as = fe_peaceful_expand_target_country
+			}
+		}
+	}
+
+	option = { # 吞并
+		name = fe_expand_in_africa.1.a
+		default_option = yes
+		annex = scope:fe_peaceful_expand_target_country
+		ai_chance = { base = 1 }
+	}
+
+	option = { # 不吞并，加快紧张度下降
+		name = fe_expand_in_africa.1.b
+		scope:fe_peaceful_expand_target_country = {
+			add_modifier = {
+				name = fe_expand_in_africa_1_b # 超快紧张度衰减
+			}
+		}
+		ai_chance = { base = 0 }
+	}
+}
+
+fe_expand_in_africa.2 = { # 暴力扩张，松散部落直接变国家（然后就可直接打下来）
+	type = country_event
+	placement = ROOT
+
+	title = fe_expand_in_africa.2.t
+	desc = fe_expand_in_africa.2.d
+	flavor = fe_expand_in_africa.2.f
+
+	event_image = {
+		video = "africa_public_protest"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	cooldown = { months = 3 }
+
+	trigger = {
+		OR = { # 有以下任一就会触发：
+			AND = { # ……有殖民剥削且激活了房车殖民加速
+				has_law = law_type:law_colonial_exploitation
+				any_scope_state = {
+				is_production_method_active = {
+					building_type = building_fallen_empire_ancient_skyscraper
+					production_method = pm_fe_motorhome
+				}
+			}
+			}
+			any_scope_state = { # ……激活了武装履带车殖民加速
+				is_production_method_active = {
+					building_type = building_fallen_empire_ancient_skyscraper
+					production_method = pm_fe_armed_atv
+				}
+			}
+		}
+		any_scope_state = {
+			any_neighbouring_state = { # 邻居存在满足以下条件的松散部落……
+				owner = {
+					is_country_type = decentralized
+					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+					any_scope_state = { # ……其某个州隔壁是ROOT殖民地
+						any_neighbouring_state = {
+							is_under_colonization = yes
+							owner = { THIS = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	immediate = {
+		random_neighbouring_state = {
+			limit = {
+				owner = { # 限定此州所属的松散部落要有以下特征……
+					is_country_type = decentralized
+					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+					any_scope_state = { # ……其某个州隔壁是ROOT殖民地
+						any_neighbouring_state = {
+							is_under_colonization = yes
+							owner = { THIS = ROOT }
+						}
+					}
+				}
+			}
+			owner = {
+				save_scope_as = fe_violent_expand_target_country
+			}
+		}
+		scope:fe_violent_expand_target_country = {
+			set_country_type = unrecognized # 变成未认可国家
+			activate_law = law_type:law_monarchy
+			activate_law = law_type:law_autocracy
+			effect_starting_technology_tier_6_tech = yes # 基础科技
+			capital = {
+				create_building={ # 创建兵营
+					building = "building_barracks"
+					level=3
+					reserves=1
+				}
+			}
+		}
+		change_relations = { # 关系很差
+			country = scope:fe_violent_expand_target_country
+			value = -50
+		}
+	}
+
+	option = { # 已阅
+		name = fe_expand_in_africa.2.a
+		default_option = yes
+		ai_chance = { base = 1 }
+	}
+}
+
+fe_expand_in_africa.3 = { # 加快立法的事件
+	type = country_event
+	placement = ROOT
+
+	title = fe_expand_in_africa.3.t
+	desc = fe_expand_in_africa.3.d
+	flavor = fe_expand_in_africa.3.f
+
+	event_image = {
+		video = "africa_leader_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	duration = 3
+
+	cooldown = { months = 6 }
+
+	trigger = {
+		exists = c:UGS
+		c:UGS = ROOT
+		has_law = law_type:law_no_colonial_affairs # 正在改掉无殖民事务
+		OR = {
+			is_enacting_law = law_type:law_frontier_colonization
+			is_enacting_law = law_type:law_colonial_resettlement
+			is_enacting_law = law_type:law_colonial_exploitation
+		}
+		average_sol >= 20 # 生活水平很好
+		any_scope_state = {
+			any_scope_pop = { # 有不被歧视的非洲黑叔叔
+				pop_is_discriminated = no
+				OR = {
+					culture = cu:lunda
+					culture = cu:luba
+					culture = cu:fluvian_bantu
+				}
+			}
+		}
+	}
+
+	immediate = {
+		currently_enacting_law = {
+			save_scope_as = current_law_scope
+		}
+	}
+
+	option = { # 加快推进
+		name = fe_expand_in_africa.3.a
+		default_option = yes
+		add_enactment_modifier = {
+			name = fe_expand_in_africa_3_general
+			multiplier = 3
+		}
+	}
+	option = { # 消除受挫
+		name = fe_expand_in_africa.3.b
+		trigger = {
+			enactment_setback_count > 0
+		}
+		add_enactment_setback = -1
+		add_enactment_modifier = {
+			name = fe_expand_in_africa_3_general
+			multiplier = 2
+		}
+	}
+	option = { # 加一个煽动者
+		name = fe_expand_in_africa.3.c
+		trigger = {
+			enactment_phase < 2
+			empty_agitator_slots >= 1
+			NOT = { has_variable = native_agitator_added_var }
+		}
+		add_enactment_phase = 1
+		add_enactment_modifier = {
+			name = fe_expand_in_africa_3_general
+		}
+		create_character = {
+			is_agitator = yes
+			interest_group = ig_intelligentsia
+			female = no
+			culture = cu:fluvian_bantu
+			ideology = ideology_liberal_leader
+			traits = {
+				charismatic
+				ambitious
+			}
+		}
+		set_variable = native_agitator_added_var
+	}
+}

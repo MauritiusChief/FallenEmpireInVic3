@@ -1,0 +1,34 @@
+﻿l_simp_chinese:
+ fe_expand_in_africa.1.t: "一传十十传百"
+ fe_expand_in_africa.1.d: "殖民者们将我们援助的房车与食物给予了驻地周遭饥饿的原住民，他们的名声在[SCOPE.sCountry('fe_peaceful_expand_target_country').GetName]飞速传播，很快整片区域的人们都知道了这群殖民者以及[ROOT.GetCountry.GetName]的名字，每个人都在打听要怎样才能留住这些凉爽的金属房子和丰富的食物。"
+ fe_expand_in_africa.1.f: "“你听说了吗？有一群人驱动着巨大的金属房屋在四处分发食物并邀请我们去居住！我最亲的叔叔已经在那里住了半年了，他拍着胸脯保证这些人是好人！我明天也出发去看看，如果是真的就回来带你去！”"
+ fe_expand_in_africa.1.a: "谁也拦不住他们想成为[ROOT.GetCountry.GetNameNoFlag]的居民。"
+ fe_expand_in_africa.1.b: "太快了，[ROOT.GetCountry.GetNameNoFlag]的国界需要慢慢拓展。"
+ 
+ fe_expand_in_africa_1_b: "原住民中的良好口碑"
+
+ fe_expand_in_africa.2.t: "松散政权的结束"
+ fe_expand_in_africa.2.d: "也许是一些出逃的殖民者，也许是遗落的先进武器或者通讯工具，也许单纯只是我们的威胁，[SCOPE.sCountry('fe_violent_expand_target_country').GetName]的统治者[SCOPE.sCountry('fe_violent_expand_target_country').GetRuler.GetLastName]已经设法终结了松散的部落状态，意图改变被残暴殖民的命运。"
+ fe_expand_in_africa.2.f: "“你听说了吗？那些土著竟然不再害怕我们的自动步枪了！我猜要么是有人教了他们这是什么，要么就是已经被他们的国王洗脑了……”"
+ fe_expand_in_africa.2.a: "希望事情不要变麻烦。"
+
+ fe_expand_in_africa.3.t: "先行者的义务"
+ fe_expand_in_africa.3.d: "数名已在[ROOT.GetCountry.GetName]生活几十年的原住民举行了一场感人的公开演讲，认为[ROOT.GetCountry.GetName]作为文明的先行者应当对落后地区给予帮助。这番演讲像一块石头被投入一潭死水一般，在社会上掀起了讨论的浪潮。"
+ fe_expand_in_africa.3.f: "“20年之前，我与兄弟$Kisempia$本同属一个家庭；而20年之后，我在这凉爽的室内，穿着干净的西装在此演讲，$Kisempia$却在酷热、肮脏的草房中忍受疾病的折磨，这让我深感不安，我本可以让他享有与我一样的生活。”"
+ fe_expand_in_africa.3.a: "这正是推进[SCOPE.sLaw('current_law_scope').GetName]法律的好时机。"
+ fe_expand_in_africa.3.b: "这无疑重燃了公众对[SCOPE.sLaw('current_law_scope').GetName]法律的信心。"
+ fe_expand_in_africa.3.c: "我看你很有演说天赋嘛，你将会干出一番大事业，就从[SCOPE.sLaw('current_law_scope').GetName]立法开始。"
+ 
+ fe_expand_in_africa_3_general: "促进立法"
+
+ je_fe_start_waking: "自沉睡之中觉醒"
+ je_fe_start_waking_reason: "避难所之中的每个人都认为，我们需要一改屈居非洲一隅的现状，真正的先进带给这个落后的世界。"
+ je_fe_start_waking_goal: "成立$UGK$，并向世界宣告我们的存在。"
+ je_fe_start_waking_form_ugk_tt: "成立$UGK$。"
+
+ je_fe_united_africa: "统一非洲"
+ je_fe_united_africa_reason: "我们所处非洲大陆拥有广袤的土地、丰富的资源与人口，是我们走向全球必不可少的跳板。发展好这片土地，这个大陆不仅是人类的摇篮，亦是下一个世界政府的摇篮。"
+ je_fe_united_africa_goal: "获取认可，成立$UGF$，整合至少一半地区，并使全国平均生活水平脱离挣扎。"
+ je_fe_united_africa_form_ugf_tt: "成立$UGF$。"
+
+ fe_neutralize_materials_abundant_prestige_minus: "先进生产者"
