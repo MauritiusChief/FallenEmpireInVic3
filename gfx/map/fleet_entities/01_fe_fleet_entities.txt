@@ -1,0 +1,25 @@
+# 测试——参见fe_front_entities.txt开头
+
+# 海军模型布景实体
+fe_military_navy_scoutcruiser_generic_diorama_entity = {
+	entity = "military_navy_scoutcruiser_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_fe_ww2_frigate
+	}
+}
+fe_military_navy_submarine_generic_diorama_entity = {
+	entity = "military_navy_submarine_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_fe_ww2_submarine
+	}
+}
+
+fe_military_navy_carrier_generic_diorama_entity = {
+	entity = "military_navy_carrier_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_fe_ww2_carrier
+	}
+}
