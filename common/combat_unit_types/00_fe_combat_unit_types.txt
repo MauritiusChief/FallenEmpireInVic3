@@ -271,35 +271,6 @@ combat_unit_type_fe_ww2_frigate = {
 }
 
 # 支援舰
-combat_unit_type_fe_ww2_submarine = {
-	group = combat_unit_group_support_ship
-
-    upkeep_modifier = {
-        goods_input_ironclads_add = 2
-        goods_input_artillery_add = 2
-        goods_input_ammunition_add = 2
-		goods_input_explosives_add = 2
-		goods_input_radios_add = 2
-    }
-
-    battle_modifier = {
-        unit_offense_add = 110
-        unit_defense_add = 70
-        unit_morale_loss_add = 8
-        unit_convoy_raiding_mult = 1.25
-    }
-
-    formation_modifier = {
-        military_formation_movement_speed_mult = 0.2
-    }
-
-	unlocking_technologies = { fallen_empire_recovered_military_tech_1 }
-
-    combat_unit_image = {
-        texture = "gfx/unit_illustrations/support_ships_ww2_submarine.dds"
-    }
-}
-
 combat_unit_type_fe_ww2_carrier = {
 	group = combat_unit_group_support_ship
 
@@ -326,5 +297,34 @@ combat_unit_type_fe_ww2_carrier = {
 
     combat_unit_image = {
         texture = "gfx/unit_illustrations/support_ships_ww2_carrier.dds"
+    }
+}
+
+combat_unit_type_fe_ww2_submarine = {
+	group = combat_unit_group_support_ship
+
+    upkeep_modifier = {
+        goods_input_ironclads_add = 2
+        goods_input_artillery_add = 2
+        goods_input_ammunition_add = 2
+		goods_input_explosives_add = 2
+		goods_input_radios_add = 2
+    }
+
+    battle_modifier = {
+        unit_offense_add = 110
+        unit_defense_add = 70
+        unit_morale_loss_add = 8
+        unit_convoy_raiding_mult = 1.25
+    }
+
+    formation_modifier = {
+        military_formation_movement_speed_mult = 0.2
+    }
+
+	unlocking_technologies = { fallen_empire_recovered_military_tech_1 }
+
+    combat_unit_image = {
+        texture = "gfx/unit_illustrations/support_ships_ww2_submarine.dds"
     }
 }
