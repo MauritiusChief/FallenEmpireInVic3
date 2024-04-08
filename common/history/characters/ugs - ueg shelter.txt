@@ -7,6 +7,7 @@ CHARACTERS = {
 			interest_group = ig_industrialists
 			ideology = ideology_market_liberal
 			traits = {
+				engineer
 				meticulous
 			}
 		}
@@ -28,6 +29,7 @@ CHARACTERS = {
 			interest_group = ig_devout
 			ideology = ideology_corporatist_leader
 			traits = {
+				master_bureaucrat
 				pious
 			}
 		}
@@ -39,6 +41,7 @@ CHARACTERS = {
 			interest_group = ig_intelligentsia
 			ideology = ideology_social_democrat
 			traits = {
+				literary
 				tactful
 			}
 		}
@@ -60,6 +63,7 @@ CHARACTERS = {
 			ideology = ideology_protectionist
 			traits = {
 				ambitious
+				alcoholic
 			}
 		}
 
@@ -93,6 +97,7 @@ CHARACTERS = {
 			hq = region_shelter
 			traits = {
 				tactful
+				stalwart_defender
 			}
 		}
 	}
