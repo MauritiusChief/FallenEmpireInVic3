@@ -12,6 +12,15 @@
  fe_expand_in_africa.2.f: ""Have you heard? It's surprising that those natives aren't afraid of our assault rifles anymore! I guess either someone taught them what it is, or they've been brainwashed by their king......""
  fe_expand_in_africa.2.a: "Hope things don't turn out to be troublesome."
 
+ fe_expand_in_africa.3.t: "Obligation of The Forerunner"
+ fe_expand_in_africa.3.d: "Several natives who have been living in [ROOT.GetCountry.GetName] for decades held a moving public speech, arguing that [ROOT.GetCountry.GetName], as the forerunner of civilization, should help the disadvantaged regions. \nThis speech, like a stone thrown into stagnant water, created a wave of discussion in the community."
+ fe_expand_in_africa.3.f: ""Twenty years ago, my brother $Kisempia$ and I belonged to the same family; and 20 years later, while I am here in this nice cool room, speaking in a clean suit, $Kisempia$ is suffering from a disease in a hot, dirty hayloft, which is deeply disturbing to me, and I could have allowed him to enjoy the same kind of life as I did. ""
+ fe_expand_in_africa.3.a: "This is a good time to advance the [SCOPE.sLaw('current_law_scope').GetName] law."
+ fe_expand_in_africa.3.b: "This has certainly rekindled public confidence in the [SCOPE.sLaw('current_law_scope').GetName] law."
+ fe_expand_in_africa.3.c: "I see you have a talent for speech, you're going to do great things, starting with [SCOPE.sLaw('current_law_scope').GetName] enactments."
+ 
+ fe_expand_in_africa_3_general: "Promoting Enactment"
+
  je_fe_start_waking: "Awakening From Falling"
  je_fe_start_waking_reason: "Everyone in the shelter believes that we need to change the status quo of being in the corner of Africa and bring real progress to this backward world."
  je_fe_start_waking_goal: "Found $UGK$ and announced our existence to the world."
