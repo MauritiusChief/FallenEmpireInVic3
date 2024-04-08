@@ -139,6 +139,7 @@
  pm_fe_self_service_amenities: "自助服务"
  pm_fe_simulated_sunlight: "模拟日光"
  pm_fe_shared_car: "共享汽车"
+ pm_fe_remote_data_base: "远程数据库"
 
  combat_unit_type_fe_ww2_armored_force: "二战装甲部队"
  combat_unit_type_fe_ww2_armored_force_desc: "以坦克为核心的协同部队，同时兼顾了火力、防御和机动性，只有其他装甲部队可与之匹敌。"
