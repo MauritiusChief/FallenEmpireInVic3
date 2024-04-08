@@ -54,6 +54,25 @@
  ig_fe_idyllwild_aspirant: "Idyllwild Aspirant"
  ig_fe_idyllwild_aspirant_desc: "They have an desire and dedication to the land and agriculture."
 
+ ig_trait_fe_voluntary_guard: "Voluntary Guard" # 
+ ig_trait_fe_voluntary_guard_desc: "The army should not only defend the country from external enemies, but also prevent internal turmoil that could harm the country."
+ ig_trait_fe_skyline_builder: "Skyline Builder" # 
+ ig_trait_fe_skyline_builder_desc: "Our factories are efficient and convenient, our roads are well-planned, the skylines of our cities brightened by the setting sun is our best reward."
+ ig_trait_fe_activism: "Activism" # 
+ ig_trait_fe_activism_desc: "Hold up the sign! Take up the trumpet! Social discontent can and should be voiced through action! It is the right of every human being!"
+ ig_trait_fe_ngo: "Non-Governmental Organization"
+ ig_trait_fe_ngo_desc: "It is impossible for the government to enforce justice in every corner of society. In those shadowy blind spots, it is the duty of NGOs to maintain justice."
+ ig_trait_fe_damn_reality: "Damn Reality" # 
+ ig_trait_fe_damn_reality_desc: "No flush toilets, air conditioning and supermarkets in the life of an aristocrat? It's okay, this country doesn't provide them, we'll find a way to get them elsewhere."
+ ig_trait_fe_knights_honor: "Knight's Honor"
+ ig_trait_fe_knights_honor_desc: "How perfect that everything is rank and orderly! It is an honor to perform the duties of a knight for such a country."
+ ig_trait_fe_generous_charity: "Generous Charity"
+ ig_trait_fe_generous_charity_desc: "With all the wealth, you can't eat 30 meals a day. It is the spirit of giving things that come and go is the noblest."
+ ig_trait_fe_enjoy_the_present: "Enjoy the Present" # 
+ ig_trait_fe_enjoy_the_present_desc: "Enjoying good food and drinking good wine, how can such a comforting day not be accompanied by another delightful pleasure?"
+ ig_trait_fe_castle_doctrine: "Castle Doctrine" # 
+ ig_trait_fe_castle_doctrine_desc: "The storm may enter, the rain may enter, the government goons can't! You won't take anything from my yard!"
+
  building_fallen_empire_ancient_skyscraper: "Ancient Administration"
  building_fallen_empire_aegis_complex: "Aegis Complex"
  building_fallen_empire_class4_singularity: "Class-4 Singularity"
