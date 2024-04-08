@@ -4,5 +4,5 @@ era_fallen_1 = { #应用型堕落科技，比如怎么操作机器
 }
 
 era_fallen_2 = { #原理型堕落科技，比如怎么制造机器
-	technology_cost = 100000
+	technology_cost = 50000
 }
