@@ -279,16 +279,33 @@ fe_expand_in_africa.3 = { # 加快立法的事件
 		add_enactment_modifier = {
 			name = fe_expand_in_africa_3_general
 		}
-		create_character = {
-			is_agitator = yes
-			interest_group = ig_intelligentsia
-			female = no
-			culture = cu:fluvian_bantu
-			ideology = ideology_liberal_leader
-			traits = {
-				ambitious
+		random_list = {
+			5 = {
+				create_character = {
+					is_agitator = yes
+					interest_group = ig_intelligentsia
+					female = no
+					culture = cu:fluvian_bantu
+					ideology = ideology_liberal_leader
+					traits = {
+						ambitious
+					}
+				}
+			}
+			5 = {
+				create_character = {
+					is_agitator = yes
+					interest_group = ig_trade_unions
+					female = no
+					culture = cu:fluvian_bantu
+					ideology = ideology_communist
+					traits = {
+						ambitious
+					}
+				}
 			}
 		}
+		
 		set_variable = native_agitator_added_var
 	}
 }
