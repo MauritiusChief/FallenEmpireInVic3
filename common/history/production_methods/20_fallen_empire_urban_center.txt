@@ -6,7 +6,7 @@ PRODUCTION_METHODS = {
 		}
 		activate_production_method = {
 			building_type = building_urban_center
-			production_method = pm_fe_simulated_sunlight
+			production_method = pm_no_street_lighting
 		}
 		activate_production_method = {
 			building_type = building_urban_center
