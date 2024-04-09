@@ -1,9 +1,9 @@
 # 远古大楼
 pm_fe_system_off = { # 系统关闭
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_no_circuit.dds"
 }
 pm_fe_manual_contral = { # 手动控制
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit_hand.dds"
 	unlocking_technologies = {
 		central_planning # 非堕落可用
 	}
@@ -30,7 +30,7 @@ pm_fe_manual_contral = { # 手动控制
 	}
 }
 pm_fe_auto_contral = { # 自动控制
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_electronic_system_maintenance
 	}
@@ -56,7 +56,7 @@ pm_fe_auto_contral = { # 自动控制
 	}
 }
 pm_fe_manual_searching = { # 手动检索
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit_hand.dds"
 	# 非堕落可用
 	country_modifiers = {
 		workforce_scaled = { 
@@ -76,7 +76,7 @@ pm_fe_manual_searching = { # 手动检索
 	}
 }
 pm_fe_auto_searching = { # 自动检索
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_electronic_system_maintenance
 	}
@@ -98,10 +98,10 @@ pm_fe_auto_searching = { # 自动检索
 	}
 }
 pm_fe_no_education = { # 没教育
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_no_circuit.dds"
 }
 pm_fe_volunteer_education = { #志愿受教育
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit_hand.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_electronic_system_maintenance
 	}
@@ -125,10 +125,10 @@ pm_fe_volunteer_education = { #志愿受教育
 	}
 }
 pm_fe_no_colonizing = { # 无殖民
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
 }
 pm_fe_motorhome = { # 房车
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_motorhome.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_production_line_maintenance
 	}
@@ -157,7 +157,7 @@ pm_fe_motorhome = { # 房车
 	}
 }
 pm_fe_armed_atv = { # 武装ATV
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_armed_atv.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_production_line_maintenance
 	}
@@ -189,19 +189,19 @@ pm_fe_armed_atv = { # 武装ATV
 }
 # 4级奇点
 pm_fe_shut_down = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_0.dds"
 }
 pm_fe_25_power = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_1.dds"
 }
 pm_fe_50_power = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_2.dds"
 }
 pm_fe_75_power = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_3.dds"
 }
 pm_fe_100_power = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_4.dds"
 	unlocking_technologies = {
 		fallen_empire_singularity_energy_protection
 	}
@@ -225,10 +225,10 @@ pm_fe_radiation_protect = {
 }
 # 营养中心
 pm_fe_extraction_stop = {
-	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_0.dds"
 }
 pm_fe_25_extraction = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_1.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
@@ -246,7 +246,7 @@ pm_fe_25_extraction = {
 	}
 }
 pm_fe_50_extraction = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_2.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
@@ -264,7 +264,7 @@ pm_fe_50_extraction = {
 	}
 }
 pm_fe_75_extraction = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_3.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
@@ -282,7 +282,7 @@ pm_fe_75_extraction = {
 	}
 }
 pm_fe_100_extraction = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_amount_4.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
@@ -301,10 +301,10 @@ pm_fe_100_extraction = {
 }
 # 地壳钻井
 pm_fe_drill_stop = {
-	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_drill_stop.dds"
 }
 pm_fe_drill_half = {
-	texture = "gfx/interface/icons/production_method_icons/fe_production_half.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_drill_half.dds"
 	unlocking_technologies = {
 		fallen_empire_crustal_drilling_maintenance
 	}
@@ -323,7 +323,7 @@ pm_fe_drill_half = {
 	}
 }
 pm_fe_drill_full = {
-	texture = "gfx/interface/icons/production_method_icons/fe_production_full.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_drill_full.dds"
 	unlocking_technologies = {
 		fallen_empire_crustal_drilling_maintenance
 	}
@@ -422,7 +422,7 @@ pm_fe_shared_car = {
 }
 # 在政府机构使用的特殊PM
 pm_fe_remote_data_base = { # 远程数据库
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit_hand.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_electronic_system_maintenance
 	}
