@@ -206,9 +206,14 @@ pm_fe_100_power = {
 		fallen_empire_singularity_energy_protection
 	}
 	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 50
+			goods_output_electricity_add = 4000
+		}
 		level_scaled = {
-			goods_input_glass_add = 25000
-			goods_output_electricity_add = 2000000
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 		}
 	}
 }
@@ -227,17 +232,53 @@ pm_fe_25_extraction = {
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 50
+			goods_input_fertilizer_add = 125
+			goods_output_oil_add = 1000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
 }
 pm_fe_50_extraction = {
 	texture = "gfx/interface/icons/production_method_icons/fe_amount_2.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 100
+			goods_input_fertilizer_add = 250
+			goods_output_oil_add = 2000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
 }
 pm_fe_75_extraction = {
 	texture = "gfx/interface/icons/production_method_icons/fe_amount_3.dds"
 	unlocking_technologies = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 150
+			goods_input_fertilizer_add = 375
+			goods_output_oil_add = 3000
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
 	}
 }
 pm_fe_100_extraction = {
@@ -246,10 +287,15 @@ pm_fe_100_extraction = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 200
+			goods_input_fertilizer_add = 500
+			goods_output_oil_add = 4000
+		}
 		level_scaled = {
-			goods_input_electricity_add = 100000
-			goods_input_fertilizer_add = 250000
-			goods_output_oil_add = 2000000
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 		}
 	}
 }
@@ -262,6 +308,19 @@ pm_fe_drill_half = {
 	unlocking_technologies = {
 		fallen_empire_crustal_drilling_maintenance
 	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 100
+			goods_output_iron_add = 600
+			goods_output_sulfur_add = 300
+			goods_output_lead_add = 300
+		}
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+		}
+	}
 }
 pm_fe_drill_full = {
 	texture = "gfx/interface/icons/production_method_icons/fe_drill_full.dds"
@@ -269,11 +328,16 @@ pm_fe_drill_full = {
 		fallen_empire_crustal_drilling_maintenance
 	}
 	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 200
+			goods_output_iron_add = 1200
+			goods_output_sulfur_add = 600
+			goods_output_lead_add = 600
+		}
 		level_scaled = {
-			goods_input_electricity_add = 100000
-			goods_output_iron_add = 600000
-			goods_output_sulfur_add = 300000
-			goods_output_lead_add = 300000
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 		}
 	}
 }
