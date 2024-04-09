@@ -1310,12 +1310,6 @@
 					"pm_fe_electric_cooling"
 				}
 			}
-			create_building = {
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_advanced_tactics_training" }
-			}
 		}
 	}
 	s:STATE_GABON={
