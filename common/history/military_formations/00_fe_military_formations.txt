@@ -9,27 +9,17 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_mechanized_infantry
 				state_region = s:STATE_SHELTER
-				count = 3
+				count = 6
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_heavy_tank
 				state_region = s:STATE_SHELTER
-				count = 1
+				count = 2
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_light_tanks
 				state_region = s:STATE_SHELTER
-				count = 1
-			}
-
-			mobilization_options = {
-				mobilization_option:mobilization_option_extra_supplies
-				# mobilization_option:mobilization_option_luxurious_supplies
-				# mobilization_option:mobilization_option_chocolate
-				# mobilization_option:mobilization_option_truck_transport
-				# mobilization_option:mobilization_option_machinegunners
-				# mobilization_option:mobilization_option_aerial_recon
-				# mobilization_option:mobilization_option_field_hospitals
+				count = 2
 			}
 
 			save_scope_as = 1_Shelter_Guard
@@ -50,6 +40,11 @@
 		
 		scope:shelter_general = {
 			transfer_to_formation = scope:1_Shelter_Guard
+		}
+
+		activate_production_method = {
+			building_type = building_barracks
+			production_method = pm_general_training
 		}
 	}
 }

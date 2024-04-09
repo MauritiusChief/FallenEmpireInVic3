@@ -3,181 +3,181 @@ POPS = {
 		region_state:UGS = {
 			create_pop = {
 				culture = british
-				size = 24400
+				size = 48400
 			}
 			create_pop = {
 				culture = scottish
-				size = 7000
+				size = 14000
 			}
 			create_pop = {
 				culture = hindu_british
-				size = 6604
+				size = 12604
 			}
 			create_pop = {
 				culture = irish
-				size = 5400
+				size = 10400
 			}
 			create_pop = {
 				culture = australian
-				size = 5400
+				size = 10400
 			}
 			create_pop = {
 				culture = british
 				religion = atheist
-				size = 24400
+				size = 48400
 			}
 			create_pop = {
 				culture = scottish
 				religion = atheist
-				size = 7000
+				size = 14000
 			}
 			create_pop = {
 				culture = australian
 				religion = atheist
-				size = 5400
+				size = 10400
 			}
 			create_pop = {
 				culture = korean
 				religion = atheist
-				size = 24307
+				size = 48307
 			}
 			create_pop = {
 				culture = japanese
 				religion = atheist
-				size = 20207
+				size = 40207
 			}
 			create_pop = {
 				culture = vietnamese
 				religion = atheist
-				size = 20707
+				size = 40707
 			}
 			create_pop = {
 				culture = zhonghua
-				size = 100500
+				size = 200500
 			}
 			create_pop = {
 				culture = french
-				size = 32400
+				size = 64400
 			}
 			create_pop = {
 				culture = french
 				religion = atheist
-				size = 32400
+				size = 64400
 			}
 			create_pop = {
 				culture = afro_french
-				size = 6800
+				size = 12800
 			}
 			create_pop = {
 				culture = north_german
-				size = 12307
+				size = 24307
 			}
 			create_pop = {
 				culture = south_german
-				size = 10207
+				size = 20207
 			}
 			create_pop = {
 				culture = north_italian
-				size = 4607
+				size = 8607
 			}
 			create_pop = {
 				culture = south_italian
-				size = 6407
+				size = 12407
 			}
 			create_pop = {
 				culture = north_german
 				religion = atheist
-				size = 12307
+				size = 24307
 			}
 			create_pop = {
 				culture = south_german
 				religion = atheist
-				size = 10207
+				size = 20207
 			}
 			create_pop = {
 				culture = north_italian
 				religion = atheist
-				size = 4607
+				size = 8607
 			}
 			create_pop = {
 				culture = south_italian
 				religion = atheist
-				size = 6407
+				size = 12407
 			}
 			create_pop = {
 				culture = russian
-				size = 32000
+				size = 64000
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 8000
+				size = 16000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 7000
+				size = 14000
 			}
 			create_pop = {
 				culture = russian
 				religion = atheist
-				size = 32000
+				size = 64000
 			}
 			create_pop = {
 				culture = byelorussian
 				religion = atheist
-				size = 8000
+				size = 16000
 			}
 			create_pop = {
 				culture = ukrainian
 				religion = atheist
-				size = 7000
+				size = 14000
 			}
 			create_pop = {
 				culture = american
-				size = 48834
+				size = 98834
 			}
 			create_pop = {
 				culture = afro_american
-				size = 12830
+				size = 24830
 			}
 			create_pop = {
 				culture = latino_american
-				size = 14004
+				size = 28004
 			}
 			create_pop = {
 				culture = anglo_canadian
-				size = 10030
+				size = 20030
 			}
 			create_pop = {
 				culture = american
 				religion = atheist
-				size = 48834
+				size = 98834
 			}
 			create_pop = {
 				culture = afro_american
 				religion = atheist
-				size = 12830
+				size = 24830
 			}
 			create_pop = {
 				culture = latino_american
 				religion = atheist
-				size = 14004
+				size = 28004
 			}
 			create_pop = {
 				culture = anglo_canadian
 				religion = atheist
-				size = 10030
+				size = 20030
 			}
 			create_pop = {
 				culture = lunda
-				size = 500
+				size = 1500
 			}
 			create_pop = {
 				culture = luba
-				size = 500
+				size = 1500
 			}
 			create_pop = {
 				culture = fluvian_bantu
-				size = 500
+				size = 1500
 			}
 		}
 	}
