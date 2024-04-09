@@ -3,23 +3,11 @@ POPS = {
 		region_state:UGS = {
 			create_pop = {
 				culture = british
-				split_religion = {
-					british = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 168400
+				size = 48400
 			}
 			create_pop = {
 				culture = scottish
-				split_religion = {
-					scottish = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 44000
+				size = 14000
 			}
 			create_pop = {
 				culture = hindu_british
@@ -31,42 +19,50 @@ POPS = {
 			}
 			create_pop = {
 				culture = australian
-				split_religion = {
-					australian = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 40400
+				size = 10400
+			}
+			create_pop = {
+				culture = british
+				religion = atheist
+				size = 48400
+			}
+			create_pop = {
+				culture = scottish
+				religion = atheist
+				size = 14000
+			}
+			create_pop = {
+				culture = australian
+				religion = atheist
+				size = 10400
 			}
 			create_pop = {
 				culture = korean
 				religion = atheist
-				size = 88307
+				size = 48307
 			}
 			create_pop = {
 				culture = japanese
 				religion = atheist
-				size = 80207
+				size = 40207
 			}
 			create_pop = {
 				culture = vietnamese
 				religion = atheist
-				size = 80707
+				size = 40707
 			}
 			create_pop = {
 				culture = zhonghua
-				size = 400500
+				size = 200500
 			}
 			create_pop = {
 				culture = french
-				split_religion = {
-					french = {
-						catholic = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 244400
+				size = 64400
+			}
+			create_pop = {
+				culture = french
+				religion = atheist
+				size = 64400
 			}
 			create_pop = {
 				culture = afro_french
@@ -74,125 +70,114 @@ POPS = {
 			}
 			create_pop = {
 				culture = north_german
-				split_religion = {
-					north_german = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 84307
+				size = 24307
 			}
 			create_pop = {
 				culture = south_german
-				split_religion = {
-					south_german = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 80207
+				size = 20207
 			}
 			create_pop = {
 				culture = north_italian
-				split_religion = {
-					north_italian = {
-						catholic = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 32607
+				size = 8607
 			}
 			create_pop = {
 				culture = south_italian
-				split_religion = {
-					south_italian = {
-						catholic = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 42407
+				size = 12407
+			}
+			create_pop = {
+				culture = north_german
+				religion = atheist
+				size = 24307
+			}
+			create_pop = {
+				culture = south_german
+				religion = atheist
+				size = 20207
+			}
+			create_pop = {
+				culture = north_italian
+				religion = atheist
+				size = 8607
+			}
+			create_pop = {
+				culture = south_italian
+				religion = atheist
+				size = 12407
 			}
 			create_pop = {
 				culture = russian
-				split_religion = {
-					russian = {
-						orthodox = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 244000
+				size = 64000
 			}
 			create_pop = {
 				culture = byelorussian
-				split_religion = {
-					byelorussian = {
-						orthodox = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 46000
+				size = 16000
 			}
 			create_pop = {
 				culture = ukrainian
-				split_religion = {
-					ukrainian = {
-						orthodox = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 44000
+				size = 14000
+			}
+			create_pop = {
+				culture = russian
+				religion = atheist
+				size = 64000
+			}
+			create_pop = {
+				culture = byelorussian
+				religion = atheist
+				size = 16000
+			}
+			create_pop = {
+				culture = ukrainian
+				religion = atheist
+				size = 14000
 			}
 			create_pop = {
 				culture = american
-				split_religion = {
-					american = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 368834
+				size = 98834
 			}
 			create_pop = {
 				culture = afro_american
-				split_religion = {
-					afro_american = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 84830
+				size = 24830
 			}
 			create_pop = {
 				culture = latino_american
-				split_religion = {
-					latino_american = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 88004
+				size = 28004
 			}
 			create_pop = {
 				culture = anglo_canadian
-				split_religion = {
-					anglo_canadian = {
-						protestant = 0.5
-						atheist = 0.5
-					}
-				}
-				size = 80030
+				size = 20030
+			}
+			create_pop = {
+				culture = american
+				religion = atheist
+				size = 98834
+			}
+			create_pop = {
+				culture = afro_american
+				religion = atheist
+				size = 24830
+			}
+			create_pop = {
+				culture = latino_american
+				religion = atheist
+				size = 28004
+			}
+			create_pop = {
+				culture = anglo_canadian
+				religion = atheist
+				size = 20030
 			}
 			create_pop = {
 				culture = lunda
-				size = 3000
+				size = 1500
 			}
 			create_pop = {
 				culture = luba
-				size = 3000
+				size = 1500
 			}
 			create_pop = {
 				culture = fluvian_bantu
-				size = 3000
+				size = 1500
 			}
 		}
 	}
