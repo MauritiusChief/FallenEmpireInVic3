@@ -24,12 +24,12 @@
 
 			mobilization_options = {
 				mobilization_option:mobilization_option_extra_supplies
-				mobilization_option:mobilization_option_luxurious_supplies
-				mobilization_option:mobilization_option_chocolate
-				mobilization_option:mobilization_option_truck_transport
-				mobilization_option:mobilization_option_machinegunners
-				mobilization_option:mobilization_option_aerial_recon
-				mobilization_option:mobilization_option_field_hospitals
+				# mobilization_option:mobilization_option_luxurious_supplies
+				# mobilization_option:mobilization_option_chocolate
+				# mobilization_option:mobilization_option_truck_transport
+				# mobilization_option:mobilization_option_machinegunners
+				# mobilization_option:mobilization_option_aerial_recon
+				# mobilization_option:mobilization_option_field_hospitals
 			}
 
 			save_scope_as = 1_Shelter_Guard
