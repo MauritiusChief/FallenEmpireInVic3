@@ -1,0 +1,125 @@
+# 富裕中心
+pm_fe_vehicles_full = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_full.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 100000
+			goods_input_glass_add = 100000
+			goods_input_steel_add = 150000
+			goods_output_automobiles_add = 300000
+			goods_output_aeroplanes_add = 300000
+		}
+	}
+}
+pm_fe_vehicles_half = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_half.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 50000
+			goods_input_glass_add = 50000
+			goods_input_steel_add = 75000
+			goods_output_automobiles_add = 150000
+			goods_output_aeroplanes_add = 150000
+		}
+	}
+}
+pm_fe_vehicles_stop = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+}
+pm_fe_electronics_full = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_full.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 100000
+			goods_input_glass_add = 100000
+			goods_input_steel_add = 100000
+			goods_input_lead_add = 100000
+			goods_output_telephones_add = 300000
+			goods_output_radios_add = 300000
+		}
+	}
+}
+pm_fe_electronics_half = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_half.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 50000
+			goods_input_glass_add = 50000
+			goods_input_steel_add = 50000
+			goods_input_lead_add = 50000
+			goods_output_telephones_add = 150000
+			goods_output_radios_add = 150000
+		}
+	}
+}
+pm_fe_electronics_stop = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+}
+# 营养中心
+pm_fe_beverage_goods_full = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_full.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 200000
+			goods_input_fertilizer_add = 200000
+			goods_output_tea_add = 300000
+			goods_output_coffee_add = 300000
+			goods_output_liquor_add = 400000
+			goods_output_wine_add = 300000
+		}
+	}
+}
+pm_fe_beverage_goods_half = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_half.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
+			goods_input_electricity_add = 100000
+			goods_input_fertilizer_add = 100000
+			goods_output_tea_add = 150000
+			goods_output_coffee_add = 150000
+			goods_output_liquor_add = 200000
+			goods_output_wine_add = 150000
+		}
+	}
+}
+pm_fe_beverage_goods_stop = {
+	texture = "gfx/interface/icons/production_method_icons/fe_production_stop.dds"
+}
+
+
