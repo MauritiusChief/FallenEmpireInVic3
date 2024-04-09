@@ -428,7 +428,7 @@ pm_fe_remote_data_base = { # 远程数据库
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			country_bureaucracy_add = 400
+			country_bureaucracy_add = 250
 		}
 	}
 	state_modifiers = {
