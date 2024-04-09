@@ -1276,6 +1276,7 @@
 					"pm_fe_furniture_and_luxury_full"
 					"pm_fe_automobiles_full"
 					"pm_fe_aeroplanes_full"
+					"pm_fe_porcelain_full"
 					"pm_fe_telephones_full"
 					"pm_fe_radios_full"
 				}
