@@ -1,0 +1,22 @@
+bg_fe_ancient_manufacturing = {
+	parent_group = bg_manufacturing
+	lens = special
+	inheritable_construction = yes
+
+	urbanization = 20
+	infrastructure_usage_per_level = 3
+}
+
+bg_fe_ancient_infrastructure = {
+	parent_group = bg_private_infrastructure
+	lens = special
+	inheritable_construction = yes
+	
+	stateregion_max_level = no # 写在bg_infrastructure里的，不知道会不会出错总之先no掉
+}
+
+bg_fe_ancient_government = {
+	parent_group = bg_government
+	lens = special
+	inheritable_construction = yes
+}
