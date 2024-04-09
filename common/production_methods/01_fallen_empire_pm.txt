@@ -206,10 +206,11 @@ pm_fe_100_power = {
 		fallen_empire_singularity_energy_protection
 	}
 	building_modifiers = {
-		level_scaled = {
+		workforce_scaled = {
 			goods_input_glass_add = 50
 			goods_output_electricity_add = 4000
-		
+		}
+		level_scaled = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -308,12 +309,13 @@ pm_fe_drill_half = {
 		fallen_empire_crustal_drilling_maintenance
 	}
 	building_modifiers = {
-		level_scaled = {
+		workforce_scaled = {
 			goods_input_electricity_add = 100
 			goods_output_iron_add = 600
 			goods_output_sulfur_add = 300
 			goods_output_lead_add = 300
-		
+		}
+		level_scaled = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -326,12 +328,13 @@ pm_fe_drill_full = {
 		fallen_empire_crustal_drilling_maintenance
 	}
 	building_modifiers = {
-		level_scaled = {
+		workforce_scaled = {
 			goods_input_electricity_add = 200
 			goods_output_iron_add = 1200
 			goods_output_sulfur_add = 600
 			goods_output_lead_add = 600
-		
+		}
+		level_scaled = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200

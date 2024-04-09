@@ -9,11 +9,11 @@ pm_fe_vehicles_full = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 200
-			goods_input_glass_add = 200
-			goods_input_steel_add = 300
-			goods_output_automobiles_add = 600
-			goods_output_aeroplanes_add = 600
+			goods_input_electricity_add = 100000
+			goods_input_glass_add = 100000
+			goods_input_steel_add = 150000
+			goods_output_automobiles_add = 300000
+			goods_output_aeroplanes_add = 300000
 		}
 	}
 }
@@ -27,11 +27,11 @@ pm_fe_vehicles_half = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 00
-			goods_input_glass_add = 100
-			goods_input_steel_add = 150
-			goods_output_automobiles_add = 300
-			goods_output_aeroplanes_add = 300
+			goods_input_electricity_add = 50000
+			goods_input_glass_add = 50000
+			goods_input_steel_add = 75000
+			goods_output_automobiles_add = 150000
+			goods_output_aeroplanes_add = 150000
 		}
 	}
 }
@@ -48,12 +48,12 @@ pm_fe_electronics_full = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 200
-			goods_input_glass_add = 200
-			goods_input_steel_add = 200
-			goods_input_lead_add = 200
-			goods_output_telephones_add = 600
-			goods_output_radios_add = 600
+			goods_input_electricity_add = 100000
+			goods_input_glass_add = 100000
+			goods_input_steel_add = 100000
+			goods_input_lead_add = 100000
+			goods_output_telephones_add = 300000
+			goods_output_radios_add = 300000
 		}
 	}
 }
@@ -67,12 +67,12 @@ pm_fe_electronics_half = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 100
-			goods_input_glass_add = 100
-			goods_input_steel_add = 100
-			goods_input_lead_add = 100
-			goods_output_telephones_add = 300
-			goods_output_radios_add = 300
+			goods_input_electricity_add = 50000
+			goods_input_glass_add = 50000
+			goods_input_steel_add = 50000
+			goods_input_lead_add = 50000
+			goods_output_telephones_add = 150000
+			goods_output_radios_add = 150000
 		}
 	}
 }
@@ -90,12 +90,12 @@ pm_fe_beverage_goods_full = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 400
-			goods_input_fertilizer_add = 400
-			goods_output_tea_add = 600
-			goods_output_coffee_add = 600
-			goods_output_liquor_add = 800
-			goods_output_wine_add = 600
+			goods_input_electricity_add = 200000
+			goods_input_fertilizer_add = 200000
+			goods_output_tea_add = 300000
+			goods_output_coffee_add = 300000
+			goods_output_liquor_add = 400000
+			goods_output_wine_add = 300000
 		}
 	}
 }
@@ -109,12 +109,12 @@ pm_fe_beverage_goods_half = {
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
-			goods_input_electricity_add = 200
-			goods_input_fertilizer_add = 200
-			goods_output_tea_add = 300
-			goods_output_coffee_add = 300
-			goods_output_liquor_add = 400
-			goods_output_wine_add = 300
+			goods_input_electricity_add = 100000
+			goods_input_fertilizer_add = 100000
+			goods_output_tea_add = 150000
+			goods_output_coffee_add = 150000
+			goods_output_liquor_add = 200000
+			goods_output_wine_add = 150000
 		}
 	}
 }
