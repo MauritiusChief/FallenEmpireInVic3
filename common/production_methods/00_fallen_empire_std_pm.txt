@@ -7,13 +7,12 @@ pm_fe_tanks_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 150
 			goods_input_glass_add = 150
 			goods_input_steel_add = 200
 			goods_output_tanks_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -26,13 +25,12 @@ pm_fe_tanks_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 300
 			goods_input_glass_add = 300
 			goods_input_steel_add = 400
 			goods_output_tanks_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -48,13 +46,12 @@ pm_fe_artillery_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 150
 			goods_input_glass_add = 150
 			goods_input_steel_add = 200
 			goods_output_artillery_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -67,13 +64,12 @@ pm_fe_artillery_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 300
 			goods_input_glass_add = 300
 			goods_input_steel_add = 400
 			goods_output_artillery_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -89,13 +85,12 @@ pm_fe_small_arms_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 100
 			goods_output_small_arms_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -108,13 +103,12 @@ pm_fe_small_arms_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 200
 			goods_output_small_arms_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -130,13 +124,12 @@ pm_fe_ammunition_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 100
 			goods_output_ammunition_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -149,13 +142,12 @@ pm_fe_ammunition_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 200
 			goods_output_ammunition_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -171,13 +163,12 @@ pm_fe_tools_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 50
 			goods_input_glass_add = 50
 			goods_input_steel_add = 50
 			goods_output_tools_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -190,13 +181,12 @@ pm_fe_tools_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 100
 			goods_output_tools_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -212,13 +202,12 @@ pm_fe_clothes_and_luxury_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_output_clothes_add = 400
 			goods_output_luxury_clothes_add = 350
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -231,13 +220,12 @@ pm_fe_clothes_and_luxury_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_output_clothes_add = 800
 			goods_output_luxury_clothes_add = 700
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -253,13 +241,12 @@ pm_fe_furniture_and_luxury_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_output_furniture_add = 400
 			goods_output_luxury_furniture_add = 350
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -272,13 +259,12 @@ pm_fe_furniture_and_luxury_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_output_furniture_add = 800
 			goods_output_luxury_furniture_add = 700
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -294,13 +280,12 @@ pm_fe_automobiles_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 150
 			goods_output_automobiles_add = 600
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -313,13 +298,12 @@ pm_fe_automobiles_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 300
 			goods_output_automobiles_add = 1200
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -335,13 +319,12 @@ pm_fe_aeroplanes_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 150
 			goods_output_aeroplanes_add = 600
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -354,13 +337,12 @@ pm_fe_aeroplanes_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 300
 			goods_output_aeroplanes_add = 1200
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -376,12 +358,11 @@ pm_fe_porcelain_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 50
 			goods_input_glass_add = 50
 			goods_output_porcelain_add = 500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -394,12 +375,11 @@ pm_fe_porcelain_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_output_porcelain_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -415,14 +395,13 @@ pm_fe_telephones_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 100
 			goods_input_lead_add = 100
 			goods_output_telephones_add = 600
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -435,14 +414,13 @@ pm_fe_telephones_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 200
 			goods_input_lead_add = 200
 			goods_output_telephones_add = 1200
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -458,14 +436,13 @@ pm_fe_radios_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_glass_add = 100
 			goods_input_steel_add = 100
 			goods_input_lead_add = 100
 			goods_output_radios_add = 600
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -478,14 +455,13 @@ pm_fe_radios_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_glass_add = 200
 			goods_input_steel_add = 200
 			goods_input_lead_add = 200
 			goods_output_radios_add = 1200
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -501,12 +477,11 @@ pm_fe_groceries_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_groceries_add = 750
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -519,12 +494,11 @@ pm_fe_groceries_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_groceries_add = 1500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -540,14 +514,13 @@ pm_fe_meat_sugar_fruit_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_meat_add = 300
 			goods_output_sugar_add = 250
 			goods_output_fruit_add = 100
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -560,14 +533,13 @@ pm_fe_meat_sugar_fruit_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_meat_add = 600
 			goods_output_sugar_add = 500
 			goods_output_fruit_add = 200
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -583,13 +555,12 @@ pm_fe_liquor_and_wine_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_liquor_add = 400
 			goods_output_wine_add = 300
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -602,13 +573,12 @@ pm_fe_liquor_and_wine_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_liquor_add = 800
 			goods_output_wine_add = 600
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -624,12 +594,11 @@ pm_fe_tea_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_tea_add = 750
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -642,12 +611,11 @@ pm_fe_tea_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_tea_add = 1500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -663,12 +631,11 @@ pm_fe_coffee_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_coffee_add = 750
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -681,12 +648,11 @@ pm_fe_coffee_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_coffee_add = 1500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -702,13 +668,12 @@ pm_fe_tobacco_and_opium_half = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_fertilizer_add = 100
 			goods_output_tobacco_add = 400
 			goods_output_opium_add = 350
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -721,13 +686,12 @@ pm_fe_tobacco_and_opium_full = {
 		fallen_empire_ancient_hydroponic_cabin_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_fertilizer_add = 200
 			goods_output_tobacco_add = 800
 			goods_output_opium_add = 700
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -743,13 +707,12 @@ pm_fe_fertilizer_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_oil_add = 100
 			goods_input_sulfur_add = 100
 			goods_output_fertilizer_add = 750
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -762,13 +725,12 @@ pm_fe_fertilizer_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_oil_add = 200
 			goods_input_sulfur_add = 200
 			goods_output_fertilizer_add = 1500
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -784,13 +746,12 @@ pm_fe_steel_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_oil_add = 50
 			goods_input_iron_add = 400
 			goods_output_steel_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -803,13 +764,12 @@ pm_fe_steel_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 200
 			goods_input_oil_add = 100
 			goods_input_iron_add = 800
 			goods_output_steel_add = 2000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -825,12 +785,11 @@ pm_fe_plastic_half = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 50
 			goods_input_oil_add = 400
 			goods_output_glass_add = 1000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
@@ -843,12 +802,11 @@ pm_fe_plastic_full = {
 		fallen_empire_ancient_production_line_maintenance
 	}
 	building_modifiers = {
-		workforce_scaled = {
+		level_scaled = {
 			goods_input_electricity_add = 100
 			goods_input_oil_add = 800
 			goods_output_glass_add = 2000
-		}
-		level_scaled = {
+		
 			building_employment_laborers_add = 150
 			building_employment_machinists_add = 150
 			building_employment_engineers_add = 200
