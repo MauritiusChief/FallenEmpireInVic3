@@ -1,0 +1,9 @@
+﻿INTERESTS = {
+	c:UGS ?= {
+		add_declared_interest = region_congo
+	}
+}	
+
+
+
+
