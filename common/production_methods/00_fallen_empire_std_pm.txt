@@ -8,9 +8,6 @@ pm_fe_tanks_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 75000
 			goods_input_glass_add = 75000
 			goods_input_steel_add = 100000
@@ -26,9 +23,6 @@ pm_fe_tanks_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 150000
 			goods_input_glass_add = 150000
 			goods_input_steel_add = 200000
@@ -47,9 +41,6 @@ pm_fe_artillery_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 75000
 			goods_input_glass_add = 75000
 			goods_input_steel_add = 100000
@@ -65,9 +56,6 @@ pm_fe_artillery_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 150000
 			goods_input_glass_add = 150000
 			goods_input_steel_add = 200000
@@ -86,9 +74,6 @@ pm_fe_small_arms_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_input_steel_add = 50000
@@ -104,9 +89,6 @@ pm_fe_small_arms_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_glass_add = 100000
 			goods_input_steel_add = 100000
@@ -125,9 +107,6 @@ pm_fe_ammunition_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_input_steel_add = 50000
@@ -143,9 +122,6 @@ pm_fe_ammunition_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_glass_add = 100000
 			goods_input_steel_add = 100000
@@ -164,9 +140,6 @@ pm_fe_tools_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 25000
 			goods_input_glass_add = 25000
 			goods_input_steel_add = 25000
@@ -182,9 +155,6 @@ pm_fe_tools_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_input_steel_add = 50000
@@ -203,9 +173,6 @@ pm_fe_clothes_and_luxury_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_output_clothes_add = 200000
@@ -221,9 +188,6 @@ pm_fe_clothes_and_luxury_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_glass_add = 100000
 			goods_output_clothes_add = 400000
@@ -242,9 +206,6 @@ pm_fe_furniture_and_luxury_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_output_furniture_add = 200000
@@ -260,9 +221,6 @@ pm_fe_furniture_and_luxury_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_glass_add = 100000
 			goods_output_furniture_add = 400000
@@ -282,9 +240,6 @@ pm_fe_porcelain_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 25000
 			goods_input_glass_add = 25000
 			goods_output_porcelain_add = 250000
@@ -299,9 +254,6 @@ pm_fe_porcelain_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_glass_add = 50000
 			goods_output_porcelain_add = 500000
@@ -320,9 +272,6 @@ pm_fe_groceries_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_fertilizer_add = 50000
 			goods_output_groceries_add = 375000
@@ -337,9 +286,6 @@ pm_fe_groceries_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_fertilizer_add = 100000
 			goods_output_groceries_add = 750000
@@ -357,9 +303,6 @@ pm_fe_meat_sugar_fruit_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_fertilizer_add = 50000
 			goods_output_meat_add = 150000
@@ -376,9 +319,6 @@ pm_fe_meat_sugar_fruit_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_fertilizer_add = 100000
 			goods_output_meat_add = 300000
@@ -399,9 +339,6 @@ pm_fe_tobacco_and_opium_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_fertilizer_add = 50000
 			goods_output_tobacco_add = 200000
@@ -417,9 +354,6 @@ pm_fe_tobacco_and_opium_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_fertilizer_add = 100000
 			goods_output_tobacco_add = 400000
@@ -438,9 +372,6 @@ pm_fe_fertilizer_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_oil_add = 50000
 			goods_input_sulfur_add = 50000
@@ -456,9 +387,6 @@ pm_fe_fertilizer_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_oil_add = 100000
 			goods_input_sulfur_add = 100000
@@ -477,9 +405,6 @@ pm_fe_steel_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_oil_add = 25000
 			goods_input_iron_add = 200000
@@ -495,9 +420,6 @@ pm_fe_steel_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_oil_add = 50000
 			goods_input_iron_add = 400000
@@ -516,9 +438,6 @@ pm_fe_plastic_half = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 25000
 			goods_input_oil_add = 200000
 			goods_output_glass_add = 500000
@@ -533,9 +452,6 @@ pm_fe_plastic_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_laborers_add = 150
-			building_employment_machinists_add = 150
-			building_employment_engineers_add = 200
 			goods_input_electricity_add = 50000
 			goods_input_oil_add = 400000
 			goods_output_glass_add = 1000000
