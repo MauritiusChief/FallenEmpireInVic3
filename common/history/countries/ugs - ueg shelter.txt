@@ -55,5 +55,7 @@ COUNTRIES = {
 			institution = institution_home_affairs
 			level = 5
 		}
+
+		set_variable = communism_1_done
 	}
 }
