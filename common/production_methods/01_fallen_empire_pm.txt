@@ -207,6 +207,9 @@ pm_fe_100_power = {
 	}
 	building_modifiers = {
 		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 			goods_input_glass_add = 25000
 			goods_output_electricity_add = 2000000
 		}
@@ -247,6 +250,9 @@ pm_fe_100_extraction = {
 	}
 	building_modifiers = {
 		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_input_fertilizer_add = 250000
 			goods_output_oil_add = 2000000
@@ -270,6 +276,9 @@ pm_fe_drill_full = {
 	}
 	building_modifiers = {
 		level_scaled = {
+			building_employment_laborers_add = 150
+			building_employment_machinists_add = 150
+			building_employment_engineers_add = 200
 			goods_input_electricity_add = 100000
 			goods_output_iron_add = 600000
 			goods_output_sulfur_add = 300000
