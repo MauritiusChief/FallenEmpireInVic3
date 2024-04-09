@@ -120,11 +120,9 @@ building_fallen_empire_affluence_center = { # 富裕中心
 	production_method_groups = {
 		pmg_fe_clothes_and_luxury_production
 		pmg_fe_furniture_and_luxury_production
-		pmg_fe_automobiles_production
-		pmg_fe_aeroplanes_production
+		pmg_fe_vehicles_production
 		pmg_fe_porcelain_production
-		pmg_fe_telephones_production
-		pmg_fe_radios_production
+		pmg_fe_electronics_production
 	}
 
 	can_build_government = {
@@ -159,9 +157,7 @@ building_fallen_empire_nourishment_center = { # 营养中心
 	production_method_groups = {
 		pmg_fe_groceries_production
 		pmg_fe_meat_sugar_fruit_production
-		pmg_fe_liquor_and_wine_production
-		pmg_fe_tea_production
-		pmg_fe_coffee_production
+		pmg_fe_beverage_goods_production
 		pmg_fe_tobacco_and_opium_production
 		pmg_fe_organic_matter_extraction
 	}
