@@ -160,6 +160,8 @@
  combat_unit_type_fe_ww2_submarine_desc: "二战潜艇描述。"
  combat_unit_type_fe_ww2_frigate: "二战护卫舰"
  combat_unit_type_fe_ww2_frigate_desc: "二战护卫舰描述。"
+ 
+ 1_Shelter_Guard: "UEG避难所卫戍军团"
 
 # 程序生成
  pmg_fe_tanks_production: "坦克生产"

@@ -154,6 +154,8 @@
  combat_unit_type_fe_cw_ifv: "CW IFV"
  combat_unit_type_fe_cw_ifv_desc: ""
 
+ 1_Shelter_Guard: "UEG Shelter Guard"
+
 # Generated Loc
  pmg_fe_tanks_production: "Tanks Production"
  pmg_fe_artillery_production: "Artillery Production"

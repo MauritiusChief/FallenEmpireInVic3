@@ -1274,11 +1274,9 @@
 				activate_production_methods={
 					"pm_fe_clothes_and_luxury_full"
 					"pm_fe_furniture_and_luxury_full"
-					"pm_fe_automobiles_full"
-					"pm_fe_aeroplanes_full"
+					"pm_fe_vehicles_full"
 					"pm_fe_porcelain_full"
-					"pm_fe_telephones_full"
-					"pm_fe_radios_full"
+					"pm_fe_electronics_full"
 				}
 			}
 			create_building={
@@ -1288,9 +1286,7 @@
 				activate_production_methods={
 					"pm_fe_groceries_full"
 					"pm_fe_meat_sugar_fruit_full"
-					"pm_fe_liquor_and_wine_full"
-					"pm_fe_tea_full"
-					"pm_fe_coffee_full"
+					"pm_fe_beverage_goods_full"
 					"pm_fe_tobacco_and_opium_full"
 					"pm_fe_100_extraction"
 				}
@@ -1316,9 +1312,9 @@
 			}
 			create_building = {
 				building="building_barracks"
-				level=2
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_advanced_tactics_training" }
 			}
 		}
 	}

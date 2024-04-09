@@ -88,17 +88,5 @@ CHARACTERS = {
 			}
 		}
 
-		# 将领
-		create_character = {
-			is_general = yes
-			culture = cu:american
-			interest_group = ig_armed_forces
-			ideology = ideology_integralist
-			hq = region_shelter
-			traits = {
-				tactful
-				stalwart_defender
-			}
-		}
 	}
 }
