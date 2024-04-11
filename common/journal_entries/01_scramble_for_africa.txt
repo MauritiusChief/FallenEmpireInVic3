@@ -10,23 +10,8 @@
 			is_incorporated = no
 			state_in_africa = yes
 		}
-		NOR = { # FE 地联不殖民非洲
-			AND = {
-				exists = c:UGS
-				c:UGS = ROOT
-			}
-			AND = {
-				exists = c:UGK
-				c:UGK = ROOT
-			}
-			AND = {
-				exists = c:UGF
-				c:UGF = ROOT
-			}
-			AND = {
-				exists = c:UEG
-				c:UEG = ROOT
-			}
+		NOT = { # FE 地联不殖民非洲
+			has_variable = fallen_empire_ueg_countries
 		}
 	}
 

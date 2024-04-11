@@ -147,12 +147,7 @@
 			limit = {
 				AND = {
 					country_has_state_religion = rel:protestant
-					OR = {
-						c:UGS ?= this
-						c:UGK ?= this
-						c:UGF ?= this
-						c:UEG ?= this
-					}
+					has_variable = fallen_empire_ueg_countries
 				}
 			}
 			ig:ig_devout = {

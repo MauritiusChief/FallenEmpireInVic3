@@ -56,6 +56,11 @@ COUNTRIES = {
 			level = 5
 		}
 
-		set_variable = communism_1_done
+		set_variable = fallen_empire_ueg_countries
+
+		# 日志
+		set_variable = communism_1_done # 共产主义事件链
+		set_variable = combustion_engines_je_done # 公共交通
+		set_variable = elevators_je_done # 电梯
 	}
 }
