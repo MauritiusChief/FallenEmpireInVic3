@@ -22,7 +22,7 @@
  fe_expand_in_africa_3_general: "促进立法"
 
  je_fe_start_waking: "自沉睡之中觉醒"
- je_fe_start_waking_reason: "避难所之中的每个人都认为，我们需要一改屈居非洲一隅的现状，真正的先进带给这个落后的世界。"
+ je_fe_start_waking_reason: "避难所之中的每个人都认为，我们需要一改屈居非洲一隅的现状，将真正的先进带给这个落后的世界。"
  je_fe_start_waking_goal: "成立$UGK$，并向世界宣告我们的存在。"
  je_fe_start_waking_form_ugk_tt: "成立$UGK$。"
 
@@ -32,3 +32,12 @@
  je_fe_united_africa_form_ugf_tt: "成立$UGF$。"
 
  fe_neutralize_materials_abundant_prestige_minus: "先进生产者"
+ 
+ je_fe_charging_pile: "路灯充电桩"
+ je_fe_charging_pile_reason: "随着社会的中心从岩石之下的避难所转移至地表，[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]正在成型。虽然民间组织提供的无人商店与共享汽车已遍布[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]，但是否要为新成型的城镇提供基础设施依然得到了广泛讨论。"
+
+ fe_advance_tech.1.t: "电流涌动"
+ fe_advance_tech.1.d: "路灯电力网与电动汽车，早有敏锐的商人察觉这二者之间的微妙联系。但电力系统背后的短缺也不容小觑，是否利用公共电网为共享汽车充电成为了一项争议。"
+ fe_advance_tech.1.f: "“这些街溜子就只会开着共享汽车四处闲逛！要是满大街都能让他们充电，他们只会把这些电白白浪费掉！”"
+ fe_advance_tech.1.a: "只要电力充足，就没人关心这些问题了。"
+ fe_advance_tech.1.b: "应当保证每个人都有便捷的交通能力。"

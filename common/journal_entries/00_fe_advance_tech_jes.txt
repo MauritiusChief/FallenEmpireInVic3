@@ -16,6 +16,12 @@ je_fe_charging_pile = {
 		}
 	}
 
+	immediate = {
+		capital = {
+			save_scope_as = capital_scope
+		}
+	}
+
 	complete = {
 		OR = {
 			any_scope_building = {

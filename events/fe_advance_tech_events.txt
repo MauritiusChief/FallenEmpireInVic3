@@ -7,7 +7,7 @@ fe_advance_tech.1 = { # 路灯充电桩
 	}
 
 	event_image = {
-		video = "southamerica_factory_opening"
+		video = "europenorthamerica_london_center"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"

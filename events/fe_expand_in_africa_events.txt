@@ -212,7 +212,7 @@ fe_expand_in_africa.3 = { # 加快立法的事件
 	flavor = fe_expand_in_africa.3.f
 
 	event_image = {
-		video = "africa_leader_arguing"
+		video = "unspecific_ruler_speaking_to_people"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
