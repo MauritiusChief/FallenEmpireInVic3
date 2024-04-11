@@ -3,6 +3,7 @@ namespace = fe_expand_in_africa
 fe_expand_in_africa.1 = { # 和平扩张，直接吞并
 	type = country_event
 	placement = ROOT
+	placement = scope:fe_peaceful_expand_target_country.capital
 
 	title = fe_expand_in_africa.1.t
 	desc = fe_expand_in_africa.1.d
@@ -106,6 +107,7 @@ fe_expand_in_africa.1 = { # 和平扩张，直接吞并
 fe_expand_in_africa.2 = { # 暴力扩张，松散部落直接变国家（然后就可直接打下来）
 	type = country_event
 	placement = ROOT
+	placement = scope:fe_violent_expand_target_country.capital
 
 	title = fe_expand_in_africa.2.t
 	desc = fe_expand_in_africa.2.d
