@@ -62,5 +62,6 @@ COUNTRIES = {
 		set_variable = communism_1_done # 共产主义事件链
 		set_variable = combustion_engines_je_done # 公共交通
 		set_variable = elevators_je_done # 电梯
+		set_variable = telephone_je_done # 电话
 	}
 }
