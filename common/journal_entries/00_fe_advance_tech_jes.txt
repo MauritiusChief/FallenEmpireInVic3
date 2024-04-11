@@ -1,0 +1,43 @@
+je_fe_charging_pile = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	group = je_group_technology
+
+	is_shown_when_inactive = {
+		is_player = yes
+		NOT = { has_variable = fe_charging_pile_je_done }
+		has_technology_researched = fallen_empire_ancient_electronic_system_maintenance
+	}
+
+	possible = {
+		any_scope_building = {
+			is_building_type = building_urban_center
+			level >= 10
+		}
+	}
+
+	complete = {
+		OR = {
+			any_scope_building = {
+				filter = {
+					is_building_type = building_urban_center
+				}
+				percent > 0.75
+				has_active_production_method = pm_electric_streetlights
+				has_active_production_method = pm_fe_shared_car
+				cash_reserves_ratio >= 0.25
+				weekly_profit > 0
+				occupancy >= 0.75
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = fe_advance_tech.1 }
+		set_variable = {
+			name = fe_charging_pile_je_done
+		}
+	}
+
+	timeout = 3650
+}

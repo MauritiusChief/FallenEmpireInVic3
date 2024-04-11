@@ -1,0 +1,44 @@
+namespace = fe_advance_tech
+
+fe_advance_tech.1 = { # 路灯充电桩
+	type = country_event
+
+	trigger = {
+	}
+
+	event_image = {
+		video = "southamerica_factory_opening"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+
+	duration = 3
+
+	placement = ROOT
+
+	title = fe_advance_tech.1.t
+	desc = fe_advance_tech.1.d
+	flavor = fe_advance_tech.1.f
+
+	immediate = {
+	}
+
+	option = {
+		name = fe_advance_tech.1.a
+		default_option = yes
+		add_modifier = {
+			name = electrical_power_production_modifier
+			months = normal_modifier_time
+		}
+	}
+
+	option = {
+		name = fe_advance_tech.1.b
+		add_modifier = {
+			name = public_trasportation_modifier
+			months = normal_modifier_time
+		}
+	}
+}
