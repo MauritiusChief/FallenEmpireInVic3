@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# 补充一些不更新的文件类型
+*.ffs_db
+创意工坊介绍.txt
+国家企划.txt
+建筑企划.txt
+日志与事件企划.txt
