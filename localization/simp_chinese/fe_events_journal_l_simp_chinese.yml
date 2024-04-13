@@ -34,10 +34,10 @@
  fe_neutralize_materials_abundant_prestige_minus: "先进生产者"
  
  je_fe_charging_pile: "路灯充电桩"
- je_fe_charging_pile_reason: "随着社会的中心从岩石之下的避难所转移至地表，[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]正在成型。虽然民间组织提供的无人商店与共享汽车已遍布[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]，但是否要为新成型的城镇提供基础设施依然得到了广泛讨论。"
+ je_fe_charging_pile_reason: "随着社会的中心从岩石之下的避难所转移至地表，[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]正在成型。虽然民间组织提供的无人商店与共享汽车已遍布[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]，但是否要要将充电桩作为供电系统的一部分纳入基础设施依然得到了广泛讨论。"
 
  fe_advance_tech.1.t: "电流涌动"
- fe_advance_tech.1.d: "路灯电力网与电动汽车，早有敏锐的商人察觉这二者之间的微妙联系。但电力系统背后的短缺也不容小觑，是否利用公共电网为共享汽车充电成为了一项争议。"
+ fe_advance_tech.1.d: "路灯电力网与电动汽车，早有敏锐的商人察觉这二者之间的微妙联系并建议将其结合。但电力系统背后的短缺也不容小觑，是否利用公共电网为共享汽车充电成为了一项争议。"
  fe_advance_tech.1.f: "“这些街溜子就只会开着共享汽车四处闲逛！要是满大街都能让他们充电，他们只会把这些电白白浪费掉！”"
  fe_advance_tech.1.a: "只要电力充足，就没人关心这些问题了。"
  fe_advance_tech.1.b: "应当保证每个人都有便捷的交通能力。"
