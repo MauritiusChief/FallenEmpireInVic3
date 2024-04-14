@@ -10,9 +10,14 @@ je_fe_charging_pile = {
 	}
 
 	possible = {
-		any_scope_building = {
-			is_building_type = building_urban_center
-			level >= 10
+		any_scope_state = {
+			filter = {
+				is_capital = yes
+			}
+			any_scope_building = {
+				is_building_type = building_urban_center
+				level >= 10
+			}
 		}
 	}
 
@@ -23,7 +28,10 @@ je_fe_charging_pile = {
 	}
 
 	complete = {
-		OR = {
+		any_scope_state = {
+			filter = {
+				is_capital = yes
+			}
 			any_scope_building = {
 				filter = {
 					is_building_type = building_urban_center
