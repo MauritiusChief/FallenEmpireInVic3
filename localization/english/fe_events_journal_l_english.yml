@@ -23,12 +23,10 @@
 
  je_fe_start_waking: "Awakening From Falling"
  je_fe_start_waking_reason: "Everyone in the shelter believes that we need to change the status quo of being in the corner of Africa and bring real progress to this backward world."
- je_fe_start_waking_goal: "Found $UGK$ and announced our existence to the world."
  je_fe_start_waking_form_ugk_tt: "Form $UGK$."
 
  je_fe_united_africa: "Towards a Unified Africa"
  je_fe_united_africa_reason: "Our continent, Africa, with its vast lands, resources and population, is an indispensable springboard for our globalization. Develop this land well, and the continent will be the cradle not only of humanity but also of the next World Government."
- je_fe_united_africa_goal: "Get recognized, form $UGF$, incorporate at least half the states, and keep the national average standard of living above the struggle."
  je_fe_united_africa_form_ugf_tt: "Form $UGF$."
 
  fe_neutralize_materials_abundant_prestige_minus: "Advanced Producer"
