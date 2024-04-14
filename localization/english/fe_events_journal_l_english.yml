@@ -32,3 +32,12 @@
  je_fe_united_africa_form_ugf_tt: "Form $UGF$."
 
  fe_neutralize_materials_abundant_prestige_minus: "Advanced Producer"
+
+ je_fe_charging_pile: "Charging Pile"
+ je_fe_charging_pile_reason: "The [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName] is taking shape as the center of society shifts from the shelter under the rock to the surface. While unmanned stores and car sharing provided by civil society organisations have spread [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName], the need to include charging piles as part of the power supply system as part of the infrastructure continues to be widely discussed."
+
+ fe_advance_tech.1.t: "Surge of Electricity"
+ fe_advance_tech.1.d: "Street light power grids and electric cars, there have long been astute businessmen who have sensed the subtle connection between the two and suggested combining them. But the shortages behind the power system should not be underestimated, and whether to use the public grid to charge shared cars has become a controversial issue."
+ fe_advance_tech.1.f: ""All these street skaters do is drive around in shared cars! If they could charge them all over the street, they'd just waste all that electricity!""
+ fe_advance_tech.1.a: "As long as there's enough power, no one cares about these issues."
+ fe_advance_tech.1.b: "Everyone should be guaranteed easy access to transportation."
