@@ -11,9 +11,7 @@ je_fe_charging_pile = {
 
 	possible = {
 		any_scope_state = {
-			filter = {
-				is_capital = yes
-			}
+			is_capital = yes
 			any_scope_building = {
 				is_building_type = building_urban_center
 				level >= 10
@@ -29,14 +27,9 @@ je_fe_charging_pile = {
 
 	complete = {
 		any_scope_state = {
-			filter = {
-				is_capital = yes
-			}
+			is_capital = yes
 			any_scope_building = {
-				filter = {
-					is_building_type = building_urban_center
-				}
-				percent > 0.75
+				is_building_type = building_urban_center
 				has_active_production_method = pm_electric_streetlights
 				has_active_production_method = pm_fe_shared_car
 				cash_reserves_ratio >= 0.25
