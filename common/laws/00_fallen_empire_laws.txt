@@ -114,7 +114,7 @@ law_fallen_empire_materials_abundant = { # 物质极大丰富
 	progressiveness = 100
 
 	unlocking_technologies = {
-		fallen_empire_ancient_machine_maintain
+		fallen_empire_ancient_production_line_maintenance
 	}
 
 	modifier = {
