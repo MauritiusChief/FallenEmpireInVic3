@@ -42,3 +42,15 @@ on_law_enactment_pass = {
 		}
 	}
 }
+
+# Root = Country
+on_country_formed = {
+	effect = {
+		if = {
+			limit = {
+				c:UGK ?= ROOT
+			}
+			trigger_event = { id = fe_formation.1 popup = yes }
+		}
+	}
+}
