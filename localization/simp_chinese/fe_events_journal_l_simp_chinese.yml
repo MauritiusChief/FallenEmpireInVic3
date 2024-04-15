@@ -18,8 +18,13 @@
  fe_expand_in_africa.3.a: "这正是推进[SCOPE.sLaw('current_law_scope').GetName]法律的好时机。"
  fe_expand_in_africa.3.b: "这无疑重燃了公众对[SCOPE.sLaw('current_law_scope').GetName]法律的信心。"
  fe_expand_in_africa.3.c: "我看你很有演说天赋嘛，你将会干出一番大事业，就从[SCOPE.sLaw('current_law_scope').GetName]立法开始。"
- 
+
  fe_expand_in_africa_3_general: "促进立法"
+
+ fe_expand_in_africa.4.t: "[SCOPE.sCountry('fe_trade_agreement_target_country').GetName]请愿事件"
+ fe_expand_in_africa.4.d: "定居我国的[SCOPE.sCulture('fe_trade_agreement_target_culture').GetName]公民联合他们的同胞向[SCOPE.sCountry('fe_trade_agreement_target_country').GetNameNoFlag]的[SCOPE.sCountry('fe_trade_agreement_target_country').GetRuler.GetPrimaryRoleTitle]发起了请愿，要求实行多项改革并与[ROOT.GetCountry.GetNameNoFlag]接轨。"
+ fe_expand_in_africa.4.f: "“你问我为什么？我过着安稳的日子，而我的同胞却在饥饿边缘挣扎，我如何能坐视这个事实而无动于衷？”"
+ fe_expand_in_africa.4.a: "民心之所向。"
 
  je_fe_start_waking: "自沉睡之中觉醒"
  je_fe_start_waking_reason: "避难所之中的每个人都认为，我们需要一改屈居非洲一隅的现状，将真正的先进带给这个落后的世界。"
