@@ -67,7 +67,12 @@
 			else_if = { # FE 修改
 				limit = {
 					owner = {
-						has_variable = fallen_empire_ueg_countries
+						OR = {
+							c:UGS ?= this
+							c:UGK ?= this
+							c:UGF ?= this
+							c:UEG ?= this
+						}
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_xenophobia

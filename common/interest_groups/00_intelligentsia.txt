@@ -57,7 +57,12 @@
 			else_if = { # FE 修改
 				limit = {
 					owner = {
-						has_variable = fallen_empire_ueg_countries
+						OR = {
+							c:UGS ?= this
+							c:UGK ?= this
+							c:UGF ?= this
+							c:UEG ?= this
+						}
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_fe_activism
@@ -92,7 +97,12 @@
 		# FE 社会活动家
 		else_if = {
 			limit = {
-				has_variable = fallen_empire_ueg_countries
+				OR = {
+					c:UGS ?= this
+					c:UGK ?= this
+					c:UGF ?= this
+					c:UEG ?= this
+				}
 			}
 			ig:ig_intelligentsia = {
 				set_interest_group_name = ig_fe_social_activist
