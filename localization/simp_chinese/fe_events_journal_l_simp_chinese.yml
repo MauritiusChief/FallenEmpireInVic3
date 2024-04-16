@@ -54,3 +54,8 @@
  fe_formation.2.d: "[ROOT.GetCountry.GetName]宣告成立，进一步统合了这片大陆的资源。"
  fe_formation.2.a: "前进一大步"
 
+ fe_expand_misc.1.t: "标题[SCOPE.sCountry('fe_customs_union_country').GetName]和[ROOT.GetCountry.GetName]"
+ fe_expand_misc.1.d: "描述"
+ fe_expand_misc.1.f: "“名言警句”"
+ fe_expand_misc.1.a: "吞并"
+ fe_expand_misc.1.b: "傀儡"

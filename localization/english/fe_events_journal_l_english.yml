@@ -53,3 +53,9 @@
  fe_formation.2.t: "[ROOT.GetCountry.GetName] established"
  fe_formation.2.d: "[ROOT.GetCountry.GetName] established description"
  fe_formation.2.a: "A great step forward"
+
+ fe_expand_misc.1.t: "Title [SCOPE.sCountry('fe_customs_union_country').GetName] & [ROOT.GetCountry.GetName]"
+ fe_expand_misc.1.d: "describe"
+ fe_expand_misc.1.f: "“quote”"
+ fe_expand_misc.1.a: "annex"
+ fe_expand_misc.1.b: "puppet"
