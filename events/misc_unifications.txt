@@ -1035,7 +1035,7 @@ formation.16 = {
 }
 
 # Generic Unification
-formation.17 = {
+formation.17 = { # FE 修改
 	type = country_event
 	placement = ROOT
 

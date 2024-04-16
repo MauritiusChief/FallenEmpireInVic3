@@ -1,6 +1,6 @@
 namespace = fe_formation
 
-# Generic Unification
+# 成立UGK
 fe_formation.1 = {
 	type = country_event
 	placement = ROOT
@@ -48,6 +48,60 @@ fe_formation.1 = {
 			months = normal_modifier_time
 		}
 		# unification_claims_effect = yes
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+
+# 成立UGF
+fe_formation.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = fe_formation.2.t
+	desc = fe_formation.2.d
+	flavor = fe_formation.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+		c:UGF ?= THIS
+		NOT = { has_global_variable = fe_has_formed_ugf }
+	}
+
+	immediate = {
+		set_global_variable = fe_has_formed_ugf
+		save_scope_as = formation_country
+		capital = {
+			region = {
+				save_scope_as = capital_region_scope
+			}
+		}
+		every_country = {
+			limit = {
+				has_diplomatic_relevance = ROOT
+			}
+			post_notification = unification_notification_generic
+		}
+	}
+
+	option = {
+		name = fe_formation.2.a
+		default_option = yes
+		add_modifier = {
+			name = unification_prestige
+			months = long_modifier_time
+		}
+		fe_ugf_claims_effect = yes # 整个非洲的宣称
 		ai_chance = {
 			factor = 1
 		}

@@ -1,0 +1,28 @@
+fe_ugf_claims_effect = {
+	if = {
+		limit = {
+			any_state_region = {
+				any_scope_state = {
+					state_is_in_africa = yes
+					NOT = { owner = ROOT }
+					NOT = { has_claim_by = ROOT }
+				}
+			}
+		}
+		every_state_region = {
+			limit = {
+				any_scope_state = {
+					state_is_in_africa = yes
+					NOT = { owner = ROOT }
+					NOT = { has_claim_by = ROOT }
+				}
+			}
+			add_claim = ROOT
+		}
+	}
+	else = {
+		add_loyalists = {
+			value = 0.05
+		}
+	}
+}
