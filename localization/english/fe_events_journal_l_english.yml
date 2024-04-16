@@ -49,3 +49,7 @@
  fe_formation.1.d: "Our first landing point towards the new world, [ROOT.GetCountry.GetName], is declared."
  fe_formation.1.f: ""I solemnly swear\nto devote my life and my abilities\nIn defence of United Earth Government""
  fe_formation.1.a: "Illuminating the darkness of ignorance"
+
+ fe_formation.2.t: "[ROOT.GetCountry.GetName] established"
+ fe_formation.2.d: "[ROOT.GetCountry.GetName] established description"
+ fe_formation.2.a: "A great step forward"

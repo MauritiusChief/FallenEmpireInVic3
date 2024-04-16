@@ -61,7 +61,7 @@ fe_formation.2 = {
 
 	title = fe_formation.2.t
 	desc = fe_formation.2.d
-	flavor = fe_formation.2.f
+	flavor = fe_formation.1.f
 
 	event_image = {
 		video = "unspecific_signed_contract"
