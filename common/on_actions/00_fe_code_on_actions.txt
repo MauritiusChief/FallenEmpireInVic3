@@ -9,7 +9,7 @@ on_monthly_pulse_country = {
 				trigger_event = fe_expand_in_africa.1
 				trigger_event = fe_expand_in_africa.2
 
-				trigger_event = fe_expand_in_africa.4
+				# trigger_event = fe_expand_in_africa.4
 				
 			}
 			4 = {
