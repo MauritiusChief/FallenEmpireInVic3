@@ -310,75 +310,75 @@ fe_expand_in_africa.3 = { # 加快立法的事件
 	}
 }
 
-fe_expand_in_africa.4 = { # 改孤立主义
-	type = country_event
-	placement = scope:fe_trade_agreement_target_country.capital
+# fe_expand_in_africa.4 = { # 改孤立主义
+# 	type = country_event
+# 	placement = scope:fe_trade_agreement_target_country.capital
 
-	title = fe_expand_in_africa.4.t
-	desc = fe_expand_in_africa.4.d
-	flavor = fe_expand_in_africa.4.f
+# 	title = fe_expand_in_africa.4.t
+# 	desc = fe_expand_in_africa.4.d
+# 	flavor = fe_expand_in_africa.4.f
 
-	event_image = {
-		video = "africa_public_protest"
-	}
+# 	event_image = {
+# 		video = "africa_public_protest"
+# 	}
 
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+# 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+# 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
-		average_sol >= 20 # 自己国家的生活水平大于安稳
-		any_neighbouring_state = { # 邻居存在满足以下条件的国家……
-			owner = {
-				NOT = { is_country_type = decentralized }
-				average_sol < 10 # ……生活水平小于等于挣扎
-				NOT = { has_war_with = ROOT } # ……没和ROOT打仗
-				has_law = law_type:law_isolationism
-				has_technology_researched = international_trade
-				any_scope_culture = { # ……有被歧视的人口
-					culture_is_discriminated_in = prev
-				}
-			}
-		}
-	}
+# 	trigger = {
+# 		average_sol >= 20 # 自己国家的生活水平大于安稳
+# 		any_neighbouring_state = { # 邻居存在满足以下条件的国家……
+# 			owner = {
+# 				NOT = { is_country_type = decentralized }
+# 				average_sol < 10 # ……生活水平小于等于挣扎
+# 				NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+# 				has_law = law_type:law_isolationism
+# 				has_technology_researched = international_trade
+# 				any_scope_culture = { # ……有被歧视的人口
+# 					culture_is_discriminated_in = prev
+# 				}
+# 			}
+# 		}
+# 	}
 
-	immediate = {
-		random_neighbouring_state = { # 邻居满足以下条件的国家……
-			limit = {
-				owner = {
-					NOT = { is_country_type = decentralized }
-					average_sol < 10 # ……生活水平小于等于挣扎
-					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
-					has_law = law_type:law_isolationism
-					has_technology_researched = international_trade
-					any_scope_culture = { # ……存在被歧视的文化
-						culture_is_discriminated_in = prev
-					}
-				}
-			}
-			owner = {
-				random_scope_culture = {
-					limit = {
-						culture_is_discriminated_in = prev
-					}
-					save_scope_as = fe_trade_agreement_target_culture
-				}
-				save_scope_as = fe_trade_agreement_target_country
-			}
-		}
-		scope:fe_trade_agreement_target_country = {
-			activate_law = law_type:law_mercantilism
-		}
-	}
+# 	immediate = {
+# 		random_neighbouring_state = { # 邻居满足以下条件的国家……
+# 			limit = {
+# 				owner = {
+# 					NOT = { is_country_type = decentralized }
+# 					average_sol < 10 # ……生活水平小于等于挣扎
+# 					NOT = { has_war_with = ROOT } # ……没和ROOT打仗
+# 					has_law = law_type:law_isolationism
+# 					has_technology_researched = international_trade
+# 					any_scope_culture = { # ……存在被歧视的文化
+# 						culture_is_discriminated_in = prev
+# 					}
+# 				}
+# 			}
+# 			owner = {
+# 				random_scope_culture = {
+# 					limit = {
+# 						culture_is_discriminated_in = prev
+# 					}
+# 					save_scope_as = fe_trade_agreement_target_culture
+# 				}
+# 				save_scope_as = fe_trade_agreement_target_country
+# 			}
+# 		}
+# 		scope:fe_trade_agreement_target_country = {
+# 			activate_law = law_type:law_mercantilism
+# 		}
+# 	}
 
-	option = { # 已阅
-		name = fe_expand_in_africa.4.a
-		default_option = yes
-		ai_chance = { base = 1 }
-	}
-}
+# 	option = { # 已阅
+# 		name = fe_expand_in_africa.4.a
+# 		default_option = yes
+# 		ai_chance = { base = 1 }
+# 	}
+# }
 
 # fe_expand_in_africa.5 = { # 模仿德意志统一事件
 
