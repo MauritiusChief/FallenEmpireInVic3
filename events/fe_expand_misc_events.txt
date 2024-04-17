@@ -27,13 +27,7 @@ fe_expand_misc.1 = { # 关税同盟+生活水平差距+关系好=吞并
 				capital = {
 					state_is_in_africa = yes
 				}
-				OR = { # 满足以下条件之一……
-					average_sol < 10 # ……生活水平小于等于挣扎
-					any_trade_route = { # ……与本国有贸易路线
-						exporter.owner = root
-						level > 0
-					}
-				}
+				average_sol < 10 # ……生活水平小于等于挣扎
 				is_ai = yes
 				has_diplomatic_pact = {
 					who = ROOT
@@ -56,13 +50,7 @@ fe_expand_misc.1 = { # 关税同盟+生活水平差距+关系好=吞并
 					capital = {
 						state_is_in_africa = yes
 					}
-					OR = { # 满足以下条件之一……
-						average_sol < 10 # ……生活水平小于等于挣扎
-						any_trade_route = { # ……与本国有贸易路线
-							exporter.owner = root
-							level > 0
-						}
-					}
+					average_sol < 10 # ……生活水平小于等于挣扎
 					is_ai = yes
 					has_diplomatic_pact = {
 						who = ROOT

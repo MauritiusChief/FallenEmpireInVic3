@@ -1,0 +1,467 @@
+fe_teach_technology = {
+	requires_approval = no
+	should_notify_third_parties = no
+
+	unlocking_technologies = {
+		fallen_empire_direct_democracy
+	}
+	
+	potential = {
+		NOT = { is_country_type = decentralized }
+		scope:target_country = {
+			NOT = { is_country_type = decentralized }
+		}	
+		is_revolutionary = no	
+	}
+	
+	possible = {}
+	
+	pact = {	
+		cost = 100
+	
+		is_two_sided_pact = no
+		show_in_outliner = yes
+
+		relations_progress_per_day = 2 # At 100, +1 relations
+		relations_improvement_max = 80
+		
+		income_transfer = 0.05
+		recipient_gets_income_transfer = yes
+		income_transfer_based_on_recipient = yes
+		
+		weekly_effect = {
+			# 工业科技
+			if = { # manufacturies
+				limit = {
+					scope:target_country = { 
+						can_research = manufacturies
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = manufacturies
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # shaft_mining
+				limit = {
+					scope:target_country = { 
+						can_research = shaft_mining
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = shaft_mining
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # steelworking
+				limit = {
+					scope:target_country = { 
+						can_research = steelworking
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = steelworking
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # distillation
+				limit = {
+					scope:target_country = { 
+						can_research = distillation
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = distillation
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # prospecting
+				limit = {
+					scope:target_country = { 
+						can_research = prospecting
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = prospecting
+						}
+						change_infamy = -1
+					}
+				}
+			}
+			# 军事科技
+			if = { # military_drill
+				limit = {
+					scope:target_country = { 
+						can_research = military_drill
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = military_drill
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # navigation
+				limit = {
+					scope:target_country = { 
+						can_research = navigation
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = navigation
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # gunsmithing
+				limit = {
+					scope:target_country = { 
+						can_research = gunsmithing
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = gunsmithing
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # admiralty
+				limit = {
+					scope:target_country = { 
+						can_research = admiralty
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = admiralty
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # artillery
+				limit = {
+					scope:target_country = { 
+						can_research = artillery
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = artillery
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # drydocks
+				limit = {
+					scope:target_country = { 
+						can_research = drydocks
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = drydocks
+						}
+						change_infamy = -1
+					}
+				}
+			}
+			# 社会科技
+			if = { # rationalism
+				limit = {
+					scope:target_country = { 
+						can_research = rationalism
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = rationalism
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # tech_bureaucracy
+				limit = {
+					scope:target_country = { 
+						can_research = tech_bureaucracy
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = tech_bureaucracy
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # democracy
+				limit = {
+					scope:target_country = { 
+						can_research = democracy
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = democracy
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # centralization
+				limit = {
+					scope:target_country = { 
+						can_research = centralization
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = centralization
+						}
+						change_infamy = -1
+					}
+				}
+			} if = { # international_relations
+				limit = {
+					scope:target_country = { 
+						can_research = international_relations
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = international_relations
+						}
+						change_infamy = -2
+					}
+				}
+			} if = { # international_trade
+				limit = {
+					scope:target_country = { 
+						can_research = international_trade
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_researched = international_trade
+						}
+						change_infamy = -2
+					}
+				}
+			}
+		}
+		
+		requirement_to_maintain = {
+			trigger = {
+				has_diplomatic_relevance = scope:target_country
+			}
+		}
+
+	 	requirement_to_maintain = {
+			trigger = {
+				custom_tooltip = {
+					text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
+					scope:target_country.relations:root > relations_threshold:poor
+				}		
+			}
+			
+			show_about_to_break_warning = {
+				scope:target_country.relations:root <= -17 # this is: poor + 3
+				scope:target_country.relations_change_rate:root < 0
+			}					
+		}	
+
+		requirement_to_maintain = {
+			trigger = {
+				custom_tooltip = {
+					text = "DIPLOMATIC_PACT_REQUIREMENT_NOT_DECENTRALIZED"
+					NOT = { is_country_type = decentralized }
+					scope:target_country = {
+						NOT = { is_country_type = decentralized }
+					}				
+				}
+			}
+		}				
+	
+		requirement_to_maintain = {
+			trigger = {
+				custom_tooltip = {
+					text = "DIPLOMATIC_PACT_REQUIREMENT_AT_PEACE"
+					NOT = { has_war_with = scope:target_country }
+				}			
+			}
+		}		
+
+		requirement_to_maintain = {
+			trigger = {
+				country_rank >= scope:target_country.country_rank
+			}
+		}
+
+		requirement_to_maintain = {
+			trigger = {
+				in_default = no
+			}
+		}			
+	}
+	
+	ai = { # 复制的increase_relations的ai
+		max_influence_spending_fraction = 0.20
+	
+		propose_score = {
+			value = 5
+
+			if = {
+				limit = {	
+					has_attitude = {
+						who = scope:target_country
+						attitude = protective
+					}						
+				}
+				
+				add = 5
+			}
+			
+			if = {
+				limit = {
+					has_attitude = {
+						who = scope:target_country
+						attitude = conciliatory
+					}					
+				}
+				
+				add = 20
+			}
+			
+			add = {
+				value = scope:target_country.country_rank
+				multiply = 3
+			}
+			
+			if = {
+				limit = {	
+					OR = {
+						is_subject_of = scope:target_country
+						scope:target_country = { is_subject_of = root }
+					}		
+				}
+				
+				multiply = 2
+			}				
+		}
+	
+		will_propose = { 
+			OR = {
+				AND = {
+					has_attitude = {
+						who = scope:target_country
+						attitude = cooperative
+					}
+					country_rank <= scope:target_country.country_rank				
+				}
+				has_attitude = {
+					who = scope:target_country
+					attitude = conciliatory
+				}	
+				has_attitude = {
+					who = scope:target_country
+					attitude = genial
+				}
+				has_attitude = {
+					who = scope:target_country
+					attitude = protective
+				}	
+			}
+		}	
+		
+		will_break = { # 若所有科技都研究完了也会break
+			NOR = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = genial
+				}	
+				has_attitude = {
+					who = scope:target_country
+					attitude = conciliatory
+				}	
+				has_attitude = {
+					who = scope:target_country
+					attitude = cooperative
+				}
+				has_attitude = {
+					who = scope:target_country
+					attitude = protective
+				}					
+			}
+			scope:target_country = {
+				AND = {
+					# Economic
+					has_technology_researched  = enclosure
+					has_technology_researched = manufacturies
+					has_technology_researched = steelworking
+					has_technology_researched = shaft_mining
+					has_technology_researched = distillation
+					has_technology_researched = prospecting
+					# Military
+					has_technology_researched = military_drill
+					has_technology_researched = standing_army
+					has_technology_researched = navigation
+					has_technology_researched = admiralty
+					has_technology_researched = gunsmithing
+					has_technology_researched = artillery
+					has_technology_researched = drydocks
+					# Cultural
+					has_technology_researched = urbanization
+					has_technology_researched = rationalism
+					has_technology_researched = tech_bureaucracy
+					has_technology_researched = centralization
+					has_technology_researched = democracy
+					has_technology_researched = international_relations
+					has_technology_researched = international_trade
+				}
+			}
+		}	
+	}
+}
