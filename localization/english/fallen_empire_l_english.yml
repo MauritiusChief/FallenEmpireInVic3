@@ -156,6 +156,17 @@
 
  1_Shelter_Guard: "UEG Shelter Guard"
 
+ fe_teach_technology: "Assist Technology"
+ fe_teach_technology_action_name: "$fe_teach_technology$"
+ fe_teach_technology_action_propose_name: "Began to teach science and technology"
+ fe_teach_technology_action_break_name: "Stop teaching science and technology"
+ fe_teach_technology_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] is assisting [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] basic science and technology"
+ fe_teach_technologyl_desc: "#header $fe_teach_technology$#!\n$TOOLTIP_DELIMITER$\nAid basic science and technology to backward countries, while reducing their own infamy."
+ fe_teach_technology_action_notification_name: "[INITIATOR_COUNTRY.GetName] is teaching us science and technology"
+ fe_teach_technology_action_notification_desc: "[INITIATOR_COUNTRY.GetName] begans to teach science and technology, progresses every week."
+ fe_teach_technology_action_notification_break_name: "[INITIATOR_COUNTRY.GetName] no longer teach us science and technology"
+ fe_teach_technology_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName] stops teaching us science and technology."
+
 # Generated Loc
  pmg_fe_tanks_production: "Tanks Production"
  pmg_fe_artillery_production: "Artillery Production"

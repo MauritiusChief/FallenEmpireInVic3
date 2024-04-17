@@ -167,6 +167,17 @@
  
  1_Shelter_Guard: "UEG避难所卫戍军团"
 
+ fe_teach_technology: "援助技术"
+ fe_teach_technology_action_name: "$fe_teach_technology$"
+ fe_teach_technology_action_propose_name: "开始传授科学技术"
+ fe_teach_technology_action_break_name: "停止传授科学技术"
+ fe_teach_technology_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName]正在援助[SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]基本的科学技术。"
+ fe_teach_technologyl_desc: "#header $fe_teach_technology$#!\n$TOOLTIP_DELIMITER$\n向落后国家援助基本的科学技术，同时可减少自己的恶名。"
+ fe_teach_technology_action_notification_name: "[INITIATOR_COUNTRY.GetName]正在援助我国技术"
+ fe_teach_technology_action_notification_desc: "[INITIATOR_COUNTRY.GetName]开始援助我国基本的科学技术，每周都会取得一定进展。"
+ fe_teach_technology_action_notification_break_name: "[INITIATOR_COUNTRY.GetName]不再援助我国技术"
+ fe_teach_technology_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName]终止了对我国的技术援助。"
+
 # 程序生成
  pmg_fe_tanks_production: "坦克生产"
  pmg_fe_artillery_production: "火炮生产"

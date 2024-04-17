@@ -14,9 +14,40 @@ fe_teach_technology = {
 		is_revolutionary = no	
 	}
 	
-	possible = {}
+	possible = {
+		scope:target_country = {
+			NOT = {
+				AND = {
+					# Economic
+					has_technology_researched  = enclosure
+					has_technology_researched = manufacturies
+					has_technology_researched = steelworking
+					has_technology_researched = shaft_mining
+					has_technology_researched = distillation
+					has_technology_researched = prospecting
+					# Military
+					has_technology_researched = military_drill
+					has_technology_researched = standing_army
+					has_technology_researched = navigation
+					has_technology_researched = admiralty
+					has_technology_researched = gunsmithing
+					has_technology_researched = artillery
+					has_technology_researched = drydocks
+					# Cultural
+					has_technology_researched = urbanization
+					has_technology_researched = rationalism
+					has_technology_researched = tech_bureaucracy
+					has_technology_researched = centralization
+					has_technology_researched = democracy
+					has_technology_researched = international_relations
+					has_technology_researched = international_trade
+				}
+			}
+			
+		}
+	}
 	
-	pact = {	
+	pact = {
 		cost = 100
 	
 		is_two_sided_pact = no
@@ -31,7 +62,7 @@ fe_teach_technology = {
 		
 		weekly_effect = {
 			# 工业科技
-			if = { # manufacturies
+			if = { # manufacturies - shaft_mining - prospecting - steelworking
 				limit = {
 					scope:target_country = { 
 						can_research = manufacturies
@@ -41,12 +72,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = manufacturies
+							add_technology_progress = {
+								technology = manufacturies
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # shaft_mining
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = shaft_mining
@@ -56,42 +90,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = shaft_mining
+							add_technology_progress = {
+								technology = shaft_mining
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # steelworking
-				limit = {
-					scope:target_country = { 
-						can_research = steelworking
-					}
-				}
-				random_list = {
-					9 = {}
-					1 = {
-						scope:target_country = {
-							add_technology_researched = steelworking
-						}
-						change_infamy = -1
-					}
-				}
-			} if = { # distillation
-				limit = {
-					scope:target_country = { 
-						can_research = distillation
-					}
-				}
-				random_list = {
-					9 = {}
-					1 = {
-						scope:target_country = {
-							add_technology_researched = distillation
-						}
-						change_infamy = -1
-					}
-				}
-			} if = { # prospecting
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = prospecting
@@ -101,14 +108,54 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = prospecting
+							add_technology_progress = {
+								technology = prospecting
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
+					}
+				}
+			} else_if = { # 
+				limit = {
+					scope:target_country = { 
+						can_research = steelworking
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_progress = {
+								technology = steelworking
+								progress = 500
+							}
+						}
+						change_infamy = -0.1
+					}
+				}
+			}
+			if = { # distillation
+				limit = {
+					scope:target_country = { 
+						can_research = distillation
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_progress = {
+								technology = distillation
+								progress = 500
+							}
+						}
+						change_infamy = -0.1
 					}
 				}
 			}
 			# 军事科技
-			if = { # military_drill
+			if = { # military_drill - gunsmithing - artillery
 				limit = {
 					scope:target_country = { 
 						can_research = military_drill
@@ -118,27 +165,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = military_drill
+							add_technology_progress = {
+								technology = military_drill
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # navigation
-				limit = {
-					scope:target_country = { 
-						can_research = navigation
-					}
-				}
-				random_list = {
-					9 = {}
-					1 = {
-						scope:target_country = {
-							add_technology_researched = navigation
-						}
-						change_infamy = -1
-					}
-				}
-			} if = { # gunsmithing
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = gunsmithing
@@ -148,27 +183,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = gunsmithing
+							add_technology_progress = {
+								technology = gunsmithing
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # admiralty
-				limit = {
-					scope:target_country = { 
-						can_research = admiralty
-					}
-				}
-				random_list = {
-					9 = {}
-					1 = {
-						scope:target_country = {
-							add_technology_researched = admiralty
-						}
-						change_infamy = -1
-					}
-				}
-			} if = { # artillery
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = artillery
@@ -178,12 +201,52 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = artillery
+							add_technology_progress = {
+								technology = artillery
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # drydocks
+			}
+			if = { # navigation - admiralty - drydocks
+				limit = {
+					scope:target_country = { 
+						can_research = navigation
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_progress = {
+								technology = navigation
+								progress = 500
+							}
+						}
+						change_infamy = -0.1
+					}
+				}
+			} else_if = { # 
+				limit = {
+					scope:target_country = { 
+						can_research = admiralty
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_progress = {
+								technology = admiralty
+								progress = 500
+							}
+						}
+						change_infamy = -0.1
+					}
+				}
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = drydocks
@@ -193,14 +256,17 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = drydocks
+							add_technology_progress = {
+								technology = drydocks
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
 			}
 			# 社会科技
-			if = { # rationalism
+			if = { # rationalism - democracy
 				limit = {
 					scope:target_country = { 
 						can_research = rationalism
@@ -210,27 +276,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = rationalism
+							add_technology_progress = {
+								technology = rationalism
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # tech_bureaucracy
-				limit = {
-					scope:target_country = { 
-						can_research = tech_bureaucracy
-					}
-				}
-				random_list = {
-					9 = {}
-					1 = {
-						scope:target_country = {
-							add_technology_researched = tech_bureaucracy
-						}
-						change_infamy = -1
-					}
-				}
-			} if = { # democracy
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = democracy
@@ -240,12 +294,34 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = democracy
+							add_technology_progress = {
+								technology = democracy
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # centralization
+			}
+			if = { # tech_bureaucracy - centralization - international_relations - international_trade
+				limit = {
+					scope:target_country = { 
+						can_research = tech_bureaucracy
+					}
+				}
+				random_list = {
+					9 = {}
+					1 = {
+						scope:target_country = {
+							add_technology_progress = {
+								technology = tech_bureaucracy
+								progress = 500
+							}
+						}
+						change_infamy = -0.1
+					}
+				}
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = centralization
@@ -255,12 +331,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = centralization
+							add_technology_progress = {
+								technology = centralization
+								progress = 500
+							}
 						}
-						change_infamy = -1
+						change_infamy = -0.1
 					}
 				}
-			} if = { # international_relations
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = international_relations
@@ -270,12 +349,15 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = international_relations
+							add_technology_progress = {
+								technology = international_relations
+								progress = 500
+							}
 						}
-						change_infamy = -2
+						change_infamy = -0.2
 					}
 				}
-			} if = { # international_trade
+			} else_if = { # 
 				limit = {
 					scope:target_country = { 
 						can_research = international_trade
@@ -285,9 +367,12 @@ fe_teach_technology = {
 					9 = {}
 					1 = {
 						scope:target_country = {
-							add_technology_researched = international_trade
+							add_technology_progress = {
+								technology = international_trade
+								progress = 500
+							}
 						}
-						change_infamy = -2
+						change_infamy = -0.2
 					}
 				}
 			}
