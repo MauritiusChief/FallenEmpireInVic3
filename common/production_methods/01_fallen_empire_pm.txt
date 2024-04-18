@@ -378,6 +378,7 @@ pm_fe_private_monopoly_ancient_building = {
 		}
 		unscaled = {
 			building_capitalists_shares_add = 10
+			building_workforce_shares_add = 1
 			building_throughput_add = -0.10
 		}
 	}
