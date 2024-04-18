@@ -42,7 +42,7 @@ CHARACTERS = {
 			ideology = ideology_social_democrat
 			traits = {
 				literary
-				tactful
+				charismatic
 			}
 		}
 
