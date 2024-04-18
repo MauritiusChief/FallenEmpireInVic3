@@ -36,7 +36,12 @@
 			else_if = { # FE 修改，避免变成法国
 				limit = {
 					owner = {
-						has_variable = fallen_empire_ueg_countries
+						OR = {
+							c:UGS ?= this
+							c:UGK ?= this
+							c:UGF ?= this
+							c:UEG ?= this
+						}
 					}
 				}
 				set_ig_trait = ig_trait:ig_trait_materiel_waste
