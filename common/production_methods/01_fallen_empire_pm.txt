@@ -218,10 +218,34 @@ pm_fe_100_power = {
 	}
 }
 pm_fe_no_radiation_protect = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_throughput_add = 0.10
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.3
+			building_machinists_mortality_mult = 0.2
+			building_engineers_mortality_mult = 0.1
+		}
+	}
 }
 pm_fe_radiation_protect = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
+	unlocking_technologies = {
+		fallen_empire_singularity_energy_protection
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_lead_add = 20
+			building_throughput_add = 0.05
+		}
+	}
 }
 # 营养中心
 pm_fe_extraction_stop = {
@@ -342,10 +366,25 @@ pm_fe_drill_full = {
 	}
 }
 pm_fe_no_electric_cooling = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_explosives.dds"
+	building_modifiers = {
+		unscaled = {
+			building_laborers_mortality_mult = 0.1
+			building_machinists_mortality_mult = 0.1
+		}
+	}
 }
 pm_fe_electric_cooling = {
-	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_production_line_maintenance
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 20
+			building_throughput_add = 0.05
+		}
+	}
 }
 # 通用：所有权
 pm_fe_volunteer_run_ancient_building = {
