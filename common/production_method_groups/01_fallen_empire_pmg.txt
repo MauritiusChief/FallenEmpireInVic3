@@ -82,3 +82,14 @@ pmg_fe_electric_cooling = {
 		pm_fe_electric_cooling
 	}
 }
+
+# 通用：所有权
+pmg_fe_ownership_all_ancient_building = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_fe_volunteer_run_ancient_building
+		pm_fe_private_monopoly_ancient_building
+		pm_fe_government_run_ancient_building
+		pm_fe_community_run_ancient_building
+	}
+}

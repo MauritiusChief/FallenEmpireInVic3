@@ -347,6 +347,70 @@ pm_fe_no_electric_cooling = {
 pm_fe_electric_cooling = {
 	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
 }
+# 通用：所有权
+pm_fe_volunteer_run_ancient_building = {
+	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
+	unlocking_laws = {
+		law_fallen_empire_materials_abundant
+	}
+	disallowing_laws = {
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clerks_add  = 200
+		}
+		unscaled = {
+			building_clerks_shares_add = 1
+		}
+	}
+}
+pm_fe_private_monopoly_ancient_building = {
+	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+	disallowing_laws = {
+		law_fallen_empire_materials_abundant
+		law_command_economy
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 50
+		}
+		unscaled = {
+			building_capitalists_shares_add = 10
+			building_throughput_add = -0.10
+		}
+	}
+}
+pm_fe_government_run_ancient_building = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	unlocking_laws = {
+		law_command_economy
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_bureaucrats_add = 75
+		}
+		unscaled = {
+			building_government_shares_add = 1
+		}
+	}
+}
+pm_fe_community_run_ancient_building = {
+	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
+	unlocking_laws = {
+		law_cooperative_ownership
+	}
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clerks_add = 50
+			building_employment_shopkeepers_add = 50
+		}
+		unscaled = {
+			building_workforce_shares_add = 1
+		}
+	}
+}
 
 # 在城市中心使用的特殊PM
 pm_fe_self_service_amenities = {
