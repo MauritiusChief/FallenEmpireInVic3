@@ -432,7 +432,8 @@ pm_fe_government_run_ancient_building = {
 			building_employment_bureaucrats_add = 75
 		}
 		unscaled = {
-			building_government_shares_add = 1
+			building_government_shares_add = 10
+			building_workforce_shares_add = 1
 		}
 	}
 }
