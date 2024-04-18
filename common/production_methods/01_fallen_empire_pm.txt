@@ -361,8 +361,7 @@ pm_fe_volunteer_run_ancient_building = {
 			building_employment_clerks_add  = 200
 		}
 		unscaled = {
-			building_clerks_shares_add = 1
-			building_government_shares_add = 1
+			building_workforce_shares_add = 1
 		}
 	}
 }
@@ -408,6 +407,7 @@ pm_fe_community_run_ancient_building = {
 			building_employment_shopkeepers_add = 50
 		}
 		unscaled = {
+			building_government_shares_add = 1
 			building_workforce_shares_add = 1
 		}
 	}
