@@ -362,6 +362,7 @@ pm_fe_volunteer_run_ancient_building = {
 		}
 		unscaled = {
 			building_clerks_shares_add = 1
+			building_government_shares_add = 1
 		}
 	}
 }
