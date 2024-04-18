@@ -107,6 +107,7 @@
  pmg_fe_organic_matter_extraction: "Organic Matter Extraction"
  pmg_fe_general_ore: "Ore Output"
  pmg_fe_electric_cooling: "Electric Cooling"
+ pmg_fe_ownership_all_ancient_building: "$pmg_ownership$"
 
  pm_fe_system_off: "System Off"
  pm_fe_manual_contral: "Manual Contral"
@@ -135,6 +136,10 @@
  pm_fe_drill_full: "Full-Speed Drilling"
  pm_fe_no_electric_cooling: "No Electric Cooling"
  pm_fe_electric_cooling: "Electric Cooling"
+ pm_fe_volunteer_run_ancient_building: "Volunteers Run"
+ pm_fe_private_monopoly_ancient_building: "Private Monopoly"
+ pm_fe_government_run_ancient_building: "$pm_government_run$"
+ pm_fe_community_run_ancient_building: "Community Run"
  
  pm_fe_self_service_amenities: "Self-Service Amenities"
  pm_fe_simulated_sunlight: "Simulated Sunlight"
