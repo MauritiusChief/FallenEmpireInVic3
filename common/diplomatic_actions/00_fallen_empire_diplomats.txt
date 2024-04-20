@@ -19,24 +19,15 @@ fe_teach_technology = {
 			NOT = {
 				AND = {
 					# Economic
-					has_technology_researched  = enclosure
-					has_technology_researched = manufacturies
 					has_technology_researched = steelworking
-					has_technology_researched = shaft_mining
 					has_technology_researched = distillation
 					has_technology_researched = prospecting
 					# Military
 					has_technology_researched = military_drill
-					has_technology_researched = standing_army
-					has_technology_researched = navigation
 					has_technology_researched = admiralty
-					has_technology_researched = gunsmithing
 					has_technology_researched = artillery
 					has_technology_researched = drydocks
 					# Cultural
-					has_technology_researched = urbanization
-					has_technology_researched = rationalism
-					has_technology_researched = tech_bureaucracy
 					has_technology_researched = centralization
 					has_technology_researched = democracy
 					has_technology_researched = international_relations
@@ -377,6 +368,31 @@ fe_teach_technology = {
 				}
 			}
 		}
+
+		requirement_to_maintain = { # 维持条件，科技没有全研究完
+			trigger = {
+				scope:target_country = {
+					NOT = {
+						AND = {
+							# Economic
+							has_technology_researched = steelworking
+							has_technology_researched = distillation
+							has_technology_researched = prospecting
+							# Military
+							has_technology_researched = military_drill
+							has_technology_researched = admiralty
+							has_technology_researched = artillery
+							has_technology_researched = drydocks
+							# Cultural
+							has_technology_researched = centralization
+							has_technology_researched = democracy
+							has_technology_researched = international_relations
+							has_technology_researched = international_trade
+						}
+					}
+				}
+			}
+		}
 		
 		requirement_to_maintain = {
 			trigger = {
@@ -523,24 +539,15 @@ fe_teach_technology = {
 			scope:target_country = {
 				AND = {
 					# Economic
-					has_technology_researched  = enclosure
-					has_technology_researched = manufacturies
 					has_technology_researched = steelworking
-					has_technology_researched = shaft_mining
 					has_technology_researched = distillation
 					has_technology_researched = prospecting
 					# Military
 					has_technology_researched = military_drill
-					has_technology_researched = standing_army
-					has_technology_researched = navigation
 					has_technology_researched = admiralty
-					has_technology_researched = gunsmithing
 					has_technology_researched = artillery
 					has_technology_researched = drydocks
 					# Cultural
-					has_technology_researched = urbanization
-					has_technology_researched = rationalism
-					has_technology_researched = tech_bureaucracy
 					has_technology_researched = centralization
 					has_technology_researched = democracy
 					has_technology_researched = international_relations
