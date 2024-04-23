@@ -551,5 +551,33 @@ pm_fe_remote_data_base = { # 远程数据库
 			building_employment_clerks_add = 3000
 			building_employment_bureaucrats_add = 2000
 		}
-	}	
+	}
+}
+# 在大学使用的特殊PM
+pm_fe_custom_learning_center = { # 定制学习中心
+	texture = "gfx/interface/icons/production_method_icons/fe_circuit_hand.dds"
+	unlocking_technologies = {
+		fallen_empire_ancient_electronic_system_maintenance
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 2
+			goods_input_telephones_add = 5
+			goods_input_radios_add = 3
+		}
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_laborers_add = 1000
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.4
+		}	
+	}
 }
