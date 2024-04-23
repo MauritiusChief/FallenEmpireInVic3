@@ -577,7 +577,7 @@ pm_fe_custom_learning_center = { # 定制学习中心
 	}
 	state_modifiers = {
 		workforce_scaled = { 
-			state_pop_qualifications_mult = 0.4
+			state_pop_qualifications_mult = 0.3
 		}	
 	}
 }
