@@ -12,6 +12,7 @@
  STATE_SHELTER: "Shelter Site"
  region_shelter: "Shelter Region"
  HUB_NAME_STATE_SHELTER_city: "Bunker Town"
+ HUB_NAME_STATE_SHELTER_farm: "Suburban Farm"
  
  UGS_FLAVOR_TEXT: "In 1796, while heading to Lake Mweru, Portuguese explorers accidentally triggered the hibernation suspension program at the United Earth Government's shelter. The people of the shelter awoke and carefully exchanged their knowledge of the world with the European explorers. After 40 years of hesitation, the adults with memories of the old Earth are aging, and a new generation of people who grew up entirely in the shelter is arriving, and the sleeping atmosphere of the UEG shelter is gradually dissipating. How will this world react to the waking UEG Shelter?"
 
