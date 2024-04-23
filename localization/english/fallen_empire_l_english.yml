@@ -145,6 +145,7 @@
  pm_fe_simulated_sunlight: "Simulated Sunlight"
  pm_fe_shared_car: "Shared Car"
  pm_fe_remote_data_base: "Remote Data Base"
+ pm_fe_custom_learning_center: "Custom Learning Center"
 
  combat_unit_type_fe_ww2_armored_force: "WW2 Armored Force"
  combat_unit_type_fe_ww2_armored_force_desc: "A synergistic tank-centered force that combines firepower, defense, and mobility at the same time is rivaled only by other armored units."
