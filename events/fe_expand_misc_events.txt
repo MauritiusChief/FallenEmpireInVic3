@@ -1,98 +1,98 @@
 namespace = fe_expand_misc
 
-fe_expand_misc.1 = { # 关税同盟+生活水平差距+关系好=吞并
-	type = country_event
-	placement = scope:fe_customs_union_country.capital
+# fe_expand_misc.1 = { # 关税同盟+生活水平差距+关系好=吞并
+# 	type = country_event
+# 	placement = scope:fe_customs_union_country.capital
 
-	title = fe_expand_misc.1.t
-	desc = fe_expand_misc.1.d
-	flavor = fe_expand_misc.1.f
+# 	title = fe_expand_misc.1.t
+# 	desc = fe_expand_misc.1.d
+# 	flavor = fe_expand_misc.1.f
 
-	event_image = {
-		video = "unspecific_signed_contract"
-	}
+# 	event_image = {
+# 		video = "unspecific_signed_contract"
+# 	}
 
-	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+# 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+# 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 
-	duration = 3
+# 	duration = 3
 
-	trigger = {
-		# average_sol >= 20 # 安稳生活水平
-		average_sol >= 15 # 温饱
-		any_neighbouring_state = {
-			owner = {
-				NOT = { is_country_type = decentralized }
-				capital = {
-					state_is_in_africa = yes
-				}
-				average_sol < 10 # ……生活水平小于等于挣扎
-				is_ai = yes
-				has_diplomatic_pact = {
-					who = ROOT
-					type = customs_union
-				}
-				OR = {
-					country_tier = kingdom
-					country_tier = principality
-				}
-				relations:root >= 0
-			}
-		}
-	}
+# 	trigger = {
+# 		# average_sol >= 20 # 安稳生活水平
+# 		average_sol >= 15 # 温饱
+# 		any_neighbouring_state = {
+# 			owner = {
+# 				NOT = { is_country_type = decentralized }
+# 				capital = {
+# 					state_is_in_africa = yes
+# 				}
+# 				average_sol < 10 # ……生活水平小于等于挣扎
+# 				is_ai = yes
+# 				has_diplomatic_pact = {
+# 					who = ROOT
+# 					type = customs_union
+# 				}
+# 				OR = {
+# 					country_tier = kingdom
+# 					country_tier = principality
+# 				}
+# 				relations:root >= 0
+# 			}
+# 		}
+# 	}
 
-	immediate = {
-		random_neighbouring_state = {
-			limit = {
-				owner = {
-					NOT = { is_country_type = decentralized }
-					capital = {
-						state_is_in_africa = yes
-					}
-					average_sol < 10 # ……生活水平小于等于挣扎
-					is_ai = yes
-					has_diplomatic_pact = {
-						who = ROOT
-						type = customs_union
-					}
-					OR = {
-						country_tier = kingdom
-						country_tier = principality
-					}
-				}
-			}
-			owner = {
-				save_scope_as = fe_customs_union_country
-			}
-		}
-	}
+# 	immediate = {
+# 		random_neighbouring_state = {
+# 			limit = {
+# 				owner = {
+# 					NOT = { is_country_type = decentralized }
+# 					capital = {
+# 						state_is_in_africa = yes
+# 					}
+# 					average_sol < 10 # ……生活水平小于等于挣扎
+# 					is_ai = yes
+# 					has_diplomatic_pact = {
+# 						who = ROOT
+# 						type = customs_union
+# 					}
+# 					OR = {
+# 						country_tier = kingdom
+# 						country_tier = principality
+# 					}
+# 				}
+# 			}
+# 			owner = {
+# 				save_scope_as = fe_customs_union_country
+# 			}
+# 		}
+# 	}
 
-	option = { # 吞并
-		name = fe_expand_misc.1.a
-		default_option = yes
-		scope:fe_customs_union_country = {
-			root = { annex_with_incorporation = prev }
-		}
-	}
+# 	option = { # 吞并
+# 		name = fe_expand_misc.1.a
+# 		default_option = yes
+# 		scope:fe_customs_union_country = {
+# 			root = { annex_with_incorporation = prev }
+# 		}
+# 	}
 
-	option = { # 变傀儡
-		name = fe_expand_misc.1.b
-		scope:fe_customs_union_country = {
-			hidden_effect = {
-				remove_diplomatic_pact = {
-					country = ROOT
-					type = customs_union
-				}
-			}
-			create_diplomatic_pact = {
-				country = ROOT
-				type = puppet
-			}
-			change_relations = {
-				country = ROOT
-				value = 50
-			}
-		}
-	}
-}
+# 	option = { # 变傀儡
+# 		name = fe_expand_misc.1.b
+# 		scope:fe_customs_union_country = {
+# 			hidden_effect = {
+# 				remove_diplomatic_pact = {
+# 					country = ROOT
+# 					type = customs_union
+# 				}
+# 			}
+# 			create_diplomatic_pact = {
+# 				country = ROOT
+# 				type = puppet
+# 			}
+# 			change_relations = {
+# 				country = ROOT
+# 				value = 50
+# 			}
+# 		}
+# 	}
+# }
