@@ -56,6 +56,12 @@ COUNTRIES = {
 			level = 5
 		}
 
+		ig:ig_intelligentsia = {
+			add_ruling_interest_group = yes
+		}
+
+		add_treasury = 50000 # 测试开局满黄金储备
+
 		set_variable = fallen_empire_ueg_countries
 
 		# 日志
