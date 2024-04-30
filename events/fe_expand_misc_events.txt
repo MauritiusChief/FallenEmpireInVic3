@@ -1,5 +1,46 @@
 namespace = fe_expand_misc
 
+fe_expand_misc.00 = {
+	type = country_event
+    placement = ROOT
+	
+    # hidden = yes
+
+	immediate = {
+		trigger_event = { id = fe_expand_misc.01 days = 3 }
+	}
+}
+
+fe_expand_misc.01 = { # 测试开局加钱功能
+	type = country_event
+    placement = ROOT
+	
+    # hidden = yes
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		add_treasury = 8500000
+
+		set_variable = fe_start_event_done
+	}
+
+	option = {
+		default_option = yes
+	}
+}
+
 # fe_expand_misc.1 = { # 关税同盟+生活水平差距+关系好=吞并
 # 	type = country_event
 # 	placement = scope:fe_customs_union_country.capital

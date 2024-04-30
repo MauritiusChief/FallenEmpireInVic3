@@ -60,7 +60,9 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		add_treasury = 50000 # 测试开局满黄金储备
+		# trigger_event = {
+		# 	id = fe_expand_misc.00 # 开局事件
+		# }
 
 		set_variable = fallen_empire_ueg_countries
 
