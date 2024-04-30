@@ -12,16 +12,16 @@
  fe_expand_in_africa.2.f: ""Have you heard? It's surprising that those natives aren't afraid of our assault rifles anymore! I guess either someone taught them what it is, or they've been brainwashed by their king......""
  fe_expand_in_africa.2.a: "Hope things don't turn out to be troublesome."
 
- fe_expand_in_africa.3.t: "Obligation of The Forerunner"
- fe_expand_in_africa.3.d: "Several natives who have been living in [ROOT.GetCountry.GetName] for decades held a moving public speech, arguing that [ROOT.GetCountry.GetName], as the forerunner of civilization, should help the disadvantaged regions. \nThis speech, like a stone thrown into stagnant water, created a wave of discussion in the community."
- fe_expand_in_africa.3.f: ""Twenty years ago, my brother $Kisempia$ and I belonged to the same family; and 20 years later, while I am here in this nice cool room, speaking in a clean suit, $Kisempia$ is suffering from a disease in a hot, dirty hayloft, which is deeply disturbing to me, and I could have allowed him to enjoy the same kind of life as I did. ""
- fe_expand_in_africa.3.a: "This is a good time to advance the [SCOPE.sLaw('current_law_scope').GetName] law."
+ fe_expand_in_africa.3.t: "Tide of Colonization"
+ fe_expand_in_africa.3.d: "Previous explorations of the Congo River estuary have encouraged large numbers of unemployed people to support the ongoing [SCOPE.sLaw('current_law_scope').GetName] enactments as an opportunity to bring them a new life."
+ fe_expand_in_africa.3.f: ""PlAcE HoLdEr""
+ fe_expand_in_africa.3.a: "This is a good time to complete the [SCOPE.sLaw('current_law_scope').GetName] law."
  fe_expand_in_africa.3.b: "This has certainly rekindled public confidence in the [SCOPE.sLaw('current_law_scope').GetName] law."
- fe_expand_in_africa.3.c: "I see you have a talent for speech, you're going to do great things, starting with [SCOPE.sLaw('current_law_scope').GetName] enactments."
+ fe_expand_in_africa.3.c: "We can't stop the public's enthusiasm for [SCOPE.sLaw('current_law_scope').GetName]."
  
  fe_expand_in_africa_3_general: "Promoting Enactment"
 
- fe_expand_in_africa.4.t: "Petitioner Event of [SCOPE.sCountry('fe_trade_agreement_target_country').GetName]"
+ fe_expand_in_africa.4.t: "Petitioner Event of [SCOPE.sCountry('fe_trade_agreement_target_country').GetName]" # Temporary suspension
  fe_expand_in_africa.4.d: "[SCOPE.sCulture('fe_trade_agreement_target_culture').GetName] citizens who are settled in our country have joined with their compatriots to send a letter to [SCOPE.sCountry('fe_trade_agreement_target_country').GetRuler.GetPrimaryRoleTitle] of [SCOPE.sCountry('fe_trade_agreement_target_country').GetNameNoFlag] has started a petition to implement a number of reforms and to establish a link with [ROOT.GetCountry.GetNameNoFlag]."
  fe_expand_in_africa.4.f: ""You ask me why? How can I sit back and do nothing about the fact that I am living a secure life while my countrymen are struggling on the brink of starvation?""
  fe_expand_in_africa.4.a: "What the people want."
@@ -36,6 +36,16 @@
 
  fe_neutralize_materials_abundant_prestige_minus: "Advanced Producer"
 
+ je_fe_congo_expedition: "Congo Expedition"
+ je_fe_congo_expedition_reason: "Congo expedition reason."
+ je_fe_congo_expedition_goal: "Congo expedition goal." 
+
+ fe_congo_river_expedition: "Congo Expedition"
+ fe_congo_river_expedition_desc: "Congo expedition desc."
+ fe_congo_river_expedition_tooltip: "tooltip"
+ fe_modifier_congo_river_expedition_complete: "complete"
+
+ # Tech Events
  je_fe_charging_pile: "Charging Pile"
  je_fe_charging_pile_reason: "The [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName] is taking shape as the center of society shifts from the shelter under the rock to the surface. While unmanned stores and car sharing provided by civil society organisations have spread [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName], the need to include charging piles as part of the power supply system as part of the infrastructure continues to be widely discussed."
 
@@ -54,7 +64,7 @@
  fe_formation.2.d: "[ROOT.GetCountry.GetName] established description"
  fe_formation.2.a: "A great step forward"
 
- fe_expand_misc.1.t: "Title [SCOPE.sCountry('fe_customs_union_country').GetName] & [ROOT.GetCountry.GetName]"
+ fe_expand_misc.1.t: "Title [SCOPE.sCountry('fe_customs_union_country').GetName] & [ROOT.GetCountry.GetName]"  # Temporary suspension
  fe_expand_misc.1.d: "describe"
  fe_expand_misc.1.f: "“quote”"
  fe_expand_misc.1.a: "annex"

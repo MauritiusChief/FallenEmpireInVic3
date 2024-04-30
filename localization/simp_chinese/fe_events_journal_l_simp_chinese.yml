@@ -12,16 +12,16 @@
  fe_expand_in_africa.2.f: "“你听说了吗？那些土著竟然不再害怕我们的自动步枪了！我猜要么是有人教了他们这是什么，要么就是已经被他们的国王洗脑了……”"
  fe_expand_in_africa.2.a: "希望事情不要变麻烦。"
 
- fe_expand_in_africa.3.t: "先行者的义务"
- fe_expand_in_africa.3.d: "数名已在[ROOT.GetCountry.GetName]生活几十年的原住民举行了一场感人的公开演讲，认为[ROOT.GetCountry.GetName]作为文明的先行者应当对落后地区给予帮助。这番演讲像一块石头被投入一潭死水一般，在社会上掀起了讨论的浪潮。"
- fe_expand_in_africa.3.f: "“20年之前，我与兄弟$Kisempia$本同属一个家庭；而20年之后，我在这凉爽的室内，穿着干净的西装在此演讲，$Kisempia$却在酷热、肮脏的草房中忍受疾病的折磨，这让我深感不安，我本可以让他享有与我一样的生活。”"
- fe_expand_in_africa.3.a: "这正是推进[SCOPE.sLaw('current_law_scope').GetName]法律的好时机。"
+ fe_expand_in_africa.3.t: "殖民浪潮"
+ fe_expand_in_africa.3.d: "先前探索刚果河出海口的活动鼓动了大批失业者支持正在推行的[SCOPE.sLaw('current_law_scope').GetName]立法，认为这是带给他们新生活的机会。"
+ fe_expand_in_africa.3.f: "“想不出来”"
+ fe_expand_in_africa.3.a: "这正是完善[SCOPE.sLaw('current_law_scope').GetName]法律制定的好时机。"
  fe_expand_in_africa.3.b: "这无疑重燃了公众对[SCOPE.sLaw('current_law_scope').GetName]法律的信心。"
- fe_expand_in_africa.3.c: "我看你很有演说天赋嘛，你将会干出一番大事业，就从[SCOPE.sLaw('current_law_scope').GetName]立法开始。"
+ fe_expand_in_africa.3.c: "我们无法阻拦公众对[SCOPE.sLaw('current_law_scope').GetName]的热情。"
 
  fe_expand_in_africa_3_general: "促进立法"
 
- fe_expand_in_africa.4.t: "[SCOPE.sCountry('fe_trade_agreement_target_country').GetName]请愿事件"
+ fe_expand_in_africa.4.t: "[SCOPE.sCountry('fe_trade_agreement_target_country').GetName]请愿事件" # 暂时停用
  fe_expand_in_africa.4.d: "定居我国的[SCOPE.sCulture('fe_trade_agreement_target_culture').GetName]公民联合他们的同胞向[SCOPE.sCountry('fe_trade_agreement_target_country').GetNameNoFlag]的[SCOPE.sCountry('fe_trade_agreement_target_country').GetRuler.GetPrimaryRoleTitle]发起了请愿，要求实行多项改革并与[ROOT.GetCountry.GetNameNoFlag]接轨。"
  fe_expand_in_africa.4.f: "“你问我为什么？我过着安稳的日子，而我的同胞却在饥饿边缘挣扎，我如何能坐视这个事实而无动于衷？”"
  fe_expand_in_africa.4.a: "民心之所向。"
@@ -35,7 +35,35 @@
  je_fe_united_africa_form_ugf_tt: "成立$UGF$。"
 
  fe_neutralize_materials_abundant_prestige_minus: "先进生产者"
+
+ je_fe_congo_expedition: "找到刚果河出海口"
+ je_fe_congo_expedition_reason: "殖民安置加速，建立殖民地后弹事件在各个region刷殖民地，直接连起来市场（？）"
+ je_fe_congo_expedition_goal: "测绘刚果河河道。" 
  
+ fe_congo_river_expedition: "找到刚果河出海口"
+ fe_congo_river_expedition_desc: "找到刚果河出海口描述。"
+ fe_congo_river_expedition_tooltip: "要求："
+ fe_modifier_congo_river_expedition_complete: "测绘刚果河河道"
+ 
+ fe_expedition_events.601.t: "寻找刚果河出海口"
+ fe_expedition_events.601.d: "一支探险队已经被派去姆韦鲁湖，准备顺流而下寻找刚果河出海口。"
+ fe_expedition_events.601.f: "“真想亲眼看到辽阔的大海啊！”"
+ fe_expedition_events.601.a: "愿你们平安归来。"
+
+ fe_expedition_events.604.d: "经过几个星期的准备与旅途，由[SCOPE.sCharacter('expedition_leader').GetFullName]带领的探险队抵达了姆韦鲁湖。他们将从这里开始，踏上绘制这条难以捉摸河流路线的征程。"
+
+ fe_expedition_events.611.t: "测绘完成" # 大赢
+ fe_expedition_events.611.d: "[SCOPE.sCharacter('expedition_leader').GetFullName]已将详细的刚果河测绘数据以及沿岸状况发回，其中包含数个适合建立殖民地的地点，这其中最重要的就是位于出海口一处地点，非常适合船只停泊。"
+ fe_expedition_events.611.f: "“你敢相信吗？我们真的亲眼看到大海了！感受海风与海盐的气息吧，我想念它们太久了……”"
+
+ fe_expedition_events.612.t: "测绘失败" # 小赢
+ fe_expedition_events.612.d: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，所有辎重都被落下，但仍然设法抵达了出海口。"
+ fe_expedition_events.612.d2: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，一些设备落水，但仍然勉强完成测绘，并发回一张幸存者们在大西洋前的合照。"
+ fe_expedition_events.612.f: "“想不出来了以后再想吧。”"
+ fe_expedition_events.612.a: "派出队伍拯救这些勇士。"
+ fe_expedition_events.612.b: "派出队伍拯救这些勇士。"
+
+ # 科技事件
  je_fe_charging_pile: "路灯充电桩"
  je_fe_charging_pile_reason: "随着社会的中心从岩石之下的避难所转移至地表，[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]正在成型。虽然民间组织提供的无人商店与共享汽车已遍布[SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName]，但是否要要将充电桩作为供电系统的一部分纳入基础设施依然得到了广泛讨论。"
 
@@ -54,7 +82,7 @@
  fe_formation.2.d: "[ROOT.GetCountry.GetName]宣告成立，进一步统合了这片大陆的资源。"
  fe_formation.2.a: "前进一大步"
 
- fe_expand_misc.1.t: "标题[SCOPE.sCountry('fe_customs_union_country').GetName]和[ROOT.GetCountry.GetName]"
+ fe_expand_misc.1.t: "标题[SCOPE.sCountry('fe_customs_union_country').GetName]和[ROOT.GetCountry.GetName]" # 暂时停用
  fe_expand_misc.1.d: "描述"
  fe_expand_misc.1.f: "“名言警句”"
  fe_expand_misc.1.a: "吞并"
