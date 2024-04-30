@@ -1,0 +1,359 @@
+namespace = fe_expedition
+
+fe_expedition_events.601 = { #Start event
+	type = country_event
+    placement = ROOT
+
+    title = fe_expedition_events.601.t
+    desc = fe_expedition_events.601.d
+    flavor = fe_expedition_events.601.f
+
+    duration = 3
+
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	immediate = {
+	}
+
+	option = {
+		name = fe_expedition_events.601.a
+		trigger_event = { id = fe_expedition_events.602 days = 0 popup = yes }
+	}
+}
+
+fe_expedition_events.602 = { #Choose commander
+	type = country_event
+    placement = ROOT
+
+    title = expedition_events.2.t
+    desc = expedition_events.2.d
+    flavor = expedition_events.2.f
+
+    duration = 3
+
+	event_image = {
+		video = "middleeast_jungle_expedition"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	trigger = {
+		any_scope_character = {
+			OR = {
+				has_role = general
+				has_role = admiral
+			}
+			is_ruler = no
+			is_busy = no
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				any_scope_character = {
+					is_busy = no
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					is_ruler = no
+					has_trait = explorer
+				}
+			}
+			random_scope_character = {
+				limit = {
+					is_busy = no
+					is_ruler = no
+					OR = {
+						has_role = general
+						has_role = admiral
+					}
+					has_trait = explorer
+				}
+				save_scope_as = expedition_leader_1
+			}
+		}
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				OR = {
+					has_role = general
+					has_role = admiral
+				}
+				trigger_if = {
+					limit = { exists = scope:expedition_leader_1 }
+					NOT = {
+						this = scope:expedition_leader_1
+					}
+				}
+			}
+			save_scope_as = expedition_leader_2
+		}
+		random_scope_character = {
+			limit = {
+				is_busy = no
+				is_ruler = no
+				OR = {
+					has_role = general
+					has_role = admiral
+				}
+				NOR = {
+					AND = {
+						exists = scope:expedition_leader_1
+						this = scope:expedition_leader_1
+					}
+					this = scope:expedition_leader_2
+				}
+
+			}
+			save_scope_as = expedition_leader_3
+		}
+		set_variable = fe_congo_river_expedition_var
+		set_variable = {
+			name = expedition_progress
+			value = 1
+		}
+		set_variable = {
+			name = expedition_peril
+			value = 1
+		}
+		fe_congo_river_expedition_location = yes
+	}
+
+	option = {
+		name = expedition_events.602.a
+		trigger = {
+			exists = scope:expedition_leader_1
+		}
+		custom_tooltip = expedition_costs_tt
+		add_modifier = {
+			name = modifier_large_expedition_cost
+			multiplier = money_amount_multiplier_medium
+		}
+		scope:expedition_leader_1 = {
+			set_character_busy_and_immortal = yes
+			set_variable = expedition_leader_var
+		}
+		trigger_event = { id = fe_expedition_events.604 days = 15 }
+	}
+
+	option = {
+		name = expedition_events.602.b
+		default_option = yes
+		trigger = {
+			exists = scope:expedition_leader_2
+		}
+		custom_tooltip = expedition_costs_tt
+		add_modifier = {
+			name = modifier_large_expedition_cost
+			multiplier = money_amount_multiplier_medium
+		}
+		scope:expedition_leader_2 = {
+			set_character_busy_and_immortal = yes
+			set_variable = expedition_leader_var
+		}
+		trigger_event = { id = fe_expedition_events.604 days = 15 }
+	}
+
+	option = {
+		name = expedition_events.602.c	
+		trigger = {
+			exists = scope:expedition_leader_3
+		}
+		custom_tooltip = expedition_costs_tt
+		add_modifier = {
+			name = modifier_large_expedition_cost
+			multiplier = money_amount_multiplier_medium
+		}
+		scope:expedition_leader_3 = {
+			set_character_busy_and_immortal = yes
+			set_variable = expedition_leader_var
+		}
+		trigger_event = { id = fe_expedition_events.604 days = 15 }
+	}
+}
+
+fe_expedition_events.604 = { #Expedition Arrives
+	type = country_event
+    placement = scope:current_expedition_location
+
+    title = expedition_events.604.t
+    desc = fe_expedition_events.604.d
+    flavor = expedition_events.604.f
+
+    duration = 3
+
+	event_image = {
+		video = "middleeast_jungle_expedition"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	
+	immediate = {
+		fe_congo_river_expedition_location = yes
+		random_scope_character = {
+			limit = { has_variable = expedition_leader_var }
+			save_scope_as = expedition_leader
+		}
+	}
+
+	option = {
+		name = expedition_events.604.a
+		default_option = yes
+		add_journal_entry = {
+			type = je_fe_congo_expedition
+		}
+	}
+}
+
+fe_expedition_events.611 = { #大赢：殖民时自动弹事件将殖民地和内陆连起来；立法加速；殖民加速；
+	type = country_event
+    placement = ROOT
+
+    title = fe_expedition_events.611.t
+    desc = fe_expedition_events.611.d
+    flavor = fe_expedition_events.611.f
+
+    duration = 3
+
+	event_image = {
+		video = "unspecific_steam_ship"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	immediate = {
+		remove_variable = on_expedition
+		set_global_variable = fe_congo_river_explored
+		random_scope_character = {
+			limit = { has_variable = expedition_leader_var }
+			save_scope_as = expedition_leader
+		}
+		if = {
+			limit = {
+				has_variable = killed_lost_expedition_var
+			}
+			trigger_event = { id = expedition_events.696 days = 30 }
+		}
+		remove_expedition_events_effect = yes
+	}
+
+	option = {
+		name = expedition_events.611.a
+		default_option = yes
+		add_modifier = {
+			name = fe_modifier_congo_river_expedition_complete
+			months = long_modifier_time
+		}
+		scope:expedition_leader = {
+			add_trait = explorer
+			set_character_busy_and_immortal = no
+			add_modifier = {
+				name = congo_expedition_modifier
+				months = normal_modifier_time
+			}
+		}
+	}
+}
+
+fe_expedition_events.612 = { #小赢：立法加速；殖民加速   小输：仅立法加速
+	type = country_event
+    placement = ROOT
+
+    title = fe_expedition_events.612.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = fe_expedition_events.612.d
+				trigger = {
+					NOR = { 
+						exists = var:expedition_progress
+						var:expedition_progress >= 6 
+					}
+				}
+			}
+			triggered_desc = {
+				desc = fe_expedition_events.612.d2
+				trigger = {
+					exists = var:expedition_progress
+					var:expedition_progress >= 6
+				}
+			}
+		}
+	}
+    flavor = fe_expedition_events.612.f
+
+    duration = 3
+
+	event_image = {
+		video = "middleeast_jungle_expedition"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	immediate = {
+		remove_variable = on_expedition
+		set_global_variable = fe_congo_river_explored
+		remove_expedition_events_effect = yes
+		random_scope_character = {
+			limit = { has_variable = expedition_leader_var }
+			save_scope_as = expedition_leader
+		}
+	}
+
+	option = {
+		name = fe_expedition_events.612.a
+		default_option = yes
+		trigger = {
+			OR = {
+				NOR = { 
+					exists = var:expedition_progress
+					var:expedition_progress >= 6 
+				}
+				is_ai = yes
+			}
+		}
+		scope:expedition_leader = {
+			set_character_busy_and_immortal = no
+			add_trait = explorer
+			add_trait = wounded
+		}
+	}
+
+	option = {
+		name = fe_expedition_events.612.b
+		default_option = yes
+		trigger = {
+			var:expedition_progress >= 6
+		}
+		add_modifier = {
+			name = fe_modifier_congo_river_expedition_complete
+			months = long_modifier_time
+		}
+		scope:expedition_leader = {
+			set_character_busy_and_immortal = no
+			add_trait = explorer
+			add_modifier = {
+				name = congo_expedition_modifier
+				months = normal_modifier_time
+			}
+		}
+	}
+}

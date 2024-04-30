@@ -201,7 +201,7 @@ fe_expand_in_africa.2 = { # 暴力扩张，松散部落直接变国家（然后�
 	}
 }
 
-fe_expand_in_africa.3 = { # 加快立法的事件（暂废弃）
+fe_expand_in_africa.3 = { # 加快立法的事件，作为完成刚果河入海口探索奖励（3个结局都行）
 	type = country_event
 	placement = ROOT
 
@@ -219,26 +219,16 @@ fe_expand_in_africa.3 = { # 加快立法的事件（暂废弃）
 
 	duration = 3
 
-	cooldown = { months = 6 }
+	cooldown = { months = 3 }
 
 	trigger = {
 		exists = c:UGS
 		c:UGS = ROOT
+		has_global_variable = fe_congo_river_explored
 		has_law = law_type:law_no_colonial_affairs # 正在改掉无殖民事务
 		OR = {
-			is_enacting_law = law_type:law_frontier_colonization
+			is_enacting_law = law_type:law_colonial_exploitation
 			is_enacting_law = law_type:law_colonial_resettlement
-		}
-		average_sol >= 20 # 生活水平很好
-		any_scope_state = {
-			any_scope_pop = { # 有不被歧视的非洲黑叔叔
-				pop_is_discriminated = no
-				OR = {
-					culture = cu:lunda
-					culture = cu:luba
-					culture = cu:fluvian_bantu
-				}
-			}
 		}
 	}
 
@@ -253,7 +243,7 @@ fe_expand_in_africa.3 = { # 加快立法的事件（暂废弃）
 		default_option = yes
 		add_enactment_modifier = {
 			name = fe_expand_in_africa_3_general
-			multiplier = 1
+			multiplier = 3
 		}
 	}
 	option = { # 消除受挫
@@ -262,49 +252,48 @@ fe_expand_in_africa.3 = { # 加快立法的事件（暂废弃）
 			enactment_setback_count > 0
 		}
 		add_enactment_setback = -1
+		add_enactment_modifier = {
+			name = fe_expand_in_africa_3_general
+			multiplier = 2
+		}
 	}
-	option = { # 加一个煽动者
+	option = { # 跳过步骤
 		name = fe_expand_in_africa.3.c
 		trigger = {
 			enactment_phase < 1
-			empty_agitator_slots >= 1
-			NOT = { has_variable = native_agitator_added_var }
 		}
 		add_enactment_phase = 1
 		add_enactment_modifier = {
 			name = fe_expand_in_africa_3_general
+			multiplier = 1
 		}
-		random_list = {
-			5 = {
-				create_character = {
-					is_agitator = yes
-					interest_group = ig_intelligentsia
-					female = no
-					culture = cu:fluvian_bantu
-					ideology = ideology_liberal_leader
-					traits = {
-						ambitious
-					}
-				}
-			}
-			5 = {
-				create_character = {
-					is_agitator = yes
-					interest_group = ig_trade_unions
-					female = no
-					culture = cu:fluvian_bantu
-					ideology = ideology_communist
-					traits = {
-						ambitious
-					}
-				}
-			}
-		}
-		
-		set_variable = native_agitator_added_var
 	}
 }
 
-fe_expand_in_africa.4 = { # 
+fe_expand_in_africa.4 = { # 一次性沿刚果河创建多个殖民地
+	type = country_event
+	placement = scope:fe_peaceful_expand_target_country.capital
 
+	title = fe_expand_in_africa.4.t
+	desc = fe_expand_in_africa.4.d
+	flavor = fe_expand_in_africa.4.f
+
+	event_image = {
+		video = "africa_construction_colony"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	duration = 3
+
+	trigger = {
+		# 创建殖民地时自动触发
+	}
+
+	immediate = {
+		
+		set_variable = fe_colony_created
+	}
 }
