@@ -69,5 +69,7 @@ COUNTRIES = {
 		set_variable = combustion_engines_je_done # 公共交通
 		set_variable = elevators_je_done # 电梯
 		set_variable = telephone_je_done # 电话
+		# 决议
+		set_variable = congo_river_explored # 刚果河溯源探险
 	}
 }
