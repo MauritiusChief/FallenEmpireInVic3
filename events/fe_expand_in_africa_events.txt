@@ -272,7 +272,7 @@ fe_expand_in_africa.3 = { # 加快立法的事件，作为完成刚果河入海�
 
 fe_expand_in_africa.4 = { # 一次性沿刚果河创建多个殖民地
 	type = country_event
-	placement = scope:fe_peaceful_expand_target_country.capital
+	placement = ROOT
 
 	title = fe_expand_in_africa.4.t
 	desc = fe_expand_in_africa.4.d
@@ -293,7 +293,30 @@ fe_expand_in_africa.4 = { # 一次性沿刚果河创建多个殖民地
 	}
 
 	immediate = {
-		
+		s:STATE_BAS_CONGO = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = { x811426 }
+			}
+		}
+		s:STATE_CONGO_ORIENTALE = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = { x85DD57 }
+			}
+		}
+		s:STATE_EQUATEUR = {
+			set_owner_of_provinces = {
+				country = ROOT
+				provinces = { xCB6124 }
+			}
+		}
 		set_variable = fe_colony_created
+	}
+
+	option = { # 好耶
+		name = fe_expand_in_africa.4.a
+		default_option = yes
+		ai_chance = { base = 1 }
 	}
 }
