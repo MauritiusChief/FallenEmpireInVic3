@@ -56,7 +56,7 @@ COUNTRIES = {
 			level = 5
 		}
 
-		ig:ig_intelligentsia = {
+		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
 		}
 
