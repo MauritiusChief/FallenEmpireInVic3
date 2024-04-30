@@ -137,10 +137,10 @@ pm_fe_motorhome = { # 房车
 	}
 	country_modifiers = {
 		workforce_scaled = { 
-			state_colony_growth_speed_mult = 2.0
+			state_colony_growth_speed_mult = 1.0
 		}
 		level_scaled = {
-			state_colony_growth_creation_mult = 1.5
+			state_colony_growth_creation_mult = 0.5
 		}
 	}
 	building_modifiers = {
@@ -166,10 +166,10 @@ pm_fe_armed_atv = { # 武装ATV
 	}
 	country_modifiers = {
 		workforce_scaled = { 
-			state_colony_growth_speed_mult = 5.0
+			state_colony_growth_speed_mult = 2.0
 		}
 		level_scaled = {
-			state_colony_growth_creation_mult = 2.5
+			state_colony_growth_creation_mult = 1.0
 			country_tension_decay_mult = -0.5
 		}
 	}
