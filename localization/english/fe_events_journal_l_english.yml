@@ -21,10 +21,10 @@
  
  fe_expand_in_africa_3_general: "Promoting Enactment"
 
- fe_expand_in_africa.4.t: "Petitioner Event of [SCOPE.sCountry('fe_trade_agreement_target_country').GetName]" # Temporary suspension
- fe_expand_in_africa.4.d: "[SCOPE.sCulture('fe_trade_agreement_target_culture').GetName] citizens who are settled in our country have joined with their compatriots to send a letter to [SCOPE.sCountry('fe_trade_agreement_target_country').GetRuler.GetPrimaryRoleTitle] of [SCOPE.sCountry('fe_trade_agreement_target_country').GetNameNoFlag] has started a petition to implement a number of reforms and to establish a link with [ROOT.GetCountry.GetNameNoFlag]."
- fe_expand_in_africa.4.f: ""You ask me why? How can I sit back and do nothing about the fact that I am living a secure life while my countrymen are struggling on the brink of starvation?""
- fe_expand_in_africa.4.a: "What the people want."
+ fe_expand_in_africa.4.t: "Congo River Colony"
+ fe_expand_in_africa.4.d: "decsription"
+ fe_expand_in_africa.4.f: ""quote""
+ fe_expand_in_africa.4.a: "Good."
 
  je_fe_start_waking: "Awakening From Falling"
  je_fe_start_waking_reason: "Everyone in the shelter believes that we need to change the status quo of being in the corner of Africa and bring real progress to this backward world."
