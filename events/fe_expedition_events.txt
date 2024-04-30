@@ -139,7 +139,7 @@ fe_expedition_events.602 = { #Choose commander
 		custom_tooltip = expedition_costs_tt
 		add_modifier = {
 			name = modifier_large_expedition_cost
-			multiplier = money_amount_multiplier_medium
+			multiplier = 1000
 		}
 		scope:expedition_leader_1 = {
 			set_character_busy_and_immortal = yes
@@ -157,7 +157,7 @@ fe_expedition_events.602 = { #Choose commander
 		custom_tooltip = expedition_costs_tt
 		add_modifier = {
 			name = modifier_large_expedition_cost
-			multiplier = money_amount_multiplier_medium
+			multiplier = 1000
 		}
 		scope:expedition_leader_2 = {
 			set_character_busy_and_immortal = yes
@@ -174,7 +174,7 @@ fe_expedition_events.602 = { #Choose commander
 		custom_tooltip = expedition_costs_tt
 		add_modifier = {
 			name = modifier_large_expedition_cost
-			multiplier = money_amount_multiplier_medium
+			multiplier = 1000
 		}
 		scope:expedition_leader_3 = {
 			set_character_busy_and_immortal = yes
