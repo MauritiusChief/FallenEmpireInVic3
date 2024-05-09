@@ -14,7 +14,7 @@
 
  fe_expand_in_africa.3.t: "殖民浪潮"
  fe_expand_in_africa.3.d: "先前探索刚果河出海口的活动鼓动了大批失业者支持正在推行的[SCOPE.sLaw('current_law_scope').GetName]立法，认为这是带给他们新生活的机会。"
- fe_expand_in_africa.3.f: "“想不出来”"
+ fe_expand_in_africa.3.f: "“你想要在这片炎热的不毛之地无所事事地待上一辈子，还是想要去宽广的世界寻找机会？”"
  fe_expand_in_africa.3.a: "这正是完善[SCOPE.sLaw('current_law_scope').GetName]法律制定的好时机。"
  fe_expand_in_africa.3.b: "这无疑重燃了公众对[SCOPE.sLaw('current_law_scope').GetName]法律的信心。"
  fe_expand_in_africa.3.c: "我们无法阻拦公众对[SCOPE.sLaw('current_law_scope').GetName]的热情。"
@@ -22,26 +22,26 @@
  fe_expand_in_africa_3_general: "促进立法"
 
  fe_expand_in_africa.4.t: "沿河殖民地"
- fe_expand_in_africa.4.d: "自动建设沿河殖民地"
- fe_expand_in_africa.4.f: "“引用”"
- fe_expand_in_africa.4.a: "好耶。"
+ fe_expand_in_africa.4.d: "随着殖民地建设队伍出发，他们迅速在刚果河沿岸之前侦查好的地点建立了殖民地。"
+ fe_expand_in_africa.4.f: "“如果在波涛汹涌的刚果河上建造足够多的水电站，所发电力可以点亮整个非洲大陆。刚果河塑造的刚果盆地更是资源宝库，橡胶、木材和稀有金属等，俯拾皆是。”" # 黄培昭 "刚果河随想（旅人心语）"
+ fe_expand_in_africa.4.a: "很好。"
 
  je_fe_start_waking: "自沉睡之中觉醒"
  je_fe_start_waking_reason: "避难所之中的每个人都认为，我们需要一改屈居非洲一隅的现状，将真正的先进带给这个落后的世界。"
- je_fe_start_waking_form_ugk_tt: "成立$UGK$。"
+ je_fe_start_waking_form_ugk_tt: "在文化界面中成立$UGK$。"
 
  je_fe_united_africa: "统一非洲"
  je_fe_united_africa_reason: "我们所处非洲大陆拥有广袤的土地、丰富的资源与人口，是我们走向全球必不可少的跳板。发展好这片土地，这个大陆不仅是人类的摇篮，亦是下一个世界政府的摇篮。"
- je_fe_united_africa_form_ugf_tt: "成立$UGF$。"
+ je_fe_united_africa_form_ugf_tt: "在文化界面中成立$UGF$。"
 
  fe_neutralize_materials_abundant_prestige_minus: "先进生产者"
 
  je_fe_congo_expedition: "找到刚果河出海口"
- je_fe_congo_expedition_reason: "殖民安置加速，建立殖民地后弹事件在各个region刷殖民地，直接连起来市场（？）"
+ je_fe_congo_expedition_reason: "寻找刚果河出海口的重要性显而易见，这是我们目前为数不多通向辽阔海洋的通道，确保这条通道畅通至关重要。"
  je_fe_congo_expedition_goal: "测绘刚果河河道。" 
  
  fe_congo_river_expedition: "找到刚果河出海口"
- fe_congo_river_expedition_desc: "找到刚果河出海口描述。"
+ fe_congo_river_expedition_desc: "寻找刚果河出海口的重要性显而易见，这是我们目前为数不多通向辽阔海洋的通道，确保这条通道畅通至关重要。"
  fe_congo_river_expedition_tooltip: "要求："
  fe_modifier_congo_river_expedition_complete: "测绘刚果河河道"
  

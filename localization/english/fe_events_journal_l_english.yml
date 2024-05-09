@@ -14,7 +14,7 @@
 
  fe_expand_in_africa.3.t: "Tide of Colonization"
  fe_expand_in_africa.3.d: "Previous explorations of the Congo River estuary have encouraged large numbers of unemployed people to support the ongoing [SCOPE.sLaw('current_law_scope').GetName] enactments as an opportunity to bring them a new life."
- fe_expand_in_africa.3.f: ""PlAcE HoLdEr""
+ fe_expand_in_africa.3.f: ""Do you want to spend the rest of your life in this hot barren land doing nothing, or do you want to go out into the wide world and look for opportunities?""
  fe_expand_in_africa.3.a: "This is a good time to complete the [SCOPE.sLaw('current_law_scope').GetName] law."
  fe_expand_in_africa.3.b: "This has certainly rekindled public confidence in the [SCOPE.sLaw('current_law_scope').GetName] law."
  fe_expand_in_africa.3.c: "We can't stop the public's enthusiasm for [SCOPE.sLaw('current_law_scope').GetName]."
@@ -22,8 +22,8 @@
  fe_expand_in_africa_3_general: "Promoting Enactment"
 
  fe_expand_in_africa.4.t: "Congo River Colony"
- fe_expand_in_africa.4.d: "decsription"
- fe_expand_in_africa.4.f: ""quote""
+ fe_expand_in_africa.4.d: "As the colony builders set out, they quickly established colonies at previously scouted locations along the Congo River."
+ fe_expand_in_africa.4.f: ""If enough hydroelectric power stations were built on the raging Congo River, the electricity generated could light up the entire African continent. The Congo Basin, shaped by the Congo River, is a treasure trove of resources."" # 黄培昭 "刚果河随想（旅人心语）"
  fe_expand_in_africa.4.a: "Good."
 
  je_fe_start_waking: "Awakening From Falling"
@@ -36,14 +36,14 @@
 
  fe_neutralize_materials_abundant_prestige_minus: "Advanced Producer"
 
- je_fe_congo_expedition: "Congo Expedition"
- je_fe_congo_expedition_reason: "Congo expedition reason."
- je_fe_congo_expedition_goal: "Congo expedition goal." 
+ je_fe_congo_expedition: "Congo River Estuary Expedition"
+ je_fe_congo_expedition_reason: "The importance of finding an estuary to the sea on the Congo River, one of our few current access points to the vast ocean, is obvious, and it is vital to ensure that this access is open."
+ je_fe_congo_expedition_goal: "Find the Congo River estuary." 
 
- fe_congo_river_expedition: "Congo Expedition"
- fe_congo_river_expedition_desc: "Congo expedition desc."
- fe_congo_river_expedition_tooltip: "tooltip"
- fe_modifier_congo_river_expedition_complete: "complete"
+ fe_congo_river_expedition: "Find Congo River Estuary"
+ fe_congo_river_expedition_desc: "The importance of finding an estuary to the sea on the Congo River, one of our few current access points to the vast ocean, is obvious, and it is vital to ensure that this access is open."
+ fe_congo_river_expedition_tooltip: ""Requirements:"
+ fe_modifier_congo_river_expedition_complete: "Congo River Estuary Found"
 
  # Tech Events
  je_fe_charging_pile: "Charging Pile"
