@@ -45,6 +45,24 @@
  fe_congo_river_expedition_tooltip: ""Requirements:"
  fe_modifier_congo_river_expedition_complete: "Congo River Estuary Found"
 
+ fe_expedition_events.601.t: "Find Congo River Estuary"
+ fe_expedition_events.601.d: "An expedition has been sent to Lake Mweru to travel downstream in search of the Congo River estuary."
+ fe_expedition_events.601.f: ""I wish I could see the vast ocean with my own eyes!""
+ fe_expedition_events.601.a: "May you return safely."
+
+ fe_expedition_events.604.d: "After weeks of preparation and traveling, the expedition led by [SCOPE.sCharacter('expedition_leader').GetFullName] arrived at Lake Mweru. From here, they will embark on a journey to chart the course of this elusive river."
+
+ fe_expedition_events.611.t: "Successful Mapping" # 大赢
+ fe_expedition_events.611.d: "[SCOPE.sCharacter('expedition_leader').GetFullName] has sent back detailed mapping data of the Congo River and the condition of its shores, which contains several sites suitable for colonization, the most important of which is a site at the mouth of the sea, ideal for the anchoring of ships."
+ fe_expedition_events.611.f: ""Can you believe it? We're really seeing the ocean with our own eyes! Feel the sea breeze and sea salt, I've missed them for too long ......""
+
+ fe_expedition_events.612.t: "Failed Mapping" # 小赢
+ fe_expedition_events.612.d: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a week's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their ship had broken down and all provisions had been left behind, but still managed to reach the sea."
+ fe_expedition_events.612.d2: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a week's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their ship had broken down and some of their equipment had fallen overboard, but still managed to complete the mapping and sent back a photo of the survivors together in front of the Atlantic Ocean."
+ fe_expedition_events.612.f: ""This mighty waterway, often called the "Heart of Darkness," harbors treacherous rapids and swirling whirlpools that can swallow the most daring explorers whole.""
+ fe_expedition_events.612.a: "Send out teams to rescue these brave people."
+ fe_expedition_events.612.b: "Send out teams to rescue these brave people."
+
  # Tech Events
  je_fe_charging_pile: "Charging Pile"
  je_fe_charging_pile_reason: "The [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName] is taking shape as the center of society shifts from the shelter under the rock to the surface. While unmanned stores and car sharing provided by civil society organisations have spread [SCOPE.sState('capital_scope').GetStateRegion.GetCityHubName], the need to include charging piles as part of the power supply system as part of the infrastructure continues to be widely discussed."

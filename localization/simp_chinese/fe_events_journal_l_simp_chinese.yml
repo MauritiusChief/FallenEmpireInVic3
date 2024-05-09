@@ -59,7 +59,7 @@
  fe_expedition_events.612.t: "测绘失败" # 小赢
  fe_expedition_events.612.d: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，所有辎重都被落下，但仍然设法抵达了出海口。"
  fe_expedition_events.612.d2: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，一些设备落水，但仍然勉强完成测绘，并发回一张幸存者们在大西洋前的合照。"
- fe_expedition_events.612.f: "“想不出来了以后再想吧。”"
+ fe_expedition_events.612.f: "“这条强大的水道常被称为 "黑暗之心"，蕴藏着险峻的激流和漩涡，可以将最大胆的探险者整个吞没。”"
  fe_expedition_events.612.a: "派出队伍拯救这些勇士。"
  fe_expedition_events.612.b: "派出队伍拯救这些勇士。"
 
