@@ -1,4 +1,4 @@
-namespace = fe_expedition
+namespace = fe_expedition_events
 
 fe_expedition_events.601 = { #Start event
 	type = country_event

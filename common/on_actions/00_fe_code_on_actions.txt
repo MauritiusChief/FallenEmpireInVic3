@@ -20,12 +20,6 @@ on_monthly_pulse_country = {
 			}
 			1 = {}
 		}
-		# random_list = {
-		# 	1 = {
-		# 		trigger_event = fe_expand_misc.1
-		# 	}
-		# 	9 = {}
-		# }
 	}
 }
 

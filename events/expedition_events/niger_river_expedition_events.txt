@@ -453,6 +453,10 @@ expedition_events.40 = { #Crew member drowns
 			NOT = { has_variable = crew_member_drowns }
 		}
 		trigger_else_if = {
+			limit = { has_variable = fe_congo_river_expedition_var }
+			NOT = { has_variable = crew_member_drowns }
+		}
+		trigger_else_if = {
 			limit = { has_variable = niger_river_expedition_var }
 			NOT = { has_variable = crew_member_drowns }
 		}

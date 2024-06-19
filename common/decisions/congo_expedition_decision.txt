@@ -1,18 +1,18 @@
-﻿fe_congo_river_expedition = {
+﻿congo_river_expedition = {
 	is_shown = {		
-		NOT = { has_variable = on_expedition }
+		NOT = { has_variable = on_expedition }		
 		has_technology_researched = colonization
-		NOT = { has_global_variable = fe_congo_river_explored }
+		NOT = { has_global_variable = congo_river_explored }
+		NOT = { has_state_in_state_region = STATE_SHELTER } # 避难所不让探险
 		OR = {
 			is_ai = no
 			NOT = { has_variable = ai_expedition_cooldown }
-		}
+		}		
 	}
 	
 	possible = {
-		is_at_war = no
+		is_at_war = no		
 		has_interest_marker_in_region = region_congo
-		has_state_in_state_region = STATE_SHELTER # 地理限定避难所
 		any_scope_character = {
 			OR = {
 				has_role = general
@@ -28,7 +28,7 @@
 			limit = {
 				is_player = yes
 			}
-			trigger_event = { id = fe_expedition_events.601 popup = yes }
+			trigger_event = { id = expedition_events.601 popup = yes }
 			set_variable = {
 				name = on_expedition
 				value = yes

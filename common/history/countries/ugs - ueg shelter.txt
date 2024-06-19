@@ -60,10 +60,6 @@ COUNTRIES = {
 			add_ruling_interest_group = yes
 		}
 
-		# trigger_event = {
-		# 	id = fe_expand_misc.00 # 开局事件
-		# }
-
 		set_variable = fallen_empire_ueg_countries
 
 		# 日志
