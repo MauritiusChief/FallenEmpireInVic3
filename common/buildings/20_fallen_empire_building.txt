@@ -19,19 +19,13 @@ building_fallen_empire_ancient_skyscraper = { # 远古大楼
 	}
 	
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -58,19 +52,13 @@ building_fallen_empire_aegis_complex = { # 神盾复合体
 	}
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -95,19 +83,13 @@ building_fallen_empire_class4_singularity = { # 4级奇点
 	ownership_type = self
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -135,19 +117,13 @@ building_fallen_empire_affluence_center = { # 富裕中心
 	ownership_type = self
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -175,19 +151,13 @@ building_fallen_empire_nourishment_center = { # 营养中心
 	ownership_type = self
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -213,19 +183,13 @@ building_fallen_empire_auto_fabricator = { # 自动制造厂
 	ownership_type = self
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
 
@@ -250,18 +214,12 @@ building_fallen_empire_crustal_drilling = { # 地壳钻井
 	ownership_type = self
 
 	can_build_government = {
-		error_check = {
-			severity = fail
-			custom_tooltip = {
-				text = ancient_building_can_construct_tt
-				has_modifier = ancient_building_site
-			}
+		custom_tooltip = {
+			text = ancient_building_can_construct_tt
+			has_modifier = ancient_building_site
 		}
 	}
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 }
