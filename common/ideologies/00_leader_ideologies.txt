@@ -1548,7 +1548,7 @@ ideology_communist = {
 		law_parliamentary_republic = disapprove
 		law_theocracy = strongly_disapprove
 		law_council_republic = strongly_approve
-		law_fallen_empire_direct_democracy = disapprove
+		law_fallen_empire_direct_democracy = neutral
 	}
 
 	lawgroup_economic_system = {	
@@ -1695,7 +1695,7 @@ ideology_vanguardist = {
 		law_parliamentary_republic = disapprove
 		law_theocracy = strongly_disapprove
 		law_council_republic = strongly_approve
-		law_fallen_empire_direct_democracy = disapprove
+		law_fallen_empire_direct_democracy = neutral
 	}
 
 	lawgroup_distribution_of_power = {
