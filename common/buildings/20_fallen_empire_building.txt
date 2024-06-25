@@ -110,7 +110,7 @@ building_fallen_empire_affluence_center = { # 富裕中心
 		pmg_fe_clothes_and_luxury_production
 		pmg_fe_furniture_and_luxury_production
 		pmg_fe_vehicles_production
-		pmg_fe_porcelain_production
+		# pmg_fe_porcelain_production
 		pmg_fe_electronics_production
 		# pmg_fe_ownership_all_ancient_building
 	}

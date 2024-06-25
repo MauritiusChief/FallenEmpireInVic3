@@ -114,12 +114,9 @@ law_fallen_empire_materials_abundant = { # 物质极大丰富
 		country_prestige_mult = -1.25
 		country_prestige_add = -500
 		state_standard_of_living_add = 1.5
-		building_group_bg_manufacturing_throughput_add = 0.2
+		# building_group_bg_manufacturing_throughput_add = 0.2
 
-		building_nationalization_cost_mult = -0.5
-		building_nationalization_radicals_mult = -0.75
-		country_government_dividends_efficiency_add = 0.4
-		country_leverage_resistance_mult = 0.25
+		country_leverage_resistance_mult = 0.5
 		country_disable_investment_pool_bool = yes
 		country_disable_privatization_bool = yes
 	}
