@@ -5,7 +5,7 @@
 		pm_market_squares
 		pm_covered_markets
 		pm_arcades
-		# pm_fe_self_service_amenities
+		pm_fe_self_service_amenities
 	}
 }
 

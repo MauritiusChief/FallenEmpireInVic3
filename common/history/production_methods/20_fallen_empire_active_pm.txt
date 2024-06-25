@@ -2,7 +2,7 @@ PRODUCTION_METHODS = {
 	c:UGS ?= {
 		activate_production_method = {
 			building_type = building_urban_center
-			production_method = pm_market_squares
+			production_method = pm_fe_self_service_amenities
 		}
 		activate_production_method = {
 			building_type = building_urban_center
@@ -11,6 +11,10 @@ PRODUCTION_METHODS = {
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_no_public_transport
+		}
+		activate_production_method = {
+			building_type = building_subsistence_farms
+			production_method = pm_fe_home_porcelain_workshop_building_subsistence_farms
 		}
 	}
 }

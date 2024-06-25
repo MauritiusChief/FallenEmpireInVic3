@@ -114,6 +114,7 @@ law_fallen_empire_materials_abundant = { # 物质极大丰富
 		country_prestige_mult = -1.25
 		country_prestige_add = -500
 		state_standard_of_living_add = 1.5
+		state_welfare_payments_add = 0.25
 		# building_group_bg_manufacturing_throughput_add = 0.2
 
 		country_leverage_resistance_mult = 0.5
@@ -159,7 +160,7 @@ law_fallen_empire_voluntary_agriculture = { # 志愿农业
 	modifier = {
 		state_expected_sol_mult = -0.15
 		state_rich_standard_of_living_add = 2.5
-		state_welfare_payments_add = 0.2
+		state_welfare_payments_add = 0.25
 	}
 
 	unlocking_laws = {

@@ -464,17 +464,13 @@ pm_fe_self_service_amenities = {
 			goods_input_steel_add = 5
 			goods_input_glass_add = 5
 			goods_input_electricity_add = 5
-			goods_output_services_add = 100
+			goods_output_services_add = 50
 		}
 
 		level_scaled = {
 			building_employment_laborers_add = 1000
 			building_employment_clerks_add = 2000
 			building_employment_shopkeepers_add = 2000
-		}
-
-		unscaled = {
-			building_shopkeepers_shares_add = 10
 		}
 	}
 	required_input_goods = electricity
@@ -592,7 +588,6 @@ pm_fe_home_porcelain_workshop_building_subsistence_farms = {
 		workforce_scaled = {
 			goods_output_porcelain_add = 0.5
 			goods_output_services_add = 1
-			goods_output_transportation_add = 5
 		}
 	}
 }

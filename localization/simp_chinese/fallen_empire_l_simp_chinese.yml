@@ -141,10 +141,7 @@
  pm_fe_drill_full: "全速钻探"
  pm_fe_no_electric_cooling: "无电力冷却"
  pm_fe_electric_cooling: "电力冷却"
- pm_fe_volunteer_run_ancient_building: "志愿者运营"
- pm_fe_private_monopoly_ancient_building: "私人垄断"
- pm_fe_government_run_ancient_building: "$pm_government_run$"
- pm_fe_community_run_ancient_building: "社区运营"
+ pm_fe_home_porcelain_workshop_building_subsistence_farms: "手工艺品作坊"
  
  pm_fe_self_service_amenities: "自助服务"
  pm_fe_simulated_sunlight: "模拟日光"

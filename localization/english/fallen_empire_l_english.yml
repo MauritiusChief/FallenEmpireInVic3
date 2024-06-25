@@ -137,10 +137,7 @@
  pm_fe_drill_full: "Full-Speed Drilling"
  pm_fe_no_electric_cooling: "No Electric Cooling"
  pm_fe_electric_cooling: "Electric Cooling"
- pm_fe_volunteer_run_ancient_building: "Volunteers Run"
- pm_fe_private_monopoly_ancient_building: "Private Monopoly"
- pm_fe_government_run_ancient_building: "$pm_government_run$"
- pm_fe_community_run_ancient_building: "Community Run"
+ pm_fe_home_porcelain_workshop_building_subsistence_farms: "Handicraft Workshop"
  
  pm_fe_self_service_amenities: "Self-Service Amenities"
  pm_fe_simulated_sunlight: "Simulated Sunlight"
