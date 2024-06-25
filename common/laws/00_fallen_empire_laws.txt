@@ -37,11 +37,7 @@ law_fallen_empire_direct_democracy = { # 直接民主
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -96,11 +92,7 @@ law_fallen_empire_volunteer_council = { # 志愿理事会
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-				scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
@@ -123,6 +115,13 @@ law_fallen_empire_materials_abundant = { # 物质极大丰富
 		country_prestige_add = -500
 		state_standard_of_living_add = 1.5
 		building_group_bg_manufacturing_throughput_add = 0.2
+
+		building_nationalization_cost_mult = -0.5
+		building_nationalization_radicals_mult = -0.75
+		country_government_dividends_efficiency_add = 0.4
+		country_leverage_resistance_mult = 0.25
+		country_disable_investment_pool_bool = yes
+		country_disable_privatization_bool = yes
 	}
 
 	possible_political_movements = {
@@ -133,20 +132,23 @@ law_fallen_empire_materials_abundant = { # 物质极大丰富
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-				scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 		
-		# if = {
-		# 	limit = { 
-		# 		has_law = law_type:law_council_republic
-		# 	}
-		# 	add = 250
-		# }
+		if = {
+			limit = { 
+				has_law = law_type:law_council_republic
+			}
+			add = 250
+		}
+		
+		if = {
+			limit = { 
+				has_law = law_type:law_technocracy
+			}
+			add = 100
+		}
 	}
 }
 
@@ -171,19 +173,15 @@ law_fallen_empire_voluntary_agriculture = { # 志愿农业
 		value = 0
 		
 		if = {
-			limit = { 
-				has_journal_entry = je_government_petition
-				has_variable = desired_law_var
-                scope:law = var:desired_law_var
-			}
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 		
-		# if = {
-		# 	limit = { 
-		# 		has_law = law_type:law_council_republic
-		# 	}
-		# 	add = 250
-		# }
+		if = {
+			limit = { 
+				has_law = law_type:law_council_republic
+			}
+			add = 250
+		}
 	}
 }

@@ -2,6 +2,7 @@
 building_fallen_empire_ancient_skyscraper = { # 远古大楼
 	building_group = bg_fe_ancient_government
 	texture = "gfx/interface/icons/building_icons/fe_ancient_skyscraper.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 10
@@ -37,6 +38,7 @@ building_fallen_empire_ancient_skyscraper = { # 远古大楼
 building_fallen_empire_aegis_complex = { # 神盾复合体
 	building_group = bg_fe_ancient_infrastructure
 	texture = "gfx/interface/icons/building_icons/fe_aegis_complex.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 25
@@ -52,7 +54,7 @@ building_fallen_empire_aegis_complex = { # 神盾复合体
 		pmg_fe_small_arms_production
 		pmg_fe_ammunition_production
 		pmg_fe_tools_production
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
 
 	can_build_government = {
@@ -75,6 +77,7 @@ building_fallen_empire_aegis_complex = { # 神盾复合体
 building_fallen_empire_class4_singularity = { # 4级奇点
 	building_group = bg_fe_ancient_infrastructure
 	texture = "gfx/interface/icons/building_icons/fe_class4_singularity.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 5
@@ -87,8 +90,9 @@ building_fallen_empire_class4_singularity = { # 4级奇点
 	production_method_groups = {
 		pmg_fe_output_level
 		pmg_fe_radiation_protect
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
+	ownership_type = self
 
 	can_build_government = {
 		error_check = {
@@ -110,6 +114,7 @@ building_fallen_empire_class4_singularity = { # 4级奇点
 building_fallen_empire_affluence_center = { # 富裕中心
 	building_group = bg_fe_ancient_manufacturing
 	texture = "gfx/interface/icons/building_icons/fe_affluence_center.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 5
@@ -125,8 +130,9 @@ building_fallen_empire_affluence_center = { # 富裕中心
 		pmg_fe_vehicles_production
 		pmg_fe_porcelain_production
 		pmg_fe_electronics_production
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
+	ownership_type = self
 
 	can_build_government = {
 		error_check = {
@@ -148,6 +154,7 @@ building_fallen_empire_affluence_center = { # 富裕中心
 building_fallen_empire_nourishment_center = { # 营养中心
 	building_group = bg_fe_ancient_manufacturing
 	texture = "gfx/interface/icons/building_icons/fe_nourishment_center.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 5
@@ -163,8 +170,9 @@ building_fallen_empire_nourishment_center = { # 营养中心
 		pmg_fe_beverage_goods_production
 		pmg_fe_tobacco_and_opium_production
 		pmg_fe_organic_matter_extraction
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
+	ownership_type = self
 
 	can_build_government = {
 		error_check = {
@@ -186,6 +194,7 @@ building_fallen_empire_nourishment_center = { # 营养中心
 building_fallen_empire_auto_fabricator = { # 自动制造厂
 	building_group = bg_fe_ancient_manufacturing
 	texture = "gfx/interface/icons/building_icons/fe_auto_fabricator.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 5
@@ -199,8 +208,9 @@ building_fallen_empire_auto_fabricator = { # 自动制造厂
 		pmg_fe_fertilizer_production
 		pmg_fe_steel_production
 		pmg_fe_plastic_production
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
+	ownership_type = self
 
 	can_build_government = {
 		error_check = {
@@ -222,6 +232,7 @@ building_fallen_empire_auto_fabricator = { # 自动制造厂
 building_fallen_empire_crustal_drilling = { # 地壳钻井
 	building_group = bg_fe_ancient_manufacturing
 	texture = "gfx/interface/icons/building_icons/fe_crustal_drilling.dds"
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 	required_construction = construction_cost_canal
 	city_type = city
 	levels_per_mesh = 5
@@ -234,8 +245,9 @@ building_fallen_empire_crustal_drilling = { # 地壳钻井
 	production_method_groups = {
 		pmg_fe_general_ore
 		pmg_fe_electric_cooling
-		pmg_fe_ownership_all_ancient_building
+		# pmg_fe_ownership_all_ancient_building
 	}
+	ownership_type = self
 
 	can_build_government = {
 		error_check = {
