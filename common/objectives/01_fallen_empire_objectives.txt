@@ -1,5 +1,5 @@
 ﻿objective_fallen_empire = {
-	background = "gfx/interface/icons/objectives/sandbox.dds"
+	enabled_background = "gfx/interface/icons/objectives/sandbox.dds"
 	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
 	
 	recommended_tags = { UGS }	

@@ -7669,13 +7669,7 @@ STATES = {
 		
 		add_homeland = cu:corsican
 	}
-		
-		
-		add_homeland = cu:pashtun
-	}
 
-		add_homeland = cu:pashtun
-	}
 	s:STATE_UTAH = {
 		create_state = {
 			country = c:MEX

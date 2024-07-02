@@ -18,7 +18,7 @@ fe_expand_in_africa.1 = { # 和平扩张，直接吞并
 
 	duration = 3
 
-	cooldown = { months = 6 }
+	cooldown = { months = 3 }
 
 	trigger = {
 		NOT = { # 若有殖民剥削则不能触发
