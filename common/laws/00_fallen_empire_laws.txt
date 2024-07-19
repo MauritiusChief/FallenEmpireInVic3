@@ -158,7 +158,7 @@ law_fallen_empire_voluntary_agriculture = { # 志愿农业
 	progressiveness = 50
 
 	modifier = {
-		state_expected_sol_mult = -0.15
+		state_expected_sol_mult = 0.25
 		state_rich_standard_of_living_add = 2.5
 		state_welfare_payments_add = 0.25
 	}

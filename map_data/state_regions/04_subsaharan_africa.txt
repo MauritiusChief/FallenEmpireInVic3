@@ -1041,6 +1041,7 @@ STATE_SHELTER = { # FE 修改
     provinces = { "x750DF0" "x3B104F" }
     traits = { "state_trait_severe_malaria" }
     city = "x750DF0"
+    farm = "x3B104F"
     arable_land = 2
     arable_resources = { "bg_millet_farms" }
 }
