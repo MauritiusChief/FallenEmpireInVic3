@@ -57,8 +57,8 @@
  fe_expedition_events.611.f: ""Can you believe it? We're really seeing the ocean with our own eyes! Feel the sea breeze and sea salt, I've missed them for too long ......""
 
  fe_expedition_events.612.t: "Failed Mapping" # 小赢
- fe_expedition_events.612.d: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a week's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their ship had broken down and all provisions had been left behind, but still managed to reach the sea."
- fe_expedition_events.612.d2: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a week's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their ship had broken down and some of their equipment had fallen overboard, but still managed to complete the mapping and sent back a photo of the survivors together in front of the Atlantic Ocean."
+ fe_expedition_events.612.d: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a month's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their ship was damaged and all provisions were left behind, leaving them to rely on manpower and sails, but still managed to reach the sea."
+ fe_expedition_events.612.d2: "Communication with [SCOPE.sCharacter('expedition_leader').GetFullName] was finally reconnected after a month's hiatus. [SCOPE.sCharacter('expedition_leader').GetFullName] confessed that their boat's engine had broken down and some of their equipment had fallen overboard, but still managed to complete the mapping and sent back a photo of the survivors together in front of the Atlantic Ocean."
  fe_expedition_events.612.f: ""This mighty waterway, often called the "Heart of Darkness," harbors treacherous rapids and swirling whirlpools that can swallow the most daring explorers whole.""
  fe_expedition_events.612.a: "Send out teams to rescue these brave people."
  fe_expedition_events.612.b: "Send out teams to rescue these brave people."
@@ -87,3 +87,14 @@
  fe_expand_misc.1.f: "“quote”"
  fe_expand_misc.1.a: "annex"
  fe_expand_misc.1.b: "puppet"
+
+ expedition_events.1600.t: "Signal Station"
+ expedition_events.1600.d: "We found a spot perfect for a signal station."
+ expedition_events.1600.f: ""The terrain is flat, the sun is shining, and we happen to carry building materials and solar panels, it couldn't be better.""
+ expedition_events.1600.a: "A simple signal station will suffice, catching up is more important."
+ expedition_events.1600.b: "Construction of a complete signal station."
+
+ expedition_events.620.d: "Don't worry, the resource center may be able to provide detailed guidance."
+ expedition_events.630.c: "Turn on the radar and sonar and keep your eyes on the screen."
+ expedition_events.640.b: "Shock it with a stun rod!"
+ expedition_events.670.c: "Might be possible to determine our position with radio stations."

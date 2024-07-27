@@ -56,9 +56,9 @@
  fe_expedition_events.611.d: "[SCOPE.sCharacter('expedition_leader').GetFullName]已将详细的刚果河测绘数据以及沿岸状况发回，其中包含数个适合建立殖民地的地点，这其中最重要的就是位于出海口一处地点，非常适合船只停泊。"
  fe_expedition_events.611.f: "“你敢相信吗？我们真的亲眼看到大海了！感受海风与海盐的气息吧，我想念它们太久了……”"
 
- fe_expedition_events.612.t: "测绘失败" # 小赢
- fe_expedition_events.612.d: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，所有辎重都被落下，但仍然设法抵达了出海口。"
- fe_expedition_events.612.d2: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一周后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只抛锚，一些设备落水，但仍然勉强完成测绘，并发回一张幸存者们在大西洋前的合照。"
+ fe_expedition_events.612.t: "测绘失败" # 小赢和小输
+ fe_expedition_events.612.d: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一个月后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只损坏，所有辎重都被落下，只能靠人力和风帆，但仍然设法抵达了出海口。" # 小输
+ fe_expedition_events.612.d2: "与[SCOPE.sCharacter('expedition_leader').GetFullName]的通讯中断一个月后，终于再次取得联系。[SCOPE.sCharacter('expedition_leader').GetFullName]坦言他们的船只发动机抛锚，一些设备落水，但仍然勉强完成测绘，并发回一张幸存者们在大西洋前的合照。" # 小赢
  fe_expedition_events.612.f: "“这条强大的水道常被称为 "黑暗之心"，蕴藏着险峻的激流和漩涡，可以将最大胆的探险者整个吞没。”"
  fe_expedition_events.612.a: "派出队伍拯救这些勇士。"
  fe_expedition_events.612.b: "派出队伍拯救这些勇士。"
@@ -87,3 +87,14 @@
  fe_expand_misc.1.f: "“名言警句”"
  fe_expand_misc.1.a: "吞并"
  fe_expand_misc.1.b: "傀儡"
+
+ expedition_events.1600.t: "信号站"
+ expedition_events.1600.d: "我们发现了一处非常适合建立信号站的地点。"
+ expedition_events.1600.f: "“地势平坦，阳光充沛，而且我们正好携带了建材和太阳能板，简直再好不过了。”"
+ expedition_events.1600.a: "简易信号站就够用了，赶路更重要。"
+ expedition_events.1600.b: "修建一座完整的信号站。"
+
+ expedition_events.620.d: "别着急，资料中心也许可以提供详细的指导。"
+ expedition_events.630.c: "开启雷达和声呐，紧盯屏幕。"
+ expedition_events.640.b: "用电击杆电它！"
+ expedition_events.670.c: "也许可以用无线电基站确定我们的位置。"
