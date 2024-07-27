@@ -1,0 +1,55 @@
+
+namespace = expedition_events
+
+expedition_events.1600 = { #建立通信基站
+	type = country_event
+    placement = scope:current_expedition_location
+
+    title = expedition_events.1600.t
+    desc = expedition_events.1600.d
+    flavor = expedition_events.1600.f
+
+    duration = 3
+
+	event_image = {
+		video = "middleeast_jungle_expedition"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+
+	trigger = {
+		var:expedition_progress >= 0
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_variable = expedition_radio_station }
+			}
+			set_variable = expedition_radio_station
+		}
+		
+		if = {
+			limit = { has_variable = congo_river_expedition_var }
+			congo_river_expedition_location = yes
+		}
+		else_if = {
+			limit = { has_variable = fe_congo_river_expedition_var }
+			fe_congo_river_expedition_location = yes
+		}
+	}
+
+	option = { #简单信号站
+		name = expedition_events.1600.a
+		default_option = yes
+		expedition_peril_decrease_small_effect = yes
+		expedition_minor_progress_effect = yes
+	}
+
+	option = { #大功率信号站
+		name = expedition_events.1600.b
+		expedition_peril_decrease_medium_effect = yes
+	}
+}

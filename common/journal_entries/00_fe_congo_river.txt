@@ -2,7 +2,7 @@ je_fe_congo_expedition = {
 
 	group = je_group_expeditions
 
-	on_weekly_pulse = {
+	on_monthly_pulse = {
 		random_events = {
 			70 = 0
 			30 = expedition_events.20 #posts a notification
@@ -29,6 +29,9 @@ je_fe_congo_expedition = {
 			20 = expedition_events.160 #cancelled expedition
 			10 = expedition_events.560 #commander vice
 			30 = expedition_events.695 #lost foreign expedition
+
+			# FE 新增事件
+			40 = expedition_events.1600 #无线电站点
 		}
 	}
 	

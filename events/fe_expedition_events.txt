@@ -1,6 +1,6 @@
 namespace = fe_expedition_events
 
-fe_expedition_events.601 = { #Start event
+fe_expedition_events.601 = { #Start event开始事件
 	type = country_event
     placement = ROOT
 
@@ -27,7 +27,7 @@ fe_expedition_events.601 = { #Start event
 	}
 }
 
-fe_expedition_events.602 = { #Choose commander
+fe_expedition_events.602 = { #Choose commander选择指挥官
 	type = country_event
     placement = ROOT
 
@@ -184,7 +184,7 @@ fe_expedition_events.602 = { #Choose commander
 	}
 }
 
-fe_expedition_events.604 = { #Expedition Arrives
+fe_expedition_events.604 = { #Expedition Arrives探险队到达
 	type = country_event
     placement = scope:current_expedition_location
 
@@ -279,7 +279,7 @@ fe_expedition_events.612 = { #小赢：立法加速；殖民加速   小输：�
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = fe_expedition_events.612.d
+				desc = fe_expedition_events.612.d # 进度没有
 				trigger = {
 					NOR = { 
 						exists = var:expedition_progress
@@ -288,7 +288,7 @@ fe_expedition_events.612 = { #小赢：立法加速；殖民加速   小输：�
 				}
 			}
 			triggered_desc = {
-				desc = fe_expedition_events.612.d2
+				desc = fe_expedition_events.612.d2 # 进度很大
 				trigger = {
 					exists = var:expedition_progress
 					var:expedition_progress >= 6

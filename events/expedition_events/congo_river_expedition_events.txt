@@ -430,6 +430,15 @@ expedition_events.620 = { #Boat Repair
 		}
 		expedition_minor_progress_effect = yes
 	}
+
+	option = { # FE 远程指导
+		name = expedition_events.620.d
+		highlighted_option = yes
+		trigger = {
+			has_variable = expedition_radio_station
+		}
+		expedition_minor_progress_effect = yes
+	}
 }
 
 expedition_events.630 = { #White Fog
@@ -478,6 +487,16 @@ expedition_events.630 = { #White Fog
 		name = expedition_events.630.b
 		default_option = yes
 		custom_tooltip = expedition_event_delayed_tt
+	}
+
+	option = { # FE 雷达
+		name = expedition_events.630.c
+		highlighted_option = yes
+		trigger = {
+			has_variable = fallen_empire_ueg_countries
+		}
+		expedition_moderate_progress_effect = yes
+		add_small_peril_effect = yes
 	}
 }
 
@@ -537,6 +556,22 @@ expedition_events.640 = { #Crocodile Attack
 				trigger_event = { id = expedition_events.641 days = 0 popup = yes }
 			}
 			50 = {
+				trigger_event = { id = expedition_events.642 days = 0 popup = yes}
+			}
+		}
+	}
+
+	option = { # FE 电鳄鱼
+		name = expedition_events.640.b
+		highlighted_option = yes
+		trigger = {
+			has_variable = fallen_empire_ueg_countries
+		}
+		random_list = {
+			80 = {
+				trigger_event = { id = expedition_events.641 days = 0 popup = yes }
+			}
+			20 = {
 				trigger_event = { id = expedition_events.642 days = 0 popup = yes}
 			}
 		}
@@ -842,6 +877,15 @@ expedition_events.670 = { #Lost in the Forest
 		name = expedition_events.670.b
 		expedition_moderate_progress_effect = yes
 		add_medium_peril_effect = yes
+	}
+
+	option = { # FE 无线电定位
+		name = expedition_events.670.c
+		highlighted_option = yes
+		trigger = {
+			has_variable = expedition_radio_station
+		}
+		expedition_moderate_progress_effect = yes
 	}
 }
 
