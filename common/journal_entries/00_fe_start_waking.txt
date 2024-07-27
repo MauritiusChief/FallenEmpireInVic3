@@ -41,7 +41,7 @@ je_fe_start_waking = {
 		}
 	}
 
-	on_complete = { # 加一个抵消-400威望的buff
+	on_complete = { # 加一个抵消-500威望的buff
 		if = { limit = { has_law = law_type:law_fallen_empire_materials_abundant }
 			add_modifier = {
 				name = fe_neutralize_materials_abundant_prestige_minus
