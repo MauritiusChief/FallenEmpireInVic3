@@ -24,11 +24,11 @@ je_fe_start_waking = {
 		any_scope_state = {
 			OR = {
 				is_production_method_active = {
-					building_type = building_fallen_empire_ancient_skyscraper
+					building_type = building_fallen_empire_colony_center
 					production_method = pm_fe_motorhome
 				}
 				is_production_method_active = {
-					building_type = building_fallen_empire_ancient_skyscraper
+					building_type = building_fallen_empire_colony_center
 					production_method = pm_fe_armed_atv
 				}
 			}

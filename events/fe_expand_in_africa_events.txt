@@ -18,7 +18,7 @@ fe_expand_in_africa.1 = { # 和平扩张，直接吞并
 
 	duration = 3
 
-	cooldown = { months = 3 }
+	cooldown = { months = 6 }
 
 	trigger = {
 		NOT = { # 若有殖民剥削则不能触发
@@ -27,7 +27,7 @@ fe_expand_in_africa.1 = { # 和平扩张，直接吞并
 		average_sol >= 15 # 自己国家的生活水平大于贫困
 		any_scope_state = { # 激活了房车殖民加速
 			is_production_method_active = { 
-				building_type = building_fallen_empire_ancient_skyscraper
+				building_type = building_fallen_empire_colony_center
 				production_method = pm_fe_motorhome
 			}
 		}
@@ -121,7 +121,7 @@ fe_expand_in_africa.2 = { # 暴力扩张，松散部落直接变国家（然后�
 
 	duration = 3
 
-	cooldown = { months = 3 }
+	cooldown = { months = 12 }
 
 	trigger = {
 		OR = { # 有以下任一就会触发：
@@ -129,14 +129,14 @@ fe_expand_in_africa.2 = { # 暴力扩张，松散部落直接变国家（然后�
 				has_law = law_type:law_colonial_exploitation
 				any_scope_state = {
 				is_production_method_active = {
-					building_type = building_fallen_empire_ancient_skyscraper
+					building_type = building_fallen_empire_colony_center
 					production_method = pm_fe_motorhome
 				}
 			}
 			}
 			any_scope_state = { # ……激活了武装履带车殖民加速
 				is_production_method_active = {
-					building_type = building_fallen_empire_ancient_skyscraper
+					building_type = building_fallen_empire_colony_center
 					production_method = pm_fe_armed_atv
 				}
 			}
@@ -246,17 +246,17 @@ fe_expand_in_africa.3 = { # 加快立法的事件，作为完成刚果河入海�
 			multiplier = 3
 		}
 	}
-	option = { # 消除受挫
-		name = fe_expand_in_africa.3.b
-		trigger = {
-			enactment_setback_count > 0
-		}
-		add_enactment_setback = -1
-		add_enactment_modifier = {
-			name = fe_expand_in_africa_3_general
-			multiplier = 2
-		}
-	}
+	# option = { # 消除受挫
+	# 	name = fe_expand_in_africa.3.b
+	# 	trigger = {
+	# 		enactment_setback_count > 0
+	# 	}
+	# 	add_enactment_setback = -1
+	# 	add_enactment_modifier = {
+	# 		name = fe_expand_in_africa_3_general
+	# 		multiplier = 2
+	# 	}
+	# }
 	option = { # 跳过步骤
 		name = fe_expand_in_africa.3.c
 		trigger = {

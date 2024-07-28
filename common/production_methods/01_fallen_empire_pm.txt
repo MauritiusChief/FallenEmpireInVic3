@@ -135,20 +135,26 @@ pm_fe_motorhome = { # 房车
 	disallowing_laws = {
 		law_no_colonial_affairs
 	}
-	country_modifiers = {
+	state_modifiers = {
 		workforce_scaled = { 
-			state_colony_growth_speed_mult = 1.0
+			state_colony_growth_speed_mult = 0.5
+			country_tension_decay_mult = 0.25
 		}
 		level_scaled = {
-			state_colony_growth_creation_mult = 0.5
+			state_colony_growth_creation_mult = 0.25
+		}
+	}
+	country_modifiers = {
+		workforce_scaled = { 
+			country_tension_decay_mult = 0.25
 		}
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_groceries_add = 800
-			goods_input_radios_add = 400
-			goods_input_automobiles_add = 600
-			goods_input_tools_add = 100
+			goods_input_groceries_add = 80
+			goods_input_radios_add = 40
+			goods_input_automobiles_add = 60
+			goods_input_tools_add = 10
 		}
 		level_scaled = {
 			building_employment_clerks_add = 500
@@ -164,22 +170,26 @@ pm_fe_armed_atv = { # 武装ATV
 	disallowing_laws = {
 		law_no_colonial_affairs
 	}
-	country_modifiers = {
+	state_modifiers = {
 		workforce_scaled = { 
-			state_colony_growth_speed_mult = 2.0
+			state_colony_growth_speed_mult = 1.0
 		}
 		level_scaled = {
-			state_colony_growth_creation_mult = 1.0
+			state_colony_growth_creation_mult = 0.5
+		}
+	}
+	country_modifiers = {
+		level_scaled = {
 			country_tension_decay_mult = -0.5
 		}
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_groceries_add = 800
-			goods_input_radios_add = 400
-			goods_input_tanks_add = 600
-			goods_input_small_arms_add = 200
-			goods_input_ammunition_add = 200
+			goods_input_groceries_add = 80
+			goods_input_radios_add = 40
+			goods_input_tanks_add = 60
+			goods_input_small_arms_add = 20
+			goods_input_ammunition_add = 20
 		}
 		level_scaled = {
 			building_employment_clerks_add = 500
