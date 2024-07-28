@@ -447,6 +447,7 @@ expedition_events.40 = { #Crew member drowns
     duration = 3
 	
 	trigger = {
+		# FE 修改
 		trigger_if = {
 			limit = { has_variable = congo_river_expedition_var }
 			var:expedition_progress >= 2

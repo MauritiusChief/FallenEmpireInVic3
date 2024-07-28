@@ -81,6 +81,7 @@
  building_fallen_empire_nourishment_center: "Nourishment Center"
  building_fallen_empire_auto_fabricator: "Auto Fabricator"
  building_fallen_empire_crustal_drilling: "Crustal Drilling"
+ building_fallen_empire_colony_center: "Colony Aid Center"
 
  ancient_building_can_construct_tt: "Sites for expansion of ancient buildings found."
  ancient_building_site: "Can Expand Ancient Buildings"
