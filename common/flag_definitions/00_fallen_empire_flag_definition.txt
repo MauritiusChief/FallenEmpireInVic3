@@ -28,10 +28,7 @@ UGS = { # 避难所
 		coa = UGS_military
 		priority = 100
 		trigger = {
-			OR = {
-				coa_def_military_junta_flag_trigger = yes
-				coa_def_fascist_flag_trigger = yes
-			}
+			coa_def_military_junta_flag_trigger = yes
 		}
 	}
 }

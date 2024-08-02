@@ -1,0 +1,82 @@
+
+communist_ueg = {
+	color = "red"
+	possible = {
+		OR = {
+			AND = {
+				exists = c:UGS
+				THIS = c:UGS
+			}
+			AND = {
+				exists = c:UGK
+				THIS = c:UGK
+			}
+			AND = {
+				exists = c:UGF
+				THIS = c:UGF
+			}
+			AND = {
+				exists = c:UEG
+				THIS = c:UEG
+			}
+		}
+		OR = {
+			has_law = law_type:law_council_republic
+			has_law = law_type:law_anarchy
+		}
+	}
+}
+
+roman_red_ueg = {
+	color = "roman_red"
+	possible = {
+		OR = {
+			AND = {
+				exists = c:UGS
+				THIS = c:UGS
+			}
+			AND = {
+				exists = c:UGK
+				THIS = c:UGK
+			}
+			AND = {
+				exists = c:UGF
+				THIS = c:UGF
+			}
+			AND = {
+				exists = c:UEG
+				THIS = c:UEG
+			}
+		}
+		has_law = law_type:law_monarchy
+	}
+}
+
+blue_ueg = {
+	color = "blue"
+	possible = {
+		OR = {
+			AND = {
+				exists = c:UGS
+				THIS = c:UGS
+			}
+			AND = {
+				exists = c:UGK
+				THIS = c:UGK
+			}
+			AND = {
+				exists = c:UGF
+				THIS = c:UGF
+			}
+			AND = {
+				exists = c:UEG
+				THIS = c:UEG
+			}
+		}
+		OR = {
+			# coa_military_trigger
+			has_government_type = gov_military_dictatorship
+			has_government_type = gov_junta
+		}
+	}
+}
