@@ -1,0 +1,39 @@
+
+ideology_fe_social_democrats = { # 注意不要与领袖的社民特质混淆
+	icon = "gfx/interface/icons/ideology_icons/socialist.dds"
+
+	lawgroup_governance_principles = {
+		law_council_republic = neutral
+		law_fallen_empire_direct_democracy = neutral
+		law_parliamentary_republic = neutral
+		law_presidential_republic = neutral
+		law_theocracy = strongly_disapprove
+		law_monarchy = strongly_disapprove
+	}
+
+	lawgroup_economic_system = {	
+		law_fallen_empire_materials_abundant = strongly_approve
+		law_command_economy = approve
+		law_cooperative_ownership = approve
+		law_interventionism = neutral
+		law_agrarianism = neutral
+		law_traditionalism = strongly_disapprove		
+		law_laissez_faire = disapprove	
+		law_industry_banned = strongly_disapprove	
+	}
+
+	lawgroup_trade_policy = {		
+		law_protectionism = approve
+		law_isolationism = neutral
+		law_mercantilism = neutral
+		law_free_trade = disapprove
+	}
+
+	lawgroup_taxation = {
+		law_per_capita_based_taxation = disapprove
+		law_land_based_taxation = neutral
+		law_proportional_taxation = neutral
+		law_consumption_based_taxation = neutral
+		law_graduated_taxation = approve
+	}
+}

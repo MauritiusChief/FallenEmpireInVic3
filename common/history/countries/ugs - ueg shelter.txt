@@ -59,6 +59,9 @@ COUNTRIES = {
 		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
 		}
+		ig:ig_trade_unions = {
+			add_ruling_interest_group = yes
+		}
 
 		set_variable = fallen_empire_ueg_countries
 

@@ -74,6 +74,9 @@
  ig_trait_fe_castle_doctrine: "Castle Doctrine" # 
  ig_trait_fe_castle_doctrine_desc: "The storm may enter, the rain may enter, the government goons can't! You won't take anything from my yard!"
 
+ ideology_fe_social_democrats: "Social Democracts"
+ ideology_fe_social_democrats_desc: "#lore This group has committed itself to socialist ideology, advocating for ownership of the means of production and the dismantling of capitalism."
+
  building_fallen_empire_ancient_skyscraper: "Ancient Administration"
  building_fallen_empire_aegis_complex: "Aegis Complex"
  building_fallen_empire_class4_singularity: "Class-4 Singularity"

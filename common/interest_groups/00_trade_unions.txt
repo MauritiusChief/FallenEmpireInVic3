@@ -53,6 +53,17 @@
 			}
 		}
 
+		# if = {
+		# 	limit = {
+		# 		OR = {
+		# 			owner = { c:UGS ?= this } # FE 改成社民人士
+		# 		}
+		# 	}
+		# 	ig:ig_trade_unions = {
+		# 		add_ideology = ideology_fe_social_democrats
+		# 	}
+		# }
+
 		### Feminism
 		if = {
 			limit = {

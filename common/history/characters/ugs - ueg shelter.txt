@@ -39,7 +39,7 @@ CHARACTERS = {
 			female = yes
 			ig_leader = yes
 			interest_group = ig_intelligentsia
-			ideology = ideology_social_democrat
+			ideology = ideology_liberal_leader
 			traits = {
 				literary
 				charismatic
@@ -81,7 +81,7 @@ CHARACTERS = {
 			culture = cu:russian
 			ig_leader = yes
 			interest_group = ig_trade_unions
-			ideology = ideology_vanguardist
+			ideology = ideology_social_democrat
 			traits = {
 				wrathful
 				brave
