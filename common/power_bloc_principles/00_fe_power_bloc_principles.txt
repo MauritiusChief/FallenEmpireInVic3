@@ -1,0 +1,76 @@
+﻿
+
+principle_fallen_empire_1 = {
+	icon = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	member_modifier = {
+		country_influence_mult = 0.1
+	}
+	
+	ai_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				ig:ig_intelligentsia ?= { is_in_government = yes }
+			}
+			add = 100
+		}
+		
+		if = { # The forces of revolution
+			limit = { 
+				has_radical_leftist_government = yes
+			}
+			add = 200
+		}
+		
+		if = {
+			limit = { has_law = law_type:law_free_trade }
+			add = 100
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_maintain_power_balance
+					has_strategy = ai_strategy_world_revolution
+					has_strategy = ai_strategy_anti_imperialism
+
+					has_strategy = ai_strategy_economic_imperialism
+				}			
+			}	
+			multiply = 2.0
+		}			
+	}
+}
+
+principle_fallen_empire_2 = {
+	icon = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		country_influence_mult = 0.1
+
+		country_tech_spread_mult = 0.10
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}	
+}
+
+principle_fallen_empire_3 = {
+	icon  = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		country_influence_mult = 0.1
+
+		country_tech_spread_mult = 0.10
+	}
+	
+	ai_weight = {
+		value = 1000 # AI prefers upgrading groups it has already picked to unlocking new ones
+	}	
+}

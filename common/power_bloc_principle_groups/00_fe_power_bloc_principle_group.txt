@@ -1,0 +1,10 @@
+
+principle_group_fallen_empire = {
+	unlocking_identity = identity_fallen_empire_earth_league
+	
+	levels = {
+		principle_fallen_empire_1
+		principle_fallen_empire_2
+		principle_fallen_empire_3
+	}
+}
