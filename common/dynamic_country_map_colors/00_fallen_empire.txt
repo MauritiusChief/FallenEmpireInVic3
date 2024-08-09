@@ -1,6 +1,6 @@
 
 communist_ueg = {
-	color = "red"
+	color = "communist_china_red"
 	possible = {
 		OR = {
 			AND = {

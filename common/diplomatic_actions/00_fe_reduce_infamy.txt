@@ -40,7 +40,7 @@ fe_reduce_infamy = {
 		relations_progress_per_day = 3 # At 100, +1 relations
 		relations_improvement_max = 50
 
-		income_transfer = 0.10
+		income_transfer = 0.20
 		second_country_gets_income_transfer = yes
 		income_transfer_based_on_second_country = yes
 
@@ -54,10 +54,7 @@ fe_reduce_infamy = {
 		}
 
 		weekly_effect = {
-			random_list = { 
-				5 = {}
-				5 = { change_infamy = -0.1 }
-			}				
+			change_infamy = -0.1
 		}
 		
 		actor_can_break = {
@@ -287,20 +284,20 @@ fe_reduce_infamy = {
 						"scope:actor.infamy" >= infamy_threshold:infamous
 						"scope:actor.infamy" < infamy_threshold:notorious
 					}
-					value = -10
+					value = -5
 				}	
 				if = {
 					limit = {
 						"scope:actor.infamy" >= infamy_threshold:notorious
 						"scope:actor.infamy" < infamy_threshold:pariah
 					}
-					value = -25
+					value = -10
 				}
 				if = {
 					limit = {
 						"scope:actor.infamy" >= infamy_threshold:pariah
 					}
-					value = -50
+					value = -25
 				}					
 			}
 		}
