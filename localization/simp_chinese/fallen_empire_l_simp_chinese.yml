@@ -76,6 +76,14 @@
 
  ideology_fe_social_democrats: "社会民主主义者"
  ideology_fe_social_democrats_desc: "#lore 这个集团的意识形态与社会主义接近，但放弃了暴力且不愿意主张完全废除资本主义。"
+
+ identity_fallen_empire_earth_league: "地球联盟"
+ identity_fallen_empire_earth_league_desc: "该$concept_power_bloc_identity_extra_short$的唯一目的便是整合所有[Concept('concept_country', '$concept_countries$')]，重建地球联合政府。"
+ principle_group_fallen_empire: "巨人苏醒"
+ principle_group_fallen_empire_desc: "$concept_power_bloc$代表了[Concept('concept_power_bloc_leader', '$concept_power_bloc_leader_possessive_short$')]在统一地球的外交方面的努力。"
+ principle_fallen_empire_1_desc: "$principle_group_fallen_empire$"
+ principle_fallen_empire_2_desc: "$principle_group_fallen_empire$"
+ principle_fallen_empire_3_desc: "$principle_group_fallen_empire$"
  
  building_fallen_empire_ancient_skyscraper: "远古中枢"
  building_fallen_empire_aegis_complex: "神盾综合体"

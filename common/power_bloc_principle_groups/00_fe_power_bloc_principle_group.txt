@@ -1,5 +1,6 @@
 
 principle_group_fallen_empire = {
+	primary_for_identity = identity_fallen_empire_earth_league
 	unlocking_identity = identity_fallen_empire_earth_league
 	
 	levels = {

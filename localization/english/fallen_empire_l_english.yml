@@ -77,6 +77,14 @@
  ideology_fe_social_democrats: "Social Democracts"
  ideology_fe_social_democrats_desc: "#lore This group has committed itself to socialist ideology, advocating for ownership of the means of production and the dismantling of capitalism."
 
+ identity_fallen_empire_earth_league: "League of Earth"
+ identity_fallen_empire_earth_league_desc: "The sole purpose of this $concept_power_bloc_identity_extra_short$ is to consolidate all [Concept('concept_country', '$concept_countries$')] and re-establish the United Earth Government."
+ principle_group_fallen_empire: "The Giant Awakens"
+ principle_group_fallen_empire_desc: "$concept_power_bloc$ represents [Concept('concept_power_bloc_leader', '$concept_power_bloc_leader_possessive_short$')]'s diplomatic efforts to unify the planet."
+ principle_fallen_empire_1_desc: "$principle_group_fallen_empire$"
+ principle_fallen_empire_2_desc: "$principle_group_fallen_empire$"
+ principle_fallen_empire_3_desc: "$principle_group_fallen_empire$"
+
  building_fallen_empire_ancient_skyscraper: "Ancient Administration"
  building_fallen_empire_aegis_complex: "Aegis Complex"
  building_fallen_empire_class4_singularity: "Class-4 Singularity"
