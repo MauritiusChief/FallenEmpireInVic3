@@ -1,0 +1,20 @@
+je_fe_form_other_ueg_countries = {
+	icon = "gfx/interface/icons/invention_icons/civilizing_mission.dds"
+	
+	group = je_group_objectives
+
+	is_shown_when_inactive = {
+		is_player = yes
+		owns_entire_state_region = STATE_SHELTER
+		exists = c:UGF
+		THIS = c:UGF
+		OR = {
+			has_interest_marker_in_region = sr:region_oceania
+		}
+	}
+
+	possible = {
+		is_country_type = recognized
+	}
+
+}

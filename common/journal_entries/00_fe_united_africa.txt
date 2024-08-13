@@ -1,6 +1,6 @@
 je_fe_united_africa = {
 	icon = "gfx/interface/icons/event_icons/event_map.dds"
-	group = je_group_historical_content
+	group = je_group_objectives
 
 	is_shown_when_inactive = {
 		is_player = yes
@@ -12,12 +12,7 @@ je_fe_united_africa = {
 	}
 
 	possible = {
-		OR = {
-			is_country_type = unrecognized
-			any_scope_state = {
-				is_incorporated = no
-			}
-		}
+		is_country_type = unrecognized
 	}
 
 	complete = {

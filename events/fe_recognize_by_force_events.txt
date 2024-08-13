@@ -1,0 +1,57 @@
+namespace = fe_recognize_by_force
+
+fe_recognize_by_force.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = fe_recognize_by_force.1.t
+	desc = fe_recognize_by_force.1.d
+	flavor = fe_recognize_by_force.1.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+		is_country_type = unrecognized
+		is_at_war = no
+		AND = {
+			has_diplomatic_pact = {
+				who = c:RUS
+				type = humiliation
+			}
+		}
+		# NAND = { # 符合下列条件的国家都不存在了才触发
+		# 	any_country = {
+		# 		THIS = c:RUS
+		# 		country_rank = rank_value:great_power
+		# 		NOT = { 
+		# 			has_diplomatic_pact = {
+		# 				who = c:RUS
+		# 				type = humiliation
+		# 			}	
+		# 		}
+		# 	}
+		# }
+	}
+
+	immediate = {
+		set_country_type = recognized
+	}
+
+	option = { # 减一点恶名
+		name = fe_recognize_by_force.1.a
+		default_option = yes
+	}
+
+	option = { # 加一点影响力
+		name = fe_recognize_by_force.1.b
+	}
+
+}
