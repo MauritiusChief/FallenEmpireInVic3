@@ -1,0 +1,154 @@
+
+je_fe_button_ugo = {
+	name = "je_fe_button_ugo"
+	desc = "je_fe_button_ugo_desc"
+
+	visible = {
+		any_scope_state = {
+			region = sr:region_oceania
+		}
+		NOT = {
+			any_subject_or_below = {
+				has_variable = ugo_subject_var
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			region = sr:region_oceania
+			count >= 2
+		}
+
+		#prevents splitting off during diplo play or war as it invalidates wargoals. is_at_war is there for clarity for players even though it's technically included in the former
+		is_diplomatic_play_committed_participant = no
+		is_at_war = no
+
+		custom_tooltip = {
+			text = form_ueg_country_cooldown
+			NOT = {
+				any_subject_or_below = {
+					has_variable = newly_formed_ueg_country_var
+				}
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+
+	effect = {
+		every_scope_state = {
+			limit = {
+				region = sr:region_oceania
+			}
+			save_scope_as = secession_state
+		}
+		create_country = {
+			tag = UGO
+			origin = this
+			state = scope:secession_state
+			on_created = { 
+				set_variable = ugo_subject_var
+				set_variable = {
+					name = newly_formed_ueg_country_var
+					months = 3
+				}
+				activate_law = law_type:law_frontier_colonization
+				activate_law = law_type:law_presidential_republic
+			}
+		}
+		hidden_effect = {
+			create_diplomatic_pact = {
+				country = c:UGO
+				type = puppet
+			}
+		}
+	}
+}
+
+je_fe_button_expand_ugo = {
+	name = "je_fe_button_expand_ugo"
+	desc = "je_fe_button_expand_ugo_desc"
+
+	visible = {
+		any_subject_or_below = {
+			has_variable = ugo_subject_var
+		}
+	}
+
+	possible = {
+		#prevents expanding during diplo play or war as it invalidates wargoals. is_at_war is there for clarity for players even though it's technically included in the former
+		is_diplomatic_play_committed_participant = no
+		is_at_war = no
+		
+		OR = {
+			any_scope_state = { # 自己在大洋洲有地
+				region = sr:region_oceania
+				is_under_colonization = no
+			}
+			any_subject_or_below = { # 附庸在大洋洲有地
+				NOT = { has_variable = ugo_subject_var }
+				any_scope_state = {
+					region = sr:region_oceania
+					is_under_colonization = no
+				}
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 100
+	}
+
+	effect = {
+		random_subject_or_below = {
+			limit = {
+				has_variable = ugo_subject_var
+			}
+			save_scope_as = ugo_subject_scope
+		}
+		if = { # 把自己的地给UGO
+			limit = {
+				any_scope_state = {
+					region = sr:region_oceania
+					is_under_colonization = no
+				}
+			}
+			every_scope_state = {
+				limit = {
+					region = sr:region_oceania
+					is_under_colonization = no
+				}
+				set_state_owner = scope:ugo_subject_scope
+			}
+		}
+		if = { # 其他附属的地给UGO
+			limit = {
+				any_subject_or_below = {
+					NOT = { c:UGO ?= this }
+				}
+			}
+			every_subject_or_below = {
+				limit = {
+					any_scope_state = {
+						region = sr:region_oceania
+						is_under_colonization = no
+					}
+				}
+				every_scope_state = {
+					limit = {
+						region = sr:region_oceania
+						is_under_colonization = no
+					}
+					save_scope_as = scope:states_ugo_want_scope
+				}
+			}
+			scope:states_ugo_want_scope = {
+				set_state_owner = scope:ugo_subject_scope
+			}
+		}
+	}
+}
+

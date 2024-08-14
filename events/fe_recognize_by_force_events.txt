@@ -19,14 +19,14 @@ fe_recognize_by_force.1 = {
 	duration = 3
 
 	trigger = {
-		is_country_type = unrecognized
-		is_at_war = no
-		AND = {
-			has_diplomatic_pact = {
-				who = c:RUS
-				type = humiliation
-			}
-		}
+		# is_country_type = unrecognized
+		# is_at_war = no
+		# AND = {
+		# 	has_diplomatic_pact = {
+		# 		who = c:RUS
+		# 		type = humiliation
+		# 	}
+		# }
 		# NAND = { # 符合下列条件的国家都不存在了才触发
 		# 	any_country = {
 		# 		THIS = c:RUS

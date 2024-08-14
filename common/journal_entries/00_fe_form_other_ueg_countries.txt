@@ -5,7 +5,6 @@ je_fe_form_other_ueg_countries = {
 
 	is_shown_when_inactive = {
 		is_player = yes
-		owns_entire_state_region = STATE_SHELTER
 		exists = c:UGF
 		THIS = c:UGF
 		OR = {
@@ -17,4 +16,15 @@ je_fe_form_other_ueg_countries = {
 		is_country_type = recognized
 	}
 
+	immediate = {
+		random_state_region = {
+			limit = {
+				region = sr:region_oceania
+			}
+			save_scope_as = region_oceania_scope
+		}
+	}
+
+	scripted_button = je_fe_button_ugo
+	scripted_button = je_fe_button_expand_ugo
 }

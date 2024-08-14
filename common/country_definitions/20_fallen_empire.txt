@@ -40,10 +40,25 @@ UGF = { # United Africa
 	capital = STATE_SHELTER
 }
 
-UEG = {
+UGO = { # United Oceania
 	color = { 91  146  229 }
 	
 	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = {
+		british scottish zhonghua french russian american
+		australian aborigine maori
+	}
+	
+	capital = STATE_NEW_SOUTH_WALES
+}
+
+UEG = {
+	color = { 91  146  229 }
+	
+	country_type = recognized
 	
 	tier = hegemony
 

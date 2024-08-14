@@ -78,3 +78,18 @@ on_colony_created = {
 	}
 }
 
+# Root = Diplomatic Play
+# scope:actor = Initiator country
+# scope:target = Target country
+# on_war_end = {
+# 	effect = {
+# 		if = {
+# 			limit = {
+# 				has_variable = fallen_empire_ueg_countries
+# 				is_country_type = unrecognized
+# 			}
+# 			trigger_event = fe_recognize_by_force.1
+# 		}
+# 	}
+# }
+
