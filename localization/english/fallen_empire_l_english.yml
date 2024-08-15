@@ -3,8 +3,10 @@
  UGS_ADJ:0 "Shelter"
  UGK:0 "UEG Katanga"
  UGK_ADJ:0 "Katanga"
- UGF:0 "UEG Africa"
- UGF_ADJ:0 "Africa"
+ UGF:0 "United Africa Government"
+ UGF_ADJ:0 "UEG Africa"
+ UGO:0 "United Oceania Government"
+ UGO_ADJ:0 "UEG Oceania"
 
  UEG:0 "United Earth Government"
  UEG_ADJ:0 "United Earth"

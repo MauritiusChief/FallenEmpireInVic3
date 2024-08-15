@@ -1,10 +1,12 @@
 ﻿l_simp_chinese:
  UGS:0 "地球联合政府避难所"
  UGS_ADJ:0 "UEG避难所"
- UGK:0 "加丹加联合政府"
- UGK_ADJ:0 "加丹加"
- UGF:0 "非洲联合政府"
- UGF_ADJ:0 "联合非洲"
+ UGK:0 "地球联合政府加丹加"
+ UGK_ADJ:0 "UEG加丹加"
+ UGF:0 "非洲地球联合政府"
+ UGF_ADJ:0 "UEG非洲"
+ UGO:0 "大洋洲地球联合政府"
+ UGO_ADJ:0 "UEG大洋洲"
 
  UEG:0 "地球联合政府"
  UEG_ADJ:0 "联合地球"

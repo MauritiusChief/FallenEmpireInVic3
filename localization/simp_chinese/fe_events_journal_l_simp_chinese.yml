@@ -98,3 +98,12 @@
  expedition_events.630.c: "开启雷达和声呐，紧盯屏幕。"
  expedition_events.640.b: "用电击杆电它！"
  expedition_events.670.c: "也许可以用无线电基站确定我们的位置。"
+
+ # 其他UEG国家文案
+ je_fe_form_other_ueg_countries: "重建其他联合政府"
+ je_fe_form_other_ueg_countries_reason: "重新统一地球是一个远大且困难的目标，但我们可以通过给予一定的自治权，先建立一个团结在一个理念下的国际同盟，为将来的统一打下基础。"
+
+ je_fe_button_ugo: "建立$UGO$"
+ je_fe_button_ugo_desc: "在该[concept_strategic_region]建立$UGO$"
+ je_fe_button_expand_ugo: "扩张$UGO$"
+ je_fe_button_expand_ugo_desc: "将我们在该[concept_strategic_region]的土地与[concept_subject]交由$UGO$管理"

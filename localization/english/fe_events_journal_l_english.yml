@@ -98,3 +98,12 @@
  expedition_events.630.c: "Turn on the radar and sonar and keep your eyes on the screen."
  expedition_events.640.b: "Shock it with a stun rod!"
  expedition_events.670.c: "Might be possible to determine our position with radio stations."
+
+ # other UEG things
+ je_fe_form_other_ueg_countries: "Rebuild Other United Goverment"
+ je_fe_form_other_ueg_countries_reason: "Reuniting the Earth is an ambitious and difficult goal, but we can lay the groundwork for future unification by granting a certain amount of autonomy and first creating an international alliance united under one idea."
+
+ je_fe_button_ugo: "Form $UGO$"
+ je_fe_button_ugo_desc: "Form $UGO$ at this [concept_strategic_region]"
+ je_fe_button_expand_ugo: "Expand $UGO$"
+ je_fe_button_expand_ugo_desc: "Put our land in that [CONCEPT_STATEGIC_REGION] with [CONCEPT_SUBJECT] into $UGO$ management"

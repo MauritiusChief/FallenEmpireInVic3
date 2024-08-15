@@ -31,7 +31,7 @@ je_fe_congo_expedition = {
 			30 = expedition_events.695 #lost foreign expedition
 
 			# FE 新增事件
-			40 = expedition_events.1600 #无线电站点
+			50 = expedition_events.1600 #无线电站点
 		}
 	}
 	
