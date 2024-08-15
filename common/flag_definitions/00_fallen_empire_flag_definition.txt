@@ -109,6 +109,45 @@ UGF = { # 非洲
 	}
 }
 
+UGO = { # 大洋洲
+	flag_definition = {
+		coa = UGO
+		priority = 1
+	}
+	flag_definition = {
+		coa = UGO_communist
+		priority = 1000
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UGO_anarchy
+		priority = 2000
+		trigger = { 
+			coa_def_anarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UGO_monarchy
+		priority = 20
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UGO_military
+		priority = 100
+		trigger = {
+			OR = {
+				coa_def_military_junta_flag_trigger = yes
+				coa_def_fascist_flag_trigger = yes
+			}
+		}
+	}
+}
+
+
 UEG = { # 地联
 	flag_definition = {
 		coa = UEG

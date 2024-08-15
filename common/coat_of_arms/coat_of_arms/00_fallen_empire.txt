@@ -307,7 +307,7 @@ UGO_communist = {
 		color1 = color2
 	}
 	colored_emblem = {
-		texture = "ce_fe_earth_rings.dds"
+		texture = "ce_southern_cross_variant.dds"
 		color1 = color2
         instance = { scale = { 0.6 0.6 } position = { 0.5 0.45 }  }
 	}	

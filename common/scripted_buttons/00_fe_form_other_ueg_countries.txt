@@ -56,7 +56,6 @@ je_fe_button_ugo = {
 					months = 3
 				}
 				activate_law = law_type:law_frontier_colonization
-				activate_law = law_type:law_presidential_republic
 			}
 		}
 		hidden_effect = {
@@ -142,11 +141,8 @@ je_fe_button_expand_ugo = {
 						region = sr:region_oceania
 						is_under_colonization = no
 					}
-					save_scope_as = scope:states_ugo_want_scope
+					set_state_owner = scope:ugo_subject_scope
 				}
-			}
-			scope:states_ugo_want_scope = {
-				set_state_owner = scope:ugo_subject_scope
 			}
 		}
 	}
